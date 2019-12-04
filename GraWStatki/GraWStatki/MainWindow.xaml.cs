@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 namespace GraWStatki
 {
+    /// TEST
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
