@@ -1,0 +1,116 @@
+/* To tylko kontener do wycentrowania apki */
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* CSSowe resety */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+
+/* KOLORY */
+/* 
+$color1: rgba(41, 161, 156, 1);
+$color2: rgba(0, 16, 17, 1);
+$color3: rgba(204, 219, 220, 1);
+$color4: rgba(154, 209, 212, 1);
+$color5: rgba(128, 206, 215, 1); 
+*/
+
+
+/* Kontener z apką */
+.app{
+    width: 1200px;
+    height: 800px;
+    background: linear-gradient(to top, #80ced7, #9ad1d4);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+/* Tytuł */
+.app__title{
+    color: #FFF;
+    padding: 15px 50px;
+    text-align: center;
+    border: 1px solid #FFF;
+    border-radius: 60px;
+    font-weight: 300;
+}
+
+
+/* Przyciski(nowa gra itp.) */
+.app__buttons{
+    display: flex;
+    margin-top: 50px;
+}
+
+.app__buttons__button{
+    background: #FFF;
+    border-radius: 60px;
+    padding: 15px 30px;
+    color: #80ced7;
+    font-size: 18px;
+    border: none;
+}
+
+
+/* Pole z wiadomościami */
+.app__message{
+    text-align: center;
+    border: 1px solid #FFF;;
+    padding: 15px 30px;
+    color: #FFF;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+/* Sekcja z gridami */
+.app__fields{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-top: auto;
+}
+
+.app__fields__field{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccdbdc;
+}
+
+.app__fields__field__button{
+    width: 10%;
+    height: 10%;
+    background: #9ad1d4;
+    border: 1px solid #ccdbdc;
+}
+
+.app__fields__field__button:hover{
+    background-color: #ccdbdc;
+}
+
+.app__fields__field__button:focus{
+    background-color: #FFF;
+}
