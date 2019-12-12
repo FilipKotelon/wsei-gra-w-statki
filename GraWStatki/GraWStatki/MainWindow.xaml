@@ -7,9 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Border Padding="10">
-        <Grid Background="#03a9f4">
-            <Button Background="#67daff" Margin="10" Height="50" Width="120" VerticalAlignment="Top" HorizontalAlignment="Center" Content="Start"/>
-
+        <Grid x:Name="PierwszyGrid" Background="#0399c4" Height="400" Width="400">
+            
         </Grid>
     </Border>
 </Window>

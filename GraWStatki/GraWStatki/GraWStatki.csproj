@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GraWStatkiFront\GraWStatkiFront.csproj">
+      <Project>{e4b4a00b-a7bc-4fcb-a63d-e5f78555eac5}</Project>
+      <Name>GraWStatkiFront</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
