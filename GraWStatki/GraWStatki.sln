@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraWStatkiLogika", "GraWSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraWStatkiTesty", "GraWStatkiTesty\GraWStatkiTesty.csproj", "{2F2FAE0B-A8F7-4999-AAAE-9F50841BE181}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraWStatkiFront", "GraWStatkiFront\GraWStatkiFront.csproj", "{E4B4A00B-A7BC-4FCB-A63D-E5F78555EAC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2F2FAE0B-A8F7-4999-AAAE-9F50841BE181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F2FAE0B-A8F7-4999-AAAE-9F50841BE181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2FAE0B-A8F7-4999-AAAE-9F50841BE181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B4A00B-A7BC-4FCB-A63D-E5F78555EAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B4A00B-A7BC-4FCB-A63D-E5F78555EAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B4A00B-A7BC-4FCB-A63D-E5F78555EAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B4A00B-A7BC-4FCB-A63D-E5F78555EAC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
