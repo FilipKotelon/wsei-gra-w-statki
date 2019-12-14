@@ -25,6 +25,24 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "WindowsBase/4.6.1055": {
+        "type": "package",
+        "compile": {
+          "lib/WindowsBase.dll": {}
+        },
+        "runtime": {
+          "lib/WindowsBase.dll": {}
+        }
+      },
+      "GraWStatkiLogika/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GraWStatkiLogika.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GraWStatkiLogika.dll": {}
+        }
       }
     }
   },
@@ -171,11 +189,30 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "WindowsBase/4.6.1055": {
+      "sha512": "1NKRZTcRus8Q1ZPZz9QAucHYHLHmQ3G+MMaFFZyPTDRpEfmIFLo9mtSyO8TZkEJFXaNXvnhenPod4ltd8EOHkg==",
+      "type": "package",
+      "path": "windowsbase/4.6.1055",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WindowsBase.dll",
+        "windowsbase.4.6.1055.nupkg.sha512",
+        "windowsbase.nuspec"
+      ]
+    },
+    "GraWStatkiLogika/1.0.0": {
+      "type": "project",
+      "path": "../GraWStatkiLogika/GraWStatkiLogika.csproj",
+      "msbuildProject": "../GraWStatkiLogika/GraWStatkiLogika.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "GraWStatkiLogika >= 1.0.0",
+      "NETStandard.Library >= 2.0.3",
+      "WindowsBase >= 4.6.1055"
     ]
   },
   "packageFolders": {
@@ -207,7 +244,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\1_GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
+              "projectPath": "D:\\1_GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -224,6 +265,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "WindowsBase": {
+            "target": "Package",
+            "version": "[4.6.1055, )"
           }
         },
         "imports": [
@@ -239,5 +284,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WindowsBase 4.6.1055' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WindowsBase",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

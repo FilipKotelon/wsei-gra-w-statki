@@ -1,4 +1,5 @@
 ﻿using GraWStatkiFront;
+using GraWStatkiFront.kontrola_gry;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,21 +26,7 @@ namespace GraWStatki
         {
             InitializeComponent();
 
-            PlanszaBitwy planszaGracza = new PlanszaBitwy(PierwszyGrid);
-
-            for (int i = 0; i < 10; i++)
-            {
-                for (int j = 0; j < 10; j++)
-                {
-                    TextBlock textblock = new TextBlock();
-                    textblock.Background = new SolidColorBrush(Colors.White);
-                    textblock.Text = $"{i}_{j}";
-
-                    Grid.SetRow(textblock, i);
-                    Grid.SetColumn(textblock, j);
-                    PierwszyGrid.Children.Add(textblock);
-                }
-            }
+            KontrolaGry kontroler = new KontrolaGry(PlanszaGracza, PlanszaKomputera);
         }
     }
 }

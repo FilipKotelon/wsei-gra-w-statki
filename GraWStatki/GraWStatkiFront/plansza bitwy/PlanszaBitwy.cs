@@ -1,12 +1,16 @@
-﻿using System;
+﻿using GraWStatkiLogika;
+using GraWStatkiLogika.klasy.plansza_bitwy;
+using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace GraWStatkiFront
 {
     public class PlanszaBitwy
     {
         private Grid _grid;
+        private L_PlanszaBitwy _planszaLogiczna;
 
         /// <summary>
         /// Funkcja zwracająca nową kolumnę o relatywnej szerokości
@@ -37,7 +41,7 @@ namespace GraWStatkiFront
         /// <summary>
         /// Funkcja tworząca siatkę 10x10
         /// </summary>
-        public void TworzSiatke()
+        private void TworzSiatke()
         {
             //Dodanie kolumn
             for(int i = 0; i < 10; i++)
@@ -55,13 +59,53 @@ namespace GraWStatkiFront
         }
 
         /// <summary>
+        /// Funkcja wypełniająca planszę polami
+        /// </summary>
+        private void WypelnijPolami()
+        {
+            //Dla pól pustych zrobić puste po kliknięciu, dla zajętych wypełnione
+            IPole[,] polaPlanszy = _planszaLogiczna.Pola;
+
+            for (int i = 0; i < polaPlanszy.GetLength(0); i++)
+            {
+                for(int j = 0; j < polaPlanszy.GetLength(1); j++)
+                {
+                    if(polaPlanszy[i, j] != null)
+                    {
+                        IPole pole = polaPlanszy[i, j];
+
+                        TextBlock textblock = new TextBlock();
+
+                        if (pole.Zajete)
+                        {
+                            textblock.Background = new SolidColorBrush(Colors.Red);
+                        }
+                        else
+                        {
+                            textblock.Background = new SolidColorBrush(Colors.Green);
+                        }
+
+                        textblock.Text = $"{i}_{j}";
+
+                        Grid.SetRow(textblock, i);
+                        Grid.SetColumn(textblock, j);
+                        _grid.Children.Add(textblock);
+                    }
+                }
+            }
+        }
+
+        /// <summary>
         /// Konstruktor Planszy Bitwy
         /// </summary>
         /// <param name="grid">Grid, w którym zostanie stworzona siatka 10x10</param>
-        public PlanszaBitwy(Grid grid)
+        public PlanszaBitwy(Grid grid, L_PlanszaBitwy planszaLogiczna)
         {
             _grid = grid;
+            _planszaLogiczna = planszaLogiczna;
+
             TworzSiatke();
+            WypelnijPolami();
         }
     }
 }

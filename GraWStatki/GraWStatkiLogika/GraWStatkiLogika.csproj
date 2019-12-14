@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Klasy\Gra.cs" />
-    <Compile Include="Klasy\KontrolerGry.cs" />
-    <Compile Include="Interfejsy\IPole.cs" />
+    <Compile Include="klasy\kontrola gry\L_Gra.cs" />
+    <Compile Include="klasy\kontrola gry\L_KontrolerGry.cs" />
+    <Compile Include="interfejsy\IPole.cs" />
+    <Compile Include="klasy\plansza bitwy\L_PlanszaBitwy.cs" />
+    <Compile Include="klasy\plansza bitwy\L_PolePuste.cs" />
+    <Compile Include="klasy\plansza bitwy\L_PoleZajete.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Interfejsy\IStatek.cs" />
+    <Compile Include="interfejsy\IStatek.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

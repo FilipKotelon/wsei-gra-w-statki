@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika
 {
-    interface IPole
+    public interface IPole
     {
+        bool Zajete
+        {
+            get;
+        }
 
+        bool Odsloniete
+        {
+            get;
+            set;
+        }
     }
 }
