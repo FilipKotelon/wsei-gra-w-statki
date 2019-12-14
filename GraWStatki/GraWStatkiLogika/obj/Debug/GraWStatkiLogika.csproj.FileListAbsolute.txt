@@ -1,0 +1,5 @@
+D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.dll
+D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.pdb
+D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.csprojAssemblyReference.cache
+D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.dll
+D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.pdb

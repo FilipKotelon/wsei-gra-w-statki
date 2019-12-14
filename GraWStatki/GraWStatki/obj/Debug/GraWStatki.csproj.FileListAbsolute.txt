@@ -15,3 +15,5 @@ D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csp
 D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.CopyComplete
 D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.exe
 D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.pdb
+D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiLogika.dll
+D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiLogika.pdb

@@ -9,7 +9,10 @@
     ".NETStandard,Version=v2.0/": {
       "GraWStatkiFront/1.0.0": {
         "dependencies": {
+          "GraWStatkiLogika": "1.0.0",
           "NETStandard.Library": "2.0.3",
+          "WindowsBase": "4.6.1055",
+          "PresentationCore": "4.0.0.0",
           "PresentationFramework": "4.0.0.0"
         },
         "runtime": {
@@ -20,6 +23,27 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "WindowsBase/4.6.1055": {
+        "runtime": {
+          "lib/WindowsBase.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1055.0"
+          }
+        }
+      },
+      "GraWStatkiLogika/1.0.0": {
+        "runtime": {
+          "GraWStatkiLogika.dll": {}
+        }
+      },
+      "PresentationCore/4.0.0.0": {
+        "runtime": {
+          "PresentationCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3062.0"
+          }
         }
       },
       "PresentationFramework/4.0.0.0": {
@@ -38,17 +62,9 @@
           }
         }
       },
-      "WindowsBase/4.0.0.0": {
+      "UIAutomationTypes/4.0.0.0": {
         "runtime": {
-          "WindowsBase.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
-          }
-        }
-      },
-      "PresentationCore/4.0.0.0": {
-        "runtime": {
-          "PresentationCore.dll": {
+          "UIAutomationTypes.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.7.3062.0"
           }
@@ -62,6 +78,14 @@
           }
         }
       },
+      "System.Windows.Input.Manipulations/4.0.0.0": {
+        "runtime": {
+          "System.Windows.Input.Manipulations.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3062.0"
+          }
+        }
+      },
       "UIAutomationProvider/4.0.0.0": {
         "runtime": {
           "UIAutomationProvider.dll": {
@@ -70,9 +94,9 @@
           }
         }
       },
-      "UIAutomationTypes/4.0.0.0": {
+      "System.Deployment/4.0.0.0": {
         "runtime": {
-          "UIAutomationTypes.dll": {
+          "System.Deployment.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.7.3062.0"
           }
@@ -102,25 +126,9 @@
           }
         }
       },
-      "System.Deployment/4.0.0.0": {
-        "runtime": {
-          "System.Deployment.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
-          }
-        }
-      },
       "System.Security/4.0.0.0": {
         "runtime": {
           "System.Security.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
-          }
-        }
-      },
-      "System.Windows.Input.Manipulations/4.0.0.0": {
-        "runtime": {
-          "System.Windows.Input.Manipulations.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.7.3062.0"
           }
@@ -164,6 +172,23 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "WindowsBase/4.6.1055": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1NKRZTcRus8Q1ZPZz9QAucHYHLHmQ3G+MMaFFZyPTDRpEfmIFLo9mtSyO8TZkEJFXaNXvnhenPod4ltd8EOHkg==",
+      "path": "windowsbase/4.6.1055",
+      "hashPath": "windowsbase.4.6.1055.nupkg.sha512"
+    },
+    "GraWStatkiLogika/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationCore/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PresentationFramework/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -174,12 +199,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "WindowsBase/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PresentationCore/4.0.0.0": {
+    "UIAutomationTypes/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -189,12 +209,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "System.Windows.Input.Manipulations/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UIAutomationProvider/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "UIAutomationTypes/4.0.0.0": {
+    "System.Deployment/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -214,17 +239,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Deployment/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "System.Security/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Windows.Input.Manipulations/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
