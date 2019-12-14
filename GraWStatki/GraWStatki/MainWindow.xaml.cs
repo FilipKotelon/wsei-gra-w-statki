@@ -24,8 +24,8 @@ namespace GraWStatki
         public MainWindow()
         {
             InitializeComponent();
-            GeneratorPol generatorPol = new GeneratorPol(PierwszyGrid);
-            generatorPol.TworzSiatke();
+
+            PlanszaBitwy planszaGracza = new PlanszaBitwy(PierwszyGrid);
 
             for (int i = 0; i < 10; i++)
             {

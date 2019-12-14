@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika
 {
-    public class Class1
+    public class KontrolerGry
     {
+
     }
 }

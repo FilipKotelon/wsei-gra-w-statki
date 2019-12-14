@@ -4,18 +4,9 @@ using System.Windows.Controls;
 
 namespace GraWStatkiFront
 {
-    public class GeneratorPol
+    public class PlanszaBitwy
     {
         private Grid _grid;
-
-        /// <summary>
-        /// Konstruktor Generatora Pol
-        /// </summary>
-        /// <param name="grid">Grid, w którym zostanie stworzona siatka 10x10</param>
-        public GeneratorPol(Grid grid)
-        {
-            _grid = grid;
-        }
 
         /// <summary>
         /// Funkcja zwracająca nową kolumnę o relatywnej szerokości
@@ -61,6 +52,16 @@ namespace GraWStatkiFront
                 RowDefinition wiersz = GetWiersz(i);
                 _grid.RowDefinitions.Add(wiersz);
             }
+        }
+
+        /// <summary>
+        /// Konstruktor Planszy Bitwy
+        /// </summary>
+        /// <param name="grid">Grid, w którym zostanie stworzona siatka 10x10</param>
+        public PlanszaBitwy(Grid grid)
+        {
+            _grid = grid;
+            TworzSiatke();
         }
     }
 }
