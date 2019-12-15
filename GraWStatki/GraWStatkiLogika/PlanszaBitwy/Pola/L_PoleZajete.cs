@@ -1,15 +1,17 @@
-﻿using System;
+﻿using GraWStatkiLogika.Interfejsy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GraWStatkiLogika.klasy.plansza_bitwy
+namespace GraWStatkiLogika.PlanszaBitwy.Pola
 {
     public class L_PoleZajete : IPole
     {
         private bool _zajete;
-        private bool _odsloniete;
+        private bool _trafione;
+        private int _IDStatku;
 
         public bool Zajete
         {
@@ -19,22 +21,23 @@ namespace GraWStatkiLogika.klasy.plansza_bitwy
             }
         }
 
-        public bool Odsloniete
+        public bool Trafione
         {
             get
             {
-                return _odsloniete;
+                return _trafione;
             }
             set
             {
-                _odsloniete = value;
+                _trafione = value;
             }
         }
 
-        public L_PoleZajete()
+        public L_PoleZajete(int IDStatku)
         {
             _zajete = true;
-            _odsloniete = false;
+            _trafione = false;
+            _IDStatku = IDStatku;
         }
     }
 }

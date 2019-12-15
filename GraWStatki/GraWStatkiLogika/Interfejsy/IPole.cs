@@ -4,19 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GraWStatkiLogika
+namespace GraWStatkiLogika.Interfejsy
 {
     public interface IPole
     {
-        bool Zajete
-        {
-            get;
-        }
-
-        bool Odsloniete
-        {
-            get;
-            set;
-        }
+        bool Zajete { get; }
+        bool Trafione { get; set; }
     }
 }

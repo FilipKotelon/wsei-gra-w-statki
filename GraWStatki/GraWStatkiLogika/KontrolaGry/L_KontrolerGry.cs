@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GraWStatkiLogika
+namespace GraWStatkiLogika.KontrolaGry
 {
     public class L_KontrolerGry
     {

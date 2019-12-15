@@ -1,13 +1,15 @@
 ﻿using GraWStatkiLogika;
-using GraWStatkiLogika.klasy.plansza_bitwy;
+using GraWStatkiLogika.KontrolaGry;
+using GraWStatkiLogika.PlanszaBitwy;
+using GraWStatkiFront.PlanszaBitwy;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Controls;
 
-namespace GraWStatkiFront.kontrola_gry
+namespace GraWStatkiFront.KontrolaGry
 {
-    public class KontrolaGry
+    public class G_KontrolaGry
     {
         private L_KontrolerGry _kontroler;
 
@@ -16,18 +18,18 @@ namespace GraWStatkiFront.kontrola_gry
         private L_PlanszaBitwy lPlanszaKomputera;
 
         //Plansze graficzne powstałe z elementów xamla
-        private PlanszaBitwy xPlanszaGracza;
-        private PlanszaBitwy xPlanszaKomputera;
+        private G_PlanszaBitwy xPlanszaGracza;
+        private G_PlanszaBitwy xPlanszaKomputera;
 
-        public KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera)
+        public G_KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera)
         {
             _kontroler = new L_KontrolerGry();
 
             lPlanszaGracza = _kontroler.ObecnaGra.PlanszaGracza;
             lPlanszaKomputera = _kontroler.ObecnaGra.PlanszaKomputera;
 
-            this.xPlanszaGracza = new PlanszaBitwy(xPlanszaGracza, lPlanszaGracza);
-            this.xPlanszaKomputera = new PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera);
+            this.xPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza);
+            this.xPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera);
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using GraWStatkiFront;
-using GraWStatkiFront.kontrola_gry;
+using GraWStatkiFront.KontrolaGry;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +26,7 @@ namespace GraWStatki
         {
             InitializeComponent();
 
-            KontrolaGry kontroler = new KontrolaGry(PlanszaGracza, PlanszaKomputera);
+            G_KontrolaGry kontroler = new G_KontrolaGry(PlanszaGracza, PlanszaKomputera);
         }
     }
 }
