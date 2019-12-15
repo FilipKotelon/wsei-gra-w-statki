@@ -1,13 +1,14 @@
 ﻿using GraWStatkiLogika;
-using GraWStatkiLogika.klasy.plansza_bitwy;
+using GraWStatkiLogika.Interfejsy;
+using GraWStatkiLogika.PlanszaBitwy;
 using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace GraWStatkiFront
+namespace GraWStatkiFront.PlanszaBitwy
 {
-    public class PlanszaBitwy
+    public class G_PlanszaBitwy
     {
         private Grid _grid;
         private L_PlanszaBitwy _planszaLogiczna;
@@ -78,11 +79,11 @@ namespace GraWStatkiFront
 
                         if (pole.Zajete)
                         {
-                            textblock.Background = new SolidColorBrush(Colors.Red);
+                            textblock.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ff7777"));
                         }
                         else
                         {
-                            textblock.Background = new SolidColorBrush(Colors.Green);
+                            textblock.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#44FF99"));
                         }
 
                         textblock.Text = $"{i}_{j}";
@@ -99,7 +100,7 @@ namespace GraWStatkiFront
         /// Konstruktor Planszy Bitwy
         /// </summary>
         /// <param name="grid">Grid, w którym zostanie stworzona siatka 10x10</param>
-        public PlanszaBitwy(Grid grid, L_PlanszaBitwy planszaLogiczna)
+        public G_PlanszaBitwy(Grid grid, L_PlanszaBitwy planszaLogiczna)
         {
             _grid = grid;
             _planszaLogiczna = planszaLogiczna;
