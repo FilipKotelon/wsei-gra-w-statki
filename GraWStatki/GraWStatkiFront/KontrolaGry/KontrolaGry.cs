@@ -28,8 +28,8 @@ namespace GraWStatkiFront.KontrolaGry
             lPlanszaGracza = _kontroler.ObecnaGra.PlanszaGracza;
             lPlanszaKomputera = _kontroler.ObecnaGra.PlanszaKomputera;
 
-            this.xPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza);
-            this.xPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera);
+            this.xPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza, true);
+            this.xPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera, false);
         }
     }
 }

@@ -76,3 +76,28 @@ D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.csproj.CopyComplete
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.dll
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\GraWStatkiFront.deps.json
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\GraWStatkiFront.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\GraWStatkiFront.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\GraWStatkiLogika.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\PresentationCore.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\PresentationFramework.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Xaml.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\UIAutomationTypes.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\UIAutomationProvider.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Deployment.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\ReachFramework.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Printing.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\Accessibility.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Security.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\bin\Debug\netstandard2.0\GraWStatkiLogika.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.csprojAssemblyReference.cache
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.AssemblyInfoInputs.cache
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.AssemblyInfo.cs
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.csproj.CopyComplete
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiFront\obj\Debug\netstandard2.0\GraWStatkiFront.pdb

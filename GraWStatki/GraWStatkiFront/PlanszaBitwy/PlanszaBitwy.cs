@@ -12,6 +12,7 @@ namespace GraWStatkiFront.PlanszaBitwy
     {
         private Grid _grid;
         private L_PlanszaBitwy _planszaLogiczna;
+        private bool _czyPlanszaGracza;
 
         /// <summary>
         /// Funkcja zwracająca nową kolumnę o relatywnej szerokości
@@ -74,23 +75,30 @@ namespace GraWStatkiFront.PlanszaBitwy
                     if(polaPlanszy[i, j] != null)
                     {
                         IPole pole = polaPlanszy[i, j];
-
-                        TextBlock textblock = new TextBlock();
-
-                        if (pole.Zajete)
+                        //Podpiąć funkcję która będzię się wykonywała po kliknięciu, prywatna; private void nazwa;
+                        //po kliknieciu jezeli pole jest zajete to pole.Trafiony=true
+                        //jeżeli plansza jest planszą gracza to zmienia sie kolor na niebieski, jeżeli komptera to pokazuje jakie pole
+                        
+                        Button button = new Button();
+                        if (_czyPlanszaGracza)
                         {
-                            textblock.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ff7777"));
+                            if (pole.Zajete)
+                            {
+                                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ff7777"));
+                            }
+                            else
+                            {
+                                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#44FF99"));
+                            }
                         }
                         else
                         {
-                            textblock.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#44FF99"));
+                            button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#0399C4"));
                         }
 
-                        textblock.Text = $"{i}_{j}";
-
-                        Grid.SetRow(textblock, i);
-                        Grid.SetColumn(textblock, j);
-                        _grid.Children.Add(textblock);
+                        Grid.SetRow(button, i);
+                        Grid.SetColumn(button, j);
+                        _grid.Children.Add(button);
                     }
                 }
             }
@@ -100,13 +108,15 @@ namespace GraWStatkiFront.PlanszaBitwy
         /// Konstruktor Planszy Bitwy
         /// </summary>
         /// <param name="grid">Grid, w którym zostanie stworzona siatka 10x10</param>
-        public G_PlanszaBitwy(Grid grid, L_PlanszaBitwy planszaLogiczna)
+        public G_PlanszaBitwy(Grid grid, L_PlanszaBitwy planszaLogiczna, bool czyPlanszaGracza)
         {
             _grid = grid;
             _planszaLogiczna = planszaLogiczna;
+            _czyPlanszaGracza = czyPlanszaGracza;
 
             TworzSiatke();
             WypelnijPolami();
+
         }
     }
 }

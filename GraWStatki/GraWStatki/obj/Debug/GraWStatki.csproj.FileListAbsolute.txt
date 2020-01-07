@@ -36,3 +36,22 @@ D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.cspro
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.CopyComplete
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.exe
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatki.exe.config
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatki.exe
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatki.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiFront.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiLogika.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiFront.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiLogika.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csprojAssemblyReference.cache
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\MainWindow.g.cs
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\App.g.cs
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki_MarkupCompile.cache
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki_MarkupCompile.lref
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\MainWindow.baml
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.g.resources
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.Properties.Resources.resources
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.GenerateResource.cache
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.CopyComplete
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.exe
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.pdb
