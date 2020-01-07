@@ -24,6 +24,9 @@ namespace GraWStatkiLogika.PlanszaBitwy
             }
         }
 
+        /// <summary>
+        /// Konstruktor
+        /// </summary>
         public L_PlanszaBitwy()
         {
             budowniczy = new L_BudowniczyStatkow(_pola);
