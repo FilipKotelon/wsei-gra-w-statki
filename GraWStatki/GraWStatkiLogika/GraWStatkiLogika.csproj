@@ -44,6 +44,7 @@
     <Compile Include="KontrolaGry\L_Gra.cs" />
     <Compile Include="KontrolaGry\L_KontrolerGry.cs" />
     <Compile Include="Interfejsy\IPole.cs" />
+    <Compile Include="KontrolaGry\L_Sedzia.cs" />
     <Compile Include="PlanszaBitwy\BudowniczyStatkow\L_BudowniczyStatkow.cs" />
     <Compile Include="PlanszaBitwy\Statki\L_Czteromasztowiec.cs" />
     <Compile Include="PlanszaBitwy\Statki\L_Dwumasztowiec.cs" />

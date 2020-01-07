@@ -9,6 +9,8 @@ namespace GraWStatkiLogika.KontrolaGry
     public class L_KontrolerGry
     {
         private L_Gra _obecnaGra;
+        private bool _turaGracza;
+
         public L_Gra ObecnaGra
         {
             get
@@ -18,6 +20,7 @@ namespace GraWStatkiLogika.KontrolaGry
         }
         public L_KontrolerGry()
         {
+            _turaGracza = true;
             _obecnaGra = new L_Gra();
         }
     }

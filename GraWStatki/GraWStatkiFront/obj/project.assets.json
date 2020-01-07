@@ -216,23 +216,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tony\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\filip\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+      "projectUniqueName": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
       "projectName": "GraWStatkiFront",
-      "projectPath": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
-      "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-      "outputPath": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
+      "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -245,8 +241,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
-              "projectPath": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
+            "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
+              "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
             }
           }
         }
@@ -290,7 +286,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Pakiet „WindowsBase 4.6.1055” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETStandard,Version=v2.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "message": "Package 'WindowsBase 4.6.1055' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "WindowsBase",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
