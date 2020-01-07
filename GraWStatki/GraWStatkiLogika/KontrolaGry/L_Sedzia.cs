@@ -10,39 +10,63 @@ namespace GraWStatkiLogika.KontrolaGry
 {
     public class L_Sedzia
     {
-        public string zwyciezca;
         private L_PlanszaBitwy _planszaGracza;
         private L_PlanszaBitwy _planszaKomputera;
+        private L_Gra _gra;
 
-        public L_Sedzia(L_PlanszaBitwy planszaGracza, L_PlanszaBitwy planszaKomputera)
+        public L_Sedzia(L_Gra gra)
         {
-            _planszaGracza = planszaGracza;
-            _planszaKomputera = planszaKomputera;
+            _gra = gra;
+            _planszaGracza = _gra.PlanszaGracza;
+            _planszaKomputera = _gra.PlanszaKomputera;
         }
 
         /// <summary>
-        /// Funkcja sprawdzająca, czy ktoś wygrał grę, wywoływana po każdym ruchu gracza lub komputera
+        /// Funkcja sprawdzająca, czy gra zakończyła się po danym ruchu
         /// </summary>
-        public void Sprawdz()
+        /// <returns>prawda/fałsz - czy gra została zakończona</returns>
+        public bool Sprawdz()
         {
-            IPole[, ] polaGracza = _planszaGracza.Pola;
-            List<IPole> zajetePolaGracza = new List<IPole>();
+            IPole[,] polaPrzeciwnika;
+            List<IPole> zajetePolaPrzeciwnika = new List<IPole>();
 
-            for (int i = 0; i < polaGracza.GetLength(0); i++)
+            //Jeśli jest tura gracza, sprawdzane są pola komputera i na odwrót
+            if (_gra.TuraGracza)
             {
-                for (int j = 0; j < polaGracza.GetLength(1); j++)
+                polaPrzeciwnika = _planszaKomputera.Pola;
+            }
+            else
+            {
+                polaPrzeciwnika = _planszaGracza.Pola;
+            }
+
+            for (int i = 0; i < polaPrzeciwnika.GetLength(0); i++)
+            {
+                for (int j = 0; j < polaPrzeciwnika.GetLength(1); j++)
                 {
-                    if (polaGracza[i, j] != null)
+                    if (polaPrzeciwnika[i, j] != null)
                     {
-                        IPole pole = polaGracza[i, j];
+                        IPole pole = polaPrzeciwnika[i, j];
 
                         if (pole.Zajete)
                         {
-                            zajetePolaGracza.Add(pole);
+                            zajetePolaPrzeciwnika.Add(pole);
                         }
                     }
                 }
             }
+
+            bool koniecGry = true;
+
+            foreach(IPole pole in zajetePolaPrzeciwnika)
+            {
+                if (!pole.Trafione)
+                {
+                    koniecGry = false;
+                }
+            }
+
+            return koniecGry;
         }
     }
 }

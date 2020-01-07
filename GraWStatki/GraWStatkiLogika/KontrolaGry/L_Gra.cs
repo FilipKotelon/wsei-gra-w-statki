@@ -9,9 +9,10 @@ namespace GraWStatkiLogika.KontrolaGry
 {
     public class L_Gra
     {
-        public string zwyciezca;
+        private string _zwyciezca;
         private string _gracz;
         private string _komputer = "Komputer";
+        private bool _turaGracza;
 
         private L_PlanszaBitwy _planszaGracza;
         private L_PlanszaBitwy _planszaKomputera;
@@ -32,11 +33,28 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        public string Zwyciezca
+        {
+            get
+            {
+                return _zwyciezca;
+            }
+        }
+
+        public bool TuraGracza
+        {
+            get
+            {
+                return _turaGracza;
+            }
+        }
+
         public L_Gra()
         {
             _gracz = "Gracz";
             _planszaGracza = new L_PlanszaBitwy();
             _planszaKomputera = new L_PlanszaBitwy();
+            _turaGracza = true;
         }
     }
 }
