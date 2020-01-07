@@ -48,7 +48,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -216,23 +216,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Blake\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\filip\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1_GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+      "projectUniqueName": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
       "projectName": "GraWStatkiFront",
-      "projectPath": "D:\\1_GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
-      "packagesPath": "C:\\Users\\Blake\\.nuget\\packages\\",
-      "outputPath": "D:\\1_GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
+      "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Blake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -245,8 +241,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\1_GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
-              "projectPath": "D:\\1_GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
+            "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
+              "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
             }
           }
         }
