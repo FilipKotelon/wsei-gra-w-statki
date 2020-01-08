@@ -25,13 +25,13 @@ namespace GraWStatkiLogika.KontrolaGry
         /// Funkcja sprawdzająca, czy gra zakończyła się po danym ruchu
         /// </summary>
         /// <returns>prawda/fałsz - czy gra została zakończona</returns>
-        public bool Sprawdz()
+        public bool SprawdzCzyKoniec(bool czyTuraGracza)
         {
             IPole[,] polaPrzeciwnika;
             List<IPole> zajetePolaPrzeciwnika = new List<IPole>();
 
             //Jeśli jest tura gracza, sprawdzane są pola komputera i na odwrót
-            if (_gra.TuraGracza)
+            if (czyTuraGracza)
             {
                 polaPrzeciwnika = _planszaKomputera.Pola;
             }
