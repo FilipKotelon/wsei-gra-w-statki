@@ -13,6 +13,7 @@ namespace GraWStatkiFront.PlanszaBitwy
         private Grid _grid;
         private L_PlanszaBitwy _planszaLogiczna;
         private bool _czyPlanszaGracza;
+        private Button[,] _planszaZPrzyciskami = new Button[10, 10];
 
         /// <summary>
         /// Funkcja zwracająca nową kolumnę o relatywnej szerokości
@@ -95,13 +96,31 @@ namespace GraWStatkiFront.PlanszaBitwy
                         {
                             button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#0399C4"));
                         }
-
+                        button.Click += (sender, e) => KliknieciePrzycisku(sender, e); ;
                         Grid.SetRow(button, i);
                         Grid.SetColumn(button, j);
                         _grid.Children.Add(button);
+                        _planszaZPrzyciskami[i, j] = button;
                     }
                 }
             }
+        }
+
+        private void KliknieciePrzycisku(Object sender, EventArgs e)
+        {
+            Button button = (Button)(sender);
+            int i = Grid.GetRow(button);
+            int j = Grid.GetColumn(button);
+
+            Console.WriteLine($"{i}, {j}");
+            IPole[,] polaPlanszy = _planszaLogiczna.Pola;
+            IPole pole = polaPlanszy[i, j];
+            if (pole.Zajete == true)
+                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#000000"));
+            else
+                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ffffff"));
+            Console.WriteLine($"{button}");
+            //button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ffffff"));
         }
 
         /// <summary>
