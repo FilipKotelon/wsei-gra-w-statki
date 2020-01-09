@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {}
+    "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {}
   },
   "projects": {
-    "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {
+    "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+        "projectUniqueName": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
         "projectName": "GraWStatkiFront",
-        "projectPath": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
-        "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-        "outputPath": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
+        "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
-                "projectPath": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
+              "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
+                "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
               }
             }
           }
@@ -70,12 +67,12 @@
         }
       }
     },
-    "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
+    "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj",
+        "projectUniqueName": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj",
         "projectName": "GraWStatkiLogika",
-        "projectPath": "D:\\STUDIA\\c# molenda\\statki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
+        "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
       },
       "frameworks": {
         "net472": {}

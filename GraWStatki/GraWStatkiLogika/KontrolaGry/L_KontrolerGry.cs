@@ -10,7 +10,7 @@ namespace GraWStatkiLogika.KontrolaGry
     {
         private L_Gra _obecnaGra;
         private L_Sedzia _sedzia;
-        private bool _graSkonczona = false;
+        private bool _graSkonczona;
         private bool _czyTuraGracza;
         private int _licznikTur;
 
@@ -49,6 +49,7 @@ namespace GraWStatkiLogika.KontrolaGry
             _sedzia = new L_Sedzia(_obecnaGra);
             _czyTuraGracza = true;
             _licznikTur = 1;
+            _graSkonczona = false;
         }
 
         public void ZmienTure()
@@ -85,8 +86,8 @@ namespace GraWStatkiLogika.KontrolaGry
 
             _graSkonczona = _sedzia.SprawdzCzyKoniec(_czyTuraGracza);
 
-            //Jeżeli gra się nie skończyła, zmień turę
-            if (!_graSkonczona)
+            //Jeżeli gra się nie skończyła a żaden statek nie został trafiony, zmień turę
+            if (!_graSkonczona && !trafionoStatek)
             {
                 ZmienTure();
                 return;

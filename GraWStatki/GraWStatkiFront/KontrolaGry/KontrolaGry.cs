@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Controls;
+using GraWStatkiLogika.Interfejsy;
+using System.Windows.Input;
+using System.Windows;
 
 namespace GraWStatkiFront.KontrolaGry
 {
@@ -18,18 +21,125 @@ namespace GraWStatkiFront.KontrolaGry
         private L_PlanszaBitwy lPlanszaKomputera;
 
         //Plansze graficzne powstałe z elementów xamla
-        private G_PlanszaBitwy xPlanszaGracza;
-        private G_PlanszaBitwy xPlanszaKomputera;
+        private G_PlanszaBitwy gPlanszaGracza;
+        private G_PlanszaBitwy gPlanszaKomputera;
+
+        //Gridy z xamla
+        private Grid xPlanszaGracza;
+        private Grid xPlanszaKomputera;
 
         public G_KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera)
         {
             _kontroler = new L_KontrolerGry();
 
+            this.xPlanszaGracza = xPlanszaGracza;
+            this.xPlanszaKomputera = xPlanszaKomputera;
+
+            NowaGra(xPlanszaGracza, xPlanszaKomputera, true);
+        }
+
+        private void NowaGra(Grid xPlanszaGracza, Grid xPlanszaKomputera, bool czyPierwszaGra)
+        {
             lPlanszaGracza = _kontroler.ObecnaGra.PlanszaGracza;
             lPlanszaKomputera = _kontroler.ObecnaGra.PlanszaKomputera;
 
-            this.xPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza, true);
-            this.xPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera, false);
+            gPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza, true, czyPierwszaGra);
+            gPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera, false, czyPierwszaGra);
+
+            NasluchujKlikniec(gPlanszaGracza.PlanszaZPrzyciskami, gPlanszaKomputera.PlanszaZPrzyciskami);
+        }
+
+        private void NasluchujKlikniec(Button[,] planszaZPrzyciskamiGracza, Button[,] planszaZPrzyciskamiKomputera)
+        {
+            Button[,] planszaGracza = gPlanszaGracza.PlanszaZPrzyciskami;
+            Button[,] planszaKomputera = gPlanszaKomputera.PlanszaZPrzyciskami;
+
+            for (int i = 0; i < planszaGracza.GetLength(0); i++)
+            {
+                for (int j = 0; j < planszaGracza.GetLength(1); j++)
+                {
+                    Button buttonGracza = planszaGracza[i, j];
+                    buttonGracza.Click += (sender, e) => KliknieciePrzycisku(sender, e);
+
+                    Button buttonKomputera = planszaKomputera[i, j];
+                    buttonKomputera.Click += (sender, e) => KliknieciePrzycisku(sender, e);
+                }
+            }
+        }
+
+        private void WyczyscPlansze()
+        {
+            Button[,] planszaGracza = gPlanszaGracza.PlanszaZPrzyciskami;
+            Button[,] planszaKomputera = gPlanszaKomputera.PlanszaZPrzyciskami;
+
+            for (int i = 0; i < planszaGracza.GetLength(0); i++)
+            {
+                for (int j = 0; j < planszaGracza.GetLength(1); j++)
+                {
+                    xPlanszaGracza.Children.Remove(planszaGracza[i, j]);
+                    xPlanszaKomputera.Children.Remove(planszaKomputera[i, j]);
+                }
+            }
+        }
+
+        public void KliknieciePrzycisku(Object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)e.Source;
+            int i = Grid.GetRow(button);
+            int j = Grid.GetColumn(button);
+
+            Grid buttonParent = (Grid)button.Parent;
+
+            IPole[,] polaPlanszy;
+
+            //Tura gracza
+            if (_kontroler.CzyTuraGracza)
+            {
+                if(buttonParent == xPlanszaGracza)
+                {
+                    return;
+                }
+                else
+                {
+                    polaPlanszy = lPlanszaKomputera.Pola;
+                }
+            }
+            //Tura komputera
+            else
+            {
+                if (buttonParent == xPlanszaKomputera)
+                {
+                    return;
+                }
+                else
+                {
+                    polaPlanszy = lPlanszaGracza.Pola;
+                }
+            }
+
+            bool trafionoPole = false;
+            IPole pole = polaPlanszy[i, j];
+            if (pole.Zajete)
+            {
+                button.Background = G_PlanszaBitwy.KolorZHex("#990000");
+                pole.Trafione = true;
+                trafionoPole = true;
+            }
+            else
+            {
+                button.Background = G_PlanszaBitwy.KolorZHex("#CCCCCC");
+            }
+
+            _kontroler.SprawdzRuch(trafionoPole);
+
+            if (_kontroler.GraSkonczona)
+            {
+                _kontroler.ZakonczGre();
+
+                WyczyscPlansze();
+                _kontroler.NowaGra();
+                NowaGra(xPlanszaGracza, xPlanszaKomputera, false);
+            }
         }
     }
 }
