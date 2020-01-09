@@ -15,6 +15,14 @@ namespace GraWStatkiFront.PlanszaBitwy
         private bool _czyPlanszaGracza;
         private Button[,] _planszaZPrzyciskami = new Button[10, 10];
 
+        public Button[,] PlanszaZPrzyciskami
+        {
+            get
+            {
+                return _planszaZPrzyciskami;
+            }
+        }
+
         /// <summary>
         /// Funkcja zwracająca nową kolumnę o relatywnej szerokości
         /// </summary>
@@ -85,18 +93,18 @@ namespace GraWStatkiFront.PlanszaBitwy
                         {
                             if (pole.Zajete)
                             {
-                                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ff7777"));
+                                button.Background = KolorZHex("#000000");
                             }
                             else
                             {
-                                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#44FF99"));
+                                button.Background = KolorZHex("#FFFFFF");
                             }
                         }
                         else
                         {
-                            button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#0399C4"));
+                            button.Background = KolorZHex("#0399C4");
                         }
-                        button.Click += (sender, e) => KliknieciePrzycisku(sender, e); ;
+
                         Grid.SetRow(button, i);
                         Grid.SetColumn(button, j);
                         _grid.Children.Add(button);
@@ -106,36 +114,32 @@ namespace GraWStatkiFront.PlanszaBitwy
             }
         }
 
-        private void KliknieciePrzycisku(Object sender, EventArgs e)
+        /// <summary>
+        /// Funkcja zwracająca kolor z kodu heksadecymalnego, który można przypisać do tła przycisku
+        /// </summary>
+        /// <param name="hex">kod heksadecymaalny</param>
+        /// <returns>SolidColorBrush</returns>
+        public static SolidColorBrush KolorZHex(string hex)
         {
-            Button button = (Button)(sender);
-            int i = Grid.GetRow(button);
-            int j = Grid.GetColumn(button);
-
-            Console.WriteLine($"{i}, {j}");
-            IPole[,] polaPlanszy = _planszaLogiczna.Pola;
-            IPole pole = polaPlanszy[i, j];
-            if (pole.Zajete == true)
-                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#000000"));
-            else
-                button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ffffff"));
-            Console.WriteLine($"{button}");
-            //button.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#ffffff"));
+            return (SolidColorBrush)(new BrushConverter().ConvertFrom(hex));
         }
 
         /// <summary>
         /// Konstruktor Planszy Bitwy
         /// </summary>
         /// <param name="grid">Grid, w którym zostanie stworzona siatka 10x10</param>
-        public G_PlanszaBitwy(Grid grid, L_PlanszaBitwy planszaLogiczna, bool czyPlanszaGracza)
+        public G_PlanszaBitwy(Grid grid, L_PlanszaBitwy planszaLogiczna, bool czyPlanszaGracza, bool czyPierwszaGra)
         {
             _grid = grid;
             _planszaLogiczna = planszaLogiczna;
             _czyPlanszaGracza = czyPlanszaGracza;
 
-            TworzSiatke();
-            WypelnijPolami();
+            if (czyPierwszaGra)
+            {
+                TworzSiatke();
+            }
 
+            WypelnijPolami();
         }
     }
 }
