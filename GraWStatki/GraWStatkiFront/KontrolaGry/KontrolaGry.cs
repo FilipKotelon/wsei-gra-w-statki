@@ -9,6 +9,7 @@ using System.Windows.Controls;
 using GraWStatkiLogika.Interfejsy;
 using System.Windows.Input;
 using System.Windows;
+using GraWStatkiFront.Komputer;
 
 namespace GraWStatkiFront.KontrolaGry
 {
@@ -28,6 +29,9 @@ namespace GraWStatkiFront.KontrolaGry
         private Grid xPlanszaGracza;
         private Grid xPlanszaKomputera;
 
+        //Komputer
+        private G_Komputer _komputer;
+
         public G_KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera)
         {
             _kontroler = new L_KontrolerGry();
@@ -45,6 +49,8 @@ namespace GraWStatkiFront.KontrolaGry
 
             gPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza, true, czyPierwszaGra);
             gPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera, false, czyPierwszaGra);
+
+            _komputer = new G_Komputer(lPlanszaGracza, gPlanszaGracza);
 
             NasluchujKlikniec(gPlanszaGracza.PlanszaZPrzyciskami, gPlanszaKomputera.PlanszaZPrzyciskami);
         }
@@ -119,6 +125,12 @@ namespace GraWStatkiFront.KontrolaGry
 
             bool trafionoPole = false;
             IPole pole = polaPlanszy[i, j];
+            //Jeżeli pole już zostało trafione, nic się nie dzieje
+            if (pole.Trafione)
+            {
+                return;
+            }
+
             if (pole.Zajete)
             {
                 button.Background = G_PlanszaBitwy.KolorZHex("#990000");
@@ -128,6 +140,7 @@ namespace GraWStatkiFront.KontrolaGry
             else
             {
                 button.Background = G_PlanszaBitwy.KolorZHex("#CCCCCC");
+                pole.Trafione = true;
             }
 
             _kontroler.SprawdzRuch(trafionoPole);
@@ -139,6 +152,10 @@ namespace GraWStatkiFront.KontrolaGry
                 WyczyscPlansze();
                 _kontroler.NowaGra();
                 NowaGra(xPlanszaGracza, xPlanszaKomputera, false);
+            }
+            else if (!_kontroler.CzyTuraGracza)
+            {
+                _komputer.WykonajRuch();
             }
         }
     }

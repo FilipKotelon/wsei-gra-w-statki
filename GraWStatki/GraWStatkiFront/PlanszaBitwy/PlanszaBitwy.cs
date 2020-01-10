@@ -84,9 +84,6 @@ namespace GraWStatkiFront.PlanszaBitwy
                     if(polaPlanszy[i, j] != null)
                     {
                         IPole pole = polaPlanszy[i, j];
-                        //Podpiąć funkcję która będzię się wykonywała po kliknięciu, prywatna; private void nazwa;
-                        //po kliknieciu jezeli pole jest zajete to pole.Trafiony=true
-                        //jeżeli plansza jest planszą gracza to zmienia sie kolor na niebieski, jeżeli komptera to pokazuje jakie pole
                         
                         Button button = new Button();
                         if (_czyPlanszaGracza)
