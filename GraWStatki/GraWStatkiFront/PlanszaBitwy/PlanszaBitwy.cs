@@ -4,7 +4,9 @@ using GraWStatkiLogika.PlanszaBitwy;
 using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 
 namespace GraWStatkiFront.PlanszaBitwy
 {
@@ -90,17 +92,21 @@ namespace GraWStatkiFront.PlanszaBitwy
                         {
                             if (pole.Zajete)
                             {
-                                button.Background = KolorZHex("#000000");
+                                button.Background = KolorZHex("#000000", 0.75);
+                                //AnimacjaKoloru(button, KolorZHex("#000000", 0.5), KolorZHex("#000000", 0.75));
                             }
                             else
                             {
-                                button.Background = KolorZHex("#FFFFFF");
+                                button.Background = KolorZHex("#FFFFFF", 0.5);
                             }
                         }
                         else
                         {
-                            button.Background = KolorZHex("#0399C4");
+                            button.Background = KolorZHex("#FFFFFF", 0.2);
                         }
+
+                        button.BorderBrush = KolorZHex("#FFFFFF", .9);
+                        button.Cursor = Cursors.Hand;
 
                         Grid.SetRow(button, i);
                         Grid.SetColumn(button, j);
@@ -116,9 +122,21 @@ namespace GraWStatkiFront.PlanszaBitwy
         /// </summary>
         /// <param name="hex">kod heksadecymaalny</param>
         /// <returns>SolidColorBrush</returns>
-        public static SolidColorBrush KolorZHex(string hex)
+        public static SolidColorBrush KolorZHex(string hex, double opacity)
         {
-            return (SolidColorBrush)(new BrushConverter().ConvertFrom(hex));
+            SolidColorBrush kolor = (SolidColorBrush)(new BrushConverter().ConvertFrom(hex));
+            kolor.Opacity = opacity;
+            return kolor;
+        }
+
+        public static void AnimacjaKoloru(Button button, SolidColorBrush kolor1, SolidColorBrush kolor2)
+        {
+            ColorAnimation animation;
+            animation = new ColorAnimation();
+            animation.From = kolor1.Color;
+            animation.To = kolor2.Color;
+            animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+            button.Background.BeginAnimation(SolidColorBrush.ColorProperty, animation);
         }
 
         /// <summary>

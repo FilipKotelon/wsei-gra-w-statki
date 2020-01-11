@@ -5,20 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GraWStatki"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="1060">
-    <Border Background="#0399c4" Padding="20">
-        <Grid x:Name="KontenerGry" Height="800" Width="1000">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="400"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="400"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+        Title="Gra W Statki" Height="800" Width="1060">
+    <Border Padding="20 30 20 20">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+                <GradientStop Color="#9ad1d4" Offset="0"/> 
+                <GradientStop Color="#80ced7" Offset="0.3"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <StackPanel Orientation="Vertical">
+            <Border BorderThickness="1" BorderBrush="#FFFFFF" Margin="0 0 0 40" Width="280" CornerRadius="33" Padding="0 10 0 12">
+                <TextBlock FontSize="32" Foreground="#FFFFFF" TextAlignment="Center" FontWeight="ExtraLight">
+                    Gra W Statki
+                </TextBlock>
+            </Border>
+            <Button x:Name="NowaGra" Margin="0 0 0 25" FontSize="18" Foreground="#80ced7" Background="#FFFFFF" FontWeight="Light" Width="140" Height="50" Cursor="Hand" BorderBrush="#FFFFFF">
+                Nowa gra
+            </Button>
+            <Border BorderThickness="1" BorderBrush="#FFFFFF" Margin="0 0 0 40" Width="440" Padding="0 10 0 12">
+                <TextBlock x:Name="Komunikat" FontSize="24" Foreground="#FFFFFF" TextAlignment="Center" FontWeight="ExtraLight">
+                    Witaj!
+                </TextBlock>
+            </Border>
+            <Grid x:Name="KontenerGry" Height="400" Width="900">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="400"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="400"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
 
-            <Grid x:Name="PlanszaGracza" Background="White" Height="400" Width="400" Grid.Column="0"></Grid>
-            <Grid x:Name="PlanszaKomputera" Background="White" Height="400" Width="400" Grid.Column="2"></Grid>
-        </Grid>
+                <Grid x:Name="PlanszaGracza" Height="400" Width="400" Grid.Column="0"></Grid>
+                <Grid x:Name="PlanszaKomputera" Height="400" Width="400" Grid.Column="2"></Grid>
+            </Grid>
+        </StackPanel>
     </Border>
 </Window>

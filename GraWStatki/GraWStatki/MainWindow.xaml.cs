@@ -26,7 +26,7 @@ namespace GraWStatki
         {
             InitializeComponent();
 
-            G_KontrolaGry kontroler = new G_KontrolaGry(PlanszaGracza, PlanszaKomputera);
+            G_KontrolaGry kontroler = new G_KontrolaGry(PlanszaGracza, PlanszaKomputera, NowaGra, Komunikat);
         }
     }
 }

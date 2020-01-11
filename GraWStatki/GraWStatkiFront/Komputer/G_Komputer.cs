@@ -36,7 +36,7 @@ namespace GraWStatkiFront.Komputer
             Button pole = _gPlanszaGracza.PlanszaZPrzyciskami[indeksy[0], indeksy[1]];
 
             //Odczekaj pół sekundy przed ruchem
-            await Task.Delay(500);
+            await Task.Delay(1200);
             KliknijPole(pole);
         }
     }

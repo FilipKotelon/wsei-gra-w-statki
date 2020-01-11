@@ -10,6 +10,7 @@ using GraWStatkiLogika.Interfejsy;
 using System.Windows.Input;
 using System.Windows;
 using GraWStatkiFront.Komputer;
+using System.Threading.Tasks;
 
 namespace GraWStatkiFront.KontrolaGry
 {
@@ -32,18 +33,48 @@ namespace GraWStatkiFront.KontrolaGry
         //Komputer
         private G_Komputer _komputer;
 
-        public G_KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera)
+        //Przycisk nowej gry
+        private Button _przyciskNowejGry;
+
+        //TextBlock z komunikatami
+        private TextBlock _komunikat;
+
+        private bool _pierwszaGra = true;
+        private bool _pierwszyRuch = true;
+
+        public G_KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera, Button przyciskNowejGry, TextBlock komunikat)
         {
             _kontroler = new L_KontrolerGry();
 
             this.xPlanszaGracza = xPlanszaGracza;
             this.xPlanszaKomputera = xPlanszaKomputera;
 
-            NowaGra(xPlanszaGracza, xPlanszaKomputera, true);
+            _przyciskNowejGry = przyciskNowejGry;
+            _przyciskNowejGry.Click += KlikniecieNowejGry;
+
+            _komunikat = komunikat;
+        }
+
+        private void KlikniecieNowejGry(Object sender, RoutedEventArgs e)
+        {
+            if (!_kontroler.CzyTuraGracza) return;
+
+            NowaGra(xPlanszaGracza, xPlanszaKomputera, _pierwszaGra);
         }
 
         private void NowaGra(Grid xPlanszaGracza, Grid xPlanszaKomputera, bool czyPierwszaGra)
         {
+            _kontroler.NowaGra();
+            if (_pierwszaGra)
+            {
+                _pierwszaGra = false;
+            }
+            else
+            {
+                WyczyscPlansze();
+            }
+            _komunikat.Text = $"Rozpocznij!";
+
             lPlanszaGracza = _kontroler.ObecnaGra.PlanszaGracza;
             lPlanszaKomputera = _kontroler.ObecnaGra.PlanszaKomputera;
 
@@ -51,6 +82,10 @@ namespace GraWStatkiFront.KontrolaGry
             gPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera, false, czyPierwszaGra);
 
             _komputer = new G_Komputer(lPlanszaGracza, gPlanszaGracza);
+
+            _pierwszyRuch = true;
+
+            ZmienAktywnaPlansze(_kontroler.CzyTuraGracza);
 
             NasluchujKlikniec(gPlanszaGracza.PlanszaZPrzyciskami, gPlanszaKomputera.PlanszaZPrzyciskami);
         }
@@ -85,6 +120,37 @@ namespace GraWStatkiFront.KontrolaGry
                     xPlanszaGracza.Children.Remove(planszaGracza[i, j]);
                     xPlanszaKomputera.Children.Remove(planszaKomputera[i, j]);
                 }
+            }
+        }
+
+        private void ZmienKomunikat(bool czyTrafiono)
+        {
+            if (czyTrafiono)
+            {
+                _komunikat.Text = "Trafiony!";
+            }
+            else
+            {
+                _komunikat.Text = "Pudło!";
+            }
+        }
+
+        private async void ZmienAktywnaPlansze(bool czyTuraGracza)
+        {
+            if (czyTuraGracza)
+            {
+                if (!_pierwszyRuch)
+                {
+                    await Task.Delay(1000);
+                    _pierwszyRuch = false;
+                }
+                xPlanszaGracza.Opacity = 0.5;
+                xPlanszaKomputera.Opacity = 1;
+            }
+            else
+            {
+                xPlanszaGracza.Opacity = 1;
+                xPlanszaKomputera.Opacity = 0.5;
             }
         }
 
@@ -133,29 +199,33 @@ namespace GraWStatkiFront.KontrolaGry
 
             if (pole.Zajete)
             {
-                button.Background = G_PlanszaBitwy.KolorZHex("#990000");
+                button.Background = G_PlanszaBitwy.KolorZHex("#AA0000", 0.9);
                 pole.Trafione = true;
                 trafionoPole = true;
             }
             else
             {
-                button.Background = G_PlanszaBitwy.KolorZHex("#CCCCCC");
+                button.Background = G_PlanszaBitwy.KolorZHex("#AAAAAA", 0.9);
                 pole.Trafione = true;
             }
 
             _kontroler.SprawdzRuch(trafionoPole);
+            ZmienKomunikat(trafionoPole);
 
             if (_kontroler.GraSkonczona)
             {
                 _kontroler.ZakonczGre();
 
-                WyczyscPlansze();
-                _kontroler.NowaGra();
-                NowaGra(xPlanszaGracza, xPlanszaKomputera, false);
+                _komunikat.Text = $"Grę wygrał {_kontroler.ObecnaGra.zwyciezca}!";
             }
             else if (!_kontroler.CzyTuraGracza)
             {
                 _komputer.WykonajRuch();
+            }
+
+            if (!_kontroler.GraSkonczona)
+            {
+                ZmienAktywnaPlansze(_kontroler.CzyTuraGracza);
             }
         }
     }
