@@ -87,10 +87,10 @@ namespace GraWStatkiFront.KontrolaGry
 
             ZmienAktywnaPlansze(_kontroler.CzyTuraGracza);
 
-            NasluchujKlikniec(gPlanszaGracza.PlanszaZPrzyciskami, gPlanszaKomputera.PlanszaZPrzyciskami);
+            NasluchujKlikniec();
         }
 
-        private void NasluchujKlikniec(Button[,] planszaZPrzyciskamiGracza, Button[,] planszaZPrzyciskamiKomputera)
+        private void NasluchujKlikniec()
         {
             Button[,] planszaGracza = gPlanszaGracza.PlanszaZPrzyciskami;
             Button[,] planszaKomputera = gPlanszaKomputera.PlanszaZPrzyciskami;
@@ -100,10 +100,10 @@ namespace GraWStatkiFront.KontrolaGry
                 for (int j = 0; j < planszaGracza.GetLength(1); j++)
                 {
                     Button buttonGracza = planszaGracza[i, j];
-                    buttonGracza.Click += (sender, e) => KliknieciePrzycisku(sender, e);
+                    buttonGracza.Click += KliknieciePrzycisku;
 
                     Button buttonKomputera = planszaKomputera[i, j];
-                    buttonKomputera.Click += (sender, e) => KliknieciePrzycisku(sender, e);
+                    buttonKomputera.Click += KliknieciePrzycisku;
                 }
             }
         }
@@ -139,8 +139,10 @@ namespace GraWStatkiFront.KontrolaGry
         {
             if (czyTuraGracza)
             {
+                Console.WriteLine($"{_pierwszyRuch}");
                 if (!_pierwszyRuch)
                 {
+                    Console.WriteLine("Delay");
                     await Task.Delay(1000);
                     _pierwszyRuch = false;
                 }
@@ -154,7 +156,7 @@ namespace GraWStatkiFront.KontrolaGry
             }
         }
 
-        public void KliknieciePrzycisku(Object sender, RoutedEventArgs e)
+        public async void KliknieciePrzycisku(Object sender, RoutedEventArgs e)
         {
             Button button = (Button)e.Source;
             int i = Grid.GetRow(button);
@@ -189,7 +191,7 @@ namespace GraWStatkiFront.KontrolaGry
                 }
             }
 
-            bool trafionoPole = false;
+            bool trafionoStatek = false;
             IPole pole = polaPlanszy[i, j];
             //Jeżeli pole już zostało trafione, nic się nie dzieje
             if (pole.Trafione)
@@ -201,7 +203,7 @@ namespace GraWStatkiFront.KontrolaGry
             {
                 button.Background = G_PlanszaBitwy.KolorZHex("#AA0000", 0.9);
                 pole.Trafione = true;
-                trafionoPole = true;
+                trafionoStatek = true;
             }
             else
             {
@@ -209,8 +211,8 @@ namespace GraWStatkiFront.KontrolaGry
                 pole.Trafione = true;
             }
 
-            _kontroler.SprawdzRuch(trafionoPole);
-            ZmienKomunikat(trafionoPole);
+            _kontroler.SprawdzRuch(trafionoStatek);
+            ZmienKomunikat(trafionoStatek);
 
             if (_kontroler.GraSkonczona)
             {
@@ -220,12 +222,14 @@ namespace GraWStatkiFront.KontrolaGry
             }
             else if (!_kontroler.CzyTuraGracza)
             {
+                await Task.Delay(1200);
                 _komputer.WykonajRuch();
             }
 
             if (!_kontroler.GraSkonczona)
             {
                 ZmienAktywnaPlansze(_kontroler.CzyTuraGracza);
+                _pierwszyRuch = false;
             }
         }
     }
