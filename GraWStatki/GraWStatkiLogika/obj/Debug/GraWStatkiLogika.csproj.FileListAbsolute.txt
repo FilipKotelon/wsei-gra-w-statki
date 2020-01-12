@@ -8,3 +8,9 @@ D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatki
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.csprojAssemblyReference.cache
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.dll
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.dll
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.csprojAssemblyReference.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.csproj.CoreCompileInputs.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.dll
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.pdb

@@ -10,5 +10,6 @@ namespace GraWStatkiLogika.Interfejsy
     {
         bool Zajete { get; }
         bool Trafione { get; set; }
+        int IDStatku { get; }
     }
 }

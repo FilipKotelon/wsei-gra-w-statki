@@ -1,4 +1,5 @@
 ﻿using GraWStatkiLogika.Interfejsy;
+using GraWStatkiLogika.PlanszaBitwy.Pola;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         private int _ID;
         private int _iloscPol;
         private bool _zatopiony;
-        private List<IPole> _pola;
+        private List<IPole> _pola = new List<IPole>();
 
         public int ID
         {
@@ -50,6 +51,28 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         {
             _ID = ID;
             _iloscPol = 3;
+        }
+
+        public IPole DodajPole()
+        {
+            IPole pole = new L_PoleZajete(_ID);
+            _pola.Add(pole);
+
+            return pole;
+        }
+
+        public void SprawdzStan()
+        {
+            bool zatopiony = true;
+            foreach (IPole pole in _pola)
+            {
+                if (!pole.Trafione)
+                {
+                    zatopiony = false;
+                    break;
+                }
+            }
+            _zatopiony = zatopiony;
         }
     }
 }

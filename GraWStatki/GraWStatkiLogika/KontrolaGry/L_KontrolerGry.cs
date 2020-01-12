@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GraWStatkiLogika.Interfejsy;
+using GraWStatkiLogika.PlanszaBitwy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,7 +77,7 @@ namespace GraWStatkiLogika.KontrolaGry
         /// <summary>
         /// Funkcja wywoływana po kliknięciu któregoś z pól
         /// </summary>
-        public void SprawdzRuch(bool trafionoStatek)
+        public void SprawdzRuch(bool trafionoStatek, IPole pole)
         {
             //Jeżeli nie trafiono w żaden statek, tylko zmień turę
             if (!trafionoStatek)
@@ -91,6 +93,28 @@ namespace GraWStatkiLogika.KontrolaGry
             {
                 ZmienTure();
                 return;
+            }
+
+            if(!_graSkonczona && trafionoStatek)
+            {
+                if (pole.Zajete)
+                {
+                    IStatek[] statki;
+                    IStatek statek;
+
+                    if (_czyTuraGracza)
+                    {
+                        statki = _obecnaGra.PlanszaGracza.Statki;
+                    }
+                    else
+                    {
+                        statki = _obecnaGra.PlanszaKomputera.Statki;
+                    }
+
+                    statek = statki[pole.IDStatku];
+
+                    statek.SprawdzStan();
+                }
             }
         }
 

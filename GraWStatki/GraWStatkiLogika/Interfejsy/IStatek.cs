@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.Interfejsy
 {
-    interface IStatek
+    public interface IStatek
     {
         int ID { get; }
 
@@ -15,5 +15,8 @@ namespace GraWStatkiLogika.Interfejsy
         bool Zatopiony { get; }
 
         List<IPole> Pola { get; }
+
+        IPole DodajPole();
+        void SprawdzStan();
     }
 }

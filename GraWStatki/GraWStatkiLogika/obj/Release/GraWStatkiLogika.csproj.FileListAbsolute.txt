@@ -3,3 +3,9 @@ D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Release\GraWStat
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Release\GraWStatkiLogika.csprojAssemblyReference.cache
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Release\GraWStatkiLogika.dll
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Release\GraWStatkiLogika.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Release\GraWStatkiLogika.dll
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Release\GraWStatkiLogika.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Release\GraWStatkiLogika.csprojAssemblyReference.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Release\GraWStatkiLogika.csproj.CoreCompileInputs.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Release\GraWStatkiLogika.dll
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Release\GraWStatkiLogika.pdb

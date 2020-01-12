@@ -33,6 +33,14 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
             }
         }
 
+        public int IDStatku
+        {
+            get
+            {
+                return _IDStatku;
+            }
+        }
+
         public L_PoleZajete(int IDStatku)
         {
             _zajete = true;

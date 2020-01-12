@@ -139,10 +139,8 @@ namespace GraWStatkiFront.KontrolaGry
         {
             if (czyTuraGracza)
             {
-                Console.WriteLine($"{_pierwszyRuch}");
                 if (!_pierwszyRuch)
                 {
-                    Console.WriteLine("Delay");
                     await Task.Delay(1000);
                     _pierwszyRuch = false;
                 }
@@ -211,7 +209,7 @@ namespace GraWStatkiFront.KontrolaGry
                 pole.Trafione = true;
             }
 
-            _kontroler.SprawdzRuch(trafionoStatek);
+            _kontroler.SprawdzRuch(trafionoStatek, pole);
             ZmienKomunikat(trafionoStatek);
 
             if (_kontroler.GraSkonczona)

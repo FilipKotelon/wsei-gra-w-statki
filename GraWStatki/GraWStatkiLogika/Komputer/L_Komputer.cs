@@ -15,6 +15,7 @@ namespace GraWStatkiLogika.Komputer
     {
         //Komputer przechowuje planszę gracza, żeby wiedzieć, w które pola już trafił
         private L_PlanszaBitwy _planszaGracza;
+        private enum _poziomTrudnosci { Latwy, Trudny }
 
         public L_Komputer(L_PlanszaBitwy planszaGracza)
         {

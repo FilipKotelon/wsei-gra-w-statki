@@ -55,3 +55,23 @@ D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\Gr
 D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.CopyComplete
 D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.exe
 D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatki.exe.config
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatki.exe
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatki.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiFront.dll
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiLogika.dll
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiFront.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\bin\Debug\GraWStatkiLogika.pdb
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csprojAssemblyReference.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\MainWindow.g.cs
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\App.g.cs
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki_MarkupCompile.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki_MarkupCompile.lref
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\MainWindow.baml
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.g.resources
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.Properties.Resources.resources
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.GenerateResource.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.CoreCompileInputs.cache
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.CopyComplete
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.exe
+D:\Users\filip.kotelon\Desktop\wsei-gra-w-statki\GraWStatki\GraWStatki\obj\Debug\GraWStatki.pdb

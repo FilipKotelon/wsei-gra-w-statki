@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {}
+    "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {}
   },
   "projects": {
-    "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {
+    "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+        "projectUniqueName": "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
         "projectName": "GraWStatkiFront",
-        "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
+        "projectPath": "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\GraWStatkiFront.csproj",
+        "packagesPath": "D:\\Users\\filip.kotelon\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiFront\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "D:\\Users\\filip.kotelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -27,8 +32,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
-                "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
+              "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
+                "projectPath": "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
               }
             }
           }
@@ -54,25 +59,19 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
-    "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
+    "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj",
+        "projectUniqueName": "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj",
         "projectName": "GraWStatkiLogika",
-        "projectPath": "D:\\GraWStatki\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
+        "projectPath": "D:\\Users\\filip.kotelon\\Desktop\\wsei-gra-w-statki\\GraWStatki\\GraWStatkiLogika\\GraWStatkiLogika.csproj"
       },
       "frameworks": {
         "net472": {}

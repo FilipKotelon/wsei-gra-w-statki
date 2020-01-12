@@ -15,12 +15,21 @@ namespace GraWStatkiLogika.PlanszaBitwy
     {
         private IPole[,] _pola = new IPole[10, 10];
         private L_BudowniczyStatkow budowniczy;
+        private IStatek[] _statki;
 
         public IPole[,] Pola
         {
             get
             {
                 return _pola;
+            }
+        }
+
+        public IStatek[] Statki
+        {
+            get
+            {
+                return _statki;
             }
         }
 
@@ -33,6 +42,7 @@ namespace GraWStatkiLogika.PlanszaBitwy
             
             budowniczy.BudujStatkiLosowo();
             _pola = budowniczy.OddajPlansze();
+            _statki = budowniczy.Statki;
 
             WypelnijPustePola();
         }

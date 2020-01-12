@@ -12,6 +12,15 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
     class L_BudowniczyStatkow
     {
         private IPole[,] _polaPlanszy;
+        private IStatek[] _statki;
+
+        public IStatek[] Statki
+        {
+            get
+            {
+                return _statki;
+            }
+        }
 
         public L_BudowniczyStatkow(IPole[,] polaPlanszy)
         {
@@ -350,28 +359,28 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r, k - i] = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r, k - i] = statek.DodajPole();
                 }
             }
             else if(kierunek == Kierunki.Gora)
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r - i, k] = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r - i, k] = statek.DodajPole();
                 }
             }
             else if(kierunek == Kierunki.Prawo)
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r, k + i] = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r, k + i] = statek.DodajPole();
                 }
             }
             else if(kierunek == Kierunki.Dol)
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r + i, k] = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r + i, k] = statek.DodajPole();
                 }
             }
         }
@@ -420,6 +429,8 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
 
                 BudujStatek(losowyR, losowaK, losowyKierunek, tablicaStatkow[i]);
             }
+
+            _statki = tablicaStatkow;
         }
 
         public IPole[,] OddajPlansze()
