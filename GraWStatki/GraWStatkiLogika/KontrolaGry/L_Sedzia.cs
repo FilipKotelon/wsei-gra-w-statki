@@ -1,5 +1,5 @@
-﻿using GraWStatkiLogika.Interfejsy;
-using GraWStatkiLogika.PlanszaBitwy;
+﻿using GraWStatkiLogika.PlanszaBitwy;
+using GraWStatkiLogika.PlanszaBitwy.Pola;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,8 +27,8 @@ namespace GraWStatkiLogika.KontrolaGry
         /// <returns>prawda/fałsz - czy gra została zakończona</returns>
         public bool SprawdzCzyKoniec(bool czyTuraGracza)
         {
-            IPole[,] polaPrzeciwnika;
-            List<IPole> zajetePolaPrzeciwnika = new List<IPole>();
+            L_Pole[,] polaPrzeciwnika;
+            List<L_Pole> zajetePolaPrzeciwnika = new List<L_Pole>();
 
             //Jeśli jest tura gracza, sprawdzane są pola komputera i na odwrót
             if (czyTuraGracza)
@@ -46,7 +46,7 @@ namespace GraWStatkiLogika.KontrolaGry
                 {
                     if (polaPrzeciwnika[i, j] != null)
                     {
-                        IPole pole = polaPrzeciwnika[i, j];
+                        L_Pole pole = polaPrzeciwnika[i, j];
 
                         if (pole.Zajete)
                         {
@@ -58,7 +58,7 @@ namespace GraWStatkiLogika.KontrolaGry
 
             bool koniecGry = true;
 
-            foreach(IPole pole in zajetePolaPrzeciwnika)
+            foreach(L_Pole pole in zajetePolaPrzeciwnika)
             {
                 if (!pole.Trafione)
                 {

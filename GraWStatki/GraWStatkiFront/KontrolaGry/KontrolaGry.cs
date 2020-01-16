@@ -6,11 +6,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Controls;
-using GraWStatkiLogika.Interfejsy;
 using System.Windows.Input;
 using System.Windows;
 using GraWStatkiFront.Komputer;
 using System.Threading.Tasks;
+using GraWStatkiLogika.PlanszaBitwy.Pola;
 
 namespace GraWStatkiFront.KontrolaGry
 {
@@ -156,13 +156,19 @@ namespace GraWStatkiFront.KontrolaGry
 
         public async void KliknieciePrzycisku(Object sender, RoutedEventArgs e)
         {
+            //Jeśli gra jest skończona, zablokuj klikanie
+            if (_kontroler.GraSkonczona)
+            {
+                return;
+            }
+
             Button button = (Button)e.Source;
             int i = Grid.GetRow(button);
             int j = Grid.GetColumn(button);
 
             Grid buttonParent = (Grid)button.Parent;
 
-            IPole[,] polaPlanszy;
+            L_Pole[,] polaPlanszy;
 
             //Tura gracza
             if (_kontroler.CzyTuraGracza)
@@ -190,7 +196,7 @@ namespace GraWStatkiFront.KontrolaGry
             }
 
             bool trafionoStatek = false;
-            IPole pole = polaPlanszy[i, j];
+            L_Pole pole = polaPlanszy[i, j];
             //Jeżeli pole już zostało trafione, nic się nie dzieje
             if (pole.Trafione)
             {

@@ -1,5 +1,4 @@
-﻿using GraWStatkiLogika.Interfejsy;  
-using GraWStatkiLogika.PlanszaBitwy.Pola;
+﻿using GraWStatkiLogika.PlanszaBitwy.Pola;
 using GraWStatkiLogika.PlanszaBitwy.Statki;
 using System;
 using System.Collections.Generic;
@@ -11,6 +10,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
 {
     class L_BudowniczyStatkow
     {
+<<<<<<< HEAD
         private IPole[,] _polaPlanszy;
         private IStatek[] _statki;
 
@@ -21,8 +21,11 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
                 return _statki;
             }
         }
+=======
+        private L_Pole[,] _polaPlanszy;
+>>>>>>> 695bd256381ddbf7704ffcd953e0147b61d041b0
 
-        public L_BudowniczyStatkow(IPole[,] polaPlanszy)
+        public L_BudowniczyStatkow(L_Pole[,] polaPlanszy)
         {
             _polaPlanszy = polaPlanszy;
         }
@@ -35,7 +38,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
         /// <param name="kierunek">Kierunek budowania statku</param>
         /// <param name="statek">Statek</param>
         /// <returns></returns>
-        private bool MoznaBudowac(int r, int k, Kierunki kierunek, IStatek statek)
+        private bool MoznaBudowac(int r, int k, Kierunki kierunek, L_Statek statek)
         {
             // Sprawdza:
             #region 1. Czy statek wyjdzie poza grid
@@ -63,7 +66,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             #region 2. Czy pola statku oraz pola dookoła są zajęte
 
             // Lista pól do sprawdzenia
-            List<IPole> listaPol = new List<IPole>();
+            List<L_Pole> listaPol = new List<L_Pole>();
 
             #region Statek budowany w lewo
 
@@ -338,7 +341,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             #endregion Statek budowany w dół
 
             // Jeśli którekolwiek z zebranych pól jest zajęte, nie można budować
-            foreach (IPole pole in listaPol)
+            foreach (L_Pole pole in listaPol)
             {
                 if(pole != null)
                 {
@@ -353,7 +356,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             return true;
         }
 
-        private void BudujStatek(int r, int k, Kierunki kierunek, IStatek statek)
+        private void BudujStatek(int r, int k, Kierunki kierunek, L_Statek statek)
         {
             if(kierunek == Kierunki.Lewo)
             {
@@ -396,7 +399,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
         /// <returns></returns>
         public void BudujStatkiLosowo()
         {
-            IStatek[] tablicaStatkow = new IStatek[10];
+            L_Statek[] tablicaStatkow = new L_Statek[10];
             tablicaStatkow[0] = new L_Czteromasztowiec(0);
             tablicaStatkow[1] = new L_Trojmasztowiec(1);
             tablicaStatkow[2] = new L_Trojmasztowiec(2);
@@ -433,7 +436,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             _statki = tablicaStatkow;
         }
 
-        public IPole[,] OddajPlansze()
+        public L_Pole[,] OddajPlansze()
         {
             return _polaPlanszy;
         }

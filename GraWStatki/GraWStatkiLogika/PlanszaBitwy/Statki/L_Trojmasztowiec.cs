@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 ﻿using GraWStatkiLogika.Interfejsy;
 using GraWStatkiLogika.PlanszaBitwy.Pola;
 using System;
+=======
+﻿using System;
+>>>>>>> 695bd256381ddbf7704ffcd953e0147b61d041b0
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +12,9 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.Statki
 {
-    class L_Trojmasztowiec : IStatek
+    class L_Trojmasztowiec : L_Statek
     {
+<<<<<<< HEAD
         private int _ID;
         private int _iloscPol;
         private bool _zatopiony;
@@ -47,6 +52,8 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
             }
         }
 
+=======
+>>>>>>> 695bd256381ddbf7704ffcd953e0147b61d041b0
         public L_Trojmasztowiec(int ID)
         {
             _ID = ID;

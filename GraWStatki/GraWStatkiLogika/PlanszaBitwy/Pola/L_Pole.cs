@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.Pola
 {
-    public class L_PoleZajete : L_Pole
+    public class L_Pole
     {
-        private int _IDStatku;
+        protected bool _zajete;
+        protected bool _trafione;
 
-<<<<<<< HEAD
         public bool Zajete
         {
             get
@@ -29,23 +29,6 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
             {
                 _trafione = value;
             }
-        }
-
-        public int IDStatku
-        {
-            get
-            {
-                return _IDStatku;
-            }
-        }
-
-=======
->>>>>>> 695bd256381ddbf7704ffcd953e0147b61d041b0
-        public L_PoleZajete(int IDStatku)
-        {
-            this._zajete = true;
-            this._trafione = false;
-            this._IDStatku = IDStatku;
         }
     }
 }

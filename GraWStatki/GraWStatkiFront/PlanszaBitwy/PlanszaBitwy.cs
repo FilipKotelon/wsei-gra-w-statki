@@ -1,6 +1,6 @@
 ﻿using GraWStatkiLogika;
-using GraWStatkiLogika.Interfejsy;
 using GraWStatkiLogika.PlanszaBitwy;
+using GraWStatkiLogika.PlanszaBitwy.Pola;
 using System;
 using System.Windows;
 using System.Windows.Controls;
@@ -77,7 +77,7 @@ namespace GraWStatkiFront.PlanszaBitwy
         private void WypelnijPolami()
         {
             //Dla pól pustych zrobić puste po kliknięciu, dla zajętych wypełnione
-            IPole[,] polaPlanszy = _planszaLogiczna.Pola;
+            L_Pole[,] polaPlanszy = _planszaLogiczna.Pola;
 
             for (int i = 0; i < polaPlanszy.GetLength(0); i++)
             {
@@ -85,7 +85,7 @@ namespace GraWStatkiFront.PlanszaBitwy
                 {
                     if(polaPlanszy[i, j] != null)
                     {
-                        IPole pole = polaPlanszy[i, j];
+                        L_Pole pole = polaPlanszy[i, j];
                         
                         Button button = new Button();
                         if (_czyPlanszaGracza)
