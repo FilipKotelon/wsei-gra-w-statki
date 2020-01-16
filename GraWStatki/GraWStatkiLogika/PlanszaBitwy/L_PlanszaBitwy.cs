@@ -1,5 +1,6 @@
 ﻿using GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow;
 using GraWStatkiLogika.PlanszaBitwy.Pola;
+using GraWStatkiLogika.PlanszaBitwy.Statki;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace GraWStatkiLogika.PlanszaBitwy
     public class L_PlanszaBitwy
     {
         private L_Pole[,] _pola = new L_Pole[10, 10];
+        private List<L_Statek> _statki = new List<L_Statek>();
         private L_BudowniczyStatkow budowniczy;
 
         public L_Pole[,] Pola
@@ -20,6 +22,14 @@ namespace GraWStatkiLogika.PlanszaBitwy
             get
             {
                 return _pola;
+            }
+        }
+
+        public List<L_Statek> Statki
+        {
+            get
+            {
+                return _statki;
             }
         }
 
@@ -32,6 +42,7 @@ namespace GraWStatkiLogika.PlanszaBitwy
             
             budowniczy.BudujStatkiLosowo();
             _pola = budowniczy.OddajPlansze();
+            _statki = budowniczy.OddajStatki();
 
             WypelnijPustePola();
         }
@@ -48,6 +59,11 @@ namespace GraWStatkiLogika.PlanszaBitwy
                     }
                 }
             }
+        }
+
+        public void DodajStatek(L_Statek statek)
+        {
+            _statki.Add(statek);
         }
     }
 }

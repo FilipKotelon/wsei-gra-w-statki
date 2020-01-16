@@ -14,6 +14,9 @@ using GraWStatkiLogika.PlanszaBitwy.Pola;
 
 namespace GraWStatkiFront.KontrolaGry
 {
+    //TODO
+    //1. Uniemożliwić graczowi kliknięcie planszy komputera w trakcie jego tury
+    //2. Prześledzić wszystkie możliwe przypadki wywalenia się komputera podczas szukania pól do trafienia
     public class G_KontrolaGry
     {
         private L_KontrolerGry _kontroler;
