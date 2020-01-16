@@ -1,5 +1,4 @@
-﻿using GraWStatkiLogika.Interfejsy;
-using GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow;
+﻿using GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow;
 using GraWStatkiLogika.PlanszaBitwy.Pola;
 using System;
 using System.Collections.Generic;
@@ -13,10 +12,10 @@ namespace GraWStatkiLogika.PlanszaBitwy
 
     public class L_PlanszaBitwy
     {
-        private IPole[,] _pola = new IPole[10, 10];
+        private L_Pole[,] _pola = new L_Pole[10, 10];
         private L_BudowniczyStatkow budowniczy;
 
-        public IPole[,] Pola
+        public L_Pole[,] Pola
         {
             get
             {

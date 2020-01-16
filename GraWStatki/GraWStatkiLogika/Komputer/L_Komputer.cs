@@ -1,5 +1,5 @@
-﻿using GraWStatkiLogika.Interfejsy;
-using GraWStatkiLogika.PlanszaBitwy;
+﻿using GraWStatkiLogika.PlanszaBitwy;
+using GraWStatkiLogika.PlanszaBitwy.Pola;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +27,7 @@ namespace GraWStatkiLogika.Komputer
         /// <returns>tablica z numerami wiersza i kolumny, w których znajduje się pole</returns>
         public int[] LosujPole()
         {
-            IPole[,] polaPlanszy = _planszaGracza.Pola;
+            L_Pole[,] polaPlanszy = _planszaGracza.Pola;
 
             // Losowe liczby od 0 do 9 włącznie
             Random los = new Random(DateTime.Now.Millisecond);
