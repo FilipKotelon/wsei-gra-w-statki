@@ -67,10 +67,6 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
             }
 
             this._zatopiony = zatopiony;
-            if (zatopiony)
-            {
-                Console.WriteLine("Tonę!");
-            }
         }
     }
 }
