@@ -38,6 +38,14 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        public int LicznikTur
+        {
+            get
+            {
+                return _licznikTur;
+            }
+        }
+
         public L_KontrolerGry()
         {
             NowaGra();
@@ -68,8 +76,6 @@ namespace GraWStatkiLogika.KontrolaGry
             {
                 _obecnaGra.zwyciezca = _obecnaGra.Komputer;
             }
-
-            Console.WriteLine($"Grę wygrał {_obecnaGra.zwyciezca} w ciągu {_licznikTur} tur!");
         }
 
         /// <summary>
