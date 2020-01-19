@@ -251,7 +251,7 @@ namespace GraWStatkiFront.KontrolaGry
             {
                 _kontroler.ZakonczGre();
 
-                _komunikat.Text = $"Grę wygrał {_kontroler.ObecnaGra.zwyciezca}!";
+                _komunikat.Text = $"Grę wygrał {_kontroler.ObecnaGra.zwyciezca} w {_kontroler.LicznikTur} turach!";
             }
             else if (!_kontroler.CzyTuraGracza)
             {

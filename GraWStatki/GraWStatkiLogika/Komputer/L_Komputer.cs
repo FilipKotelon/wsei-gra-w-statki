@@ -86,9 +86,10 @@ namespace GraWStatkiLogika.Komputer
             L_Pole[,] polaPlanszy = _planszaGracza.Pola;
             int i = _w;
             int j = _k;
-            Console.WriteLine($"Początkowe {i}, {j}");
+            //Console.WriteLine($"Początkowe {i}, {j}");
 
             #region Losowe wybranie pola
+
             if (_komenda == Komendy.Losuj)
             {
                 // Losowe liczby od 0 do 9 włącznie
@@ -101,7 +102,7 @@ namespace GraWStatkiLogika.Komputer
                 //Szansa na trafienie prosto w statek wynosi 20% - tylko dla poziomu trudnego
                 int losowaLiczba = losTrudnosci.Next(0, 5);
                 bool czyStrzelicWStatek = losowaLiczba == 0;
-                Console.WriteLine($"{losowaLiczba}");
+                //Console.WriteLine($"{losowaLiczba}");
 
                 if (czyStrzelicWStatek && _poziomTrudnosci == PoziomTrudnosci.Trudny)
                 {
@@ -121,28 +122,21 @@ namespace GraWStatkiLogika.Komputer
                         j = los.Next(0, 10);
                     }
                 }
-
-                
-
-                if (_poziomTrudnosci == PoziomTrudnosci.Trudny)
-                {
-                }
-                else
-                {
-                }
             }
+
             #endregion
 
             #region Szukanie pól statku dookoła trafionego pola
+
             else if (_komenda == Komendy.SzukajDookola)
             {
                 i = _w_1;
                 j = _k_1;
-                Console.WriteLine($"Strzelam dookoła");
+                //Console.WriteLine($"Strzelam dookoła");
 
                 while ((i == _w_1 || j == _k_1) && polaPlanszy[i, j].Trafione)
                 {
-                    Console.WriteLine($"Strzelam {_ktoryStrzal} raz");
+                    //Console.WriteLine($"Strzelam {_ktoryStrzal} raz");
                     //Lewo
                     if (_ktoryStrzal == 1)
                     {
@@ -151,19 +145,19 @@ namespace GraWStatkiLogika.Komputer
                             if (polaPlanszy[i, j - 1].Trafione)
                             {
                                 _ktoryStrzal++;
-                                Console.WriteLine("Zajęte, jeszcze raz");
+                                //Console.WriteLine("Zajęte, jeszcze raz");
                             }
                             else
                             {
                                 j--;
                                 _obranyKierunek = Kierunki.Lewo;
-                                Console.WriteLine("Strzelam w lewo");
+                                //Console.WriteLine("Strzelam w lewo");
                             }
                         }
                         else
                         {
                             _ktoryStrzal++;
-                            Console.WriteLine("Pudło, jeszcze raz");
+                            //Console.WriteLine("Pudło, jeszcze raz");
                         }
                     }
                     //Góra
@@ -174,19 +168,19 @@ namespace GraWStatkiLogika.Komputer
                             if (polaPlanszy[i - 1, j].Trafione)
                             {
                                 _ktoryStrzal++;
-                                Console.WriteLine("Zajęte, jeszcze raz");
+                                //Console.WriteLine("Zajęte, jeszcze raz");
                             }
                             else
                             {
                                 i--;
                                 _obranyKierunek = Kierunki.Gora;
-                                Console.WriteLine("Strzelam w górę");
+                                //Console.WriteLine("Strzelam w górę");
                             }
                         }
                         else
                         {
                             _ktoryStrzal++;
-                            Console.WriteLine("Pudło, jeszcze raz");
+                            //Console.WriteLine("Pudło, jeszcze raz");
                         }
                     }
                     //Prawo
@@ -197,19 +191,19 @@ namespace GraWStatkiLogika.Komputer
                             if (polaPlanszy[i, j + 1].Trafione)
                             {
                                 _ktoryStrzal++;
-                                Console.WriteLine("Zajęte, jeszcze raz");
+                                //Console.WriteLine("Zajęte, jeszcze raz");
                             }
                             else
                             {
                                 j++;
                                 _obranyKierunek = Kierunki.Prawo;
-                                Console.WriteLine("Strzelam w prawo");
+                                //Console.WriteLine("Strzelam w prawo");
                             }
                         }
                         else
                         {
                             _ktoryStrzal++;
-                            Console.WriteLine("Pudło, jeszcze raz");
+                            //Console.WriteLine("Pudło, jeszcze raz");
                         }
                     }
                     //Dół
@@ -220,30 +214,32 @@ namespace GraWStatkiLogika.Komputer
                             if (polaPlanszy[i + 1, j].Trafione)
                             {
                                 _ktoryStrzal++;
-                                Console.WriteLine("Zajęte, jeszcze raz");
+                                //Console.WriteLine("Zajęte, jeszcze raz");
                             }
                             else
                             {
                                 i++;
                                 _obranyKierunek = Kierunki.Dol;
-                                Console.WriteLine("Strzelam w dół");
+                                //Console.WriteLine("Strzelam w dół");
                             }
                         }
                         else
                         {
                             _ktoryStrzal++;
-                            Console.WriteLine("Pudło, jeszcze raz");
+                            //Console.WriteLine("Pudło, jeszcze raz");
                         }
                     }
-                    Console.WriteLine($"{i}, {j}");
+                    //Console.WriteLine($"{i}, {j}");
                 }
             }
+
             #endregion
 
             #region Szukanie pól statku w obranym kierunku
+
             else if (_komenda == Komendy.StrzelajWTymKierunku)
             {
-                Console.WriteLine($"Strzelam w jednym kierunku: {_obranyKierunek}");
+                //Console.WriteLine($"Strzelam w jednym kierunku: {_obranyKierunek}");
 
                 while (polaPlanszy[i, j].Trafione)
                 {
@@ -255,23 +251,23 @@ namespace GraWStatkiLogika.Komputer
                             if(!(polaPlanszy[i, j - 1].Trafione && !polaPlanszy[i, j - 1].Zajete))
                             {
                                 j--;
-                                Console.WriteLine("Strzelam w lewo");
+                                //Console.WriteLine("Strzelam w lewo");
                             }
                             else if (polaPlanszy[i, j - 1].Trafione && polaPlanszy[i, j - 1].Zajete)
                             {
                                 j--;
-                                Console.WriteLine("Omijam pole w lewo");
+                                //Console.WriteLine("Omijam pole w lewo");
                             }
                             else
                             {
                                 _obranyKierunek = Kierunki.Prawo;
-                                Console.WriteLine("Zawracam w prawo");
+                                //Console.WriteLine("Zawracam w prawo");
                             }
                         }
                         else
                         {
                             _obranyKierunek = Kierunki.Prawo;
-                            Console.WriteLine("Zawracam w prawo");
+                            //Console.WriteLine("Zawracam w prawo");
                         }
                     }
                     //Góra
@@ -282,23 +278,23 @@ namespace GraWStatkiLogika.Komputer
                             if (!(polaPlanszy[i - 1, j].Trafione && !polaPlanszy[i - 1, j].Zajete))
                             {
                                 i--;
-                                Console.WriteLine("Strzelam w górę");
+                                //Console.WriteLine("Strzelam w górę");
                             }
                             else if (polaPlanszy[i - 1, j].Trafione && polaPlanszy[i - 1, j].Zajete)
                             {
                                 i--;
-                                Console.WriteLine("Omijam pole w górę");
+                                //Console.WriteLine("Omijam pole w górę");
                             }
                             else
                             {
                                 _obranyKierunek = Kierunki.Dol;
-                                Console.WriteLine("Zawracam w dół");
+                                //Console.WriteLine("Zawracam w dół");
                             }
                         }
                         else
                         {
                             _obranyKierunek = Kierunki.Dol;
-                            Console.WriteLine("Zawracam w dół");
+                            //Console.WriteLine("Zawracam w dół");
                         }
                     }
                     //Prawo
@@ -309,23 +305,23 @@ namespace GraWStatkiLogika.Komputer
                             if (!(polaPlanszy[i, j + 1].Trafione && !polaPlanszy[i, j + 1].Zajete))
                             {
                                 j++;
-                                Console.WriteLine("Strzelam w prawo");
+                                //Console.WriteLine("Strzelam w prawo");
                             }
                             else if (polaPlanszy[i, j + 1].Trafione && polaPlanszy[i, j + 1].Zajete)
                             {
                                 j++;
-                                Console.WriteLine("Omijam pole w prawo");
+                                //Console.WriteLine("Omijam pole w prawo");
                             }
                             else
                             {
                                 _obranyKierunek = Kierunki.Lewo;
-                                Console.WriteLine("Zawracam w lewo");
+                                //Console.WriteLine("Zawracam w lewo");
                             }
                         }
                         else
                         {
                             _obranyKierunek = Kierunki.Lewo;
-                            Console.WriteLine("Zawracam w lewo");
+                            //Console.WriteLine("Zawracam w lewo");
                         }
                     }
                     //Dół
@@ -336,29 +332,31 @@ namespace GraWStatkiLogika.Komputer
                             if (!(polaPlanszy[i + 1, j].Trafione && !polaPlanszy[i + 1, j].Zajete))
                             {
                                 i++;
-                                Console.WriteLine("Strzelam w dół");
+                                //Console.WriteLine("Strzelam w dół");
                             }
                             else if (polaPlanszy[i + 1, j].Trafione && polaPlanszy[i + 1, j].Zajete)
                             {
                                 i++;
-                                Console.WriteLine("Omijam pole w dół");
+                                //Console.WriteLine("Omijam pole w dół");
                             }
                             else
                             {
                                 _obranyKierunek = Kierunki.Gora;
-                                Console.WriteLine("Zawracam w górę");
+                                //Console.WriteLine("Zawracam w górę");
                             }
                         }
                         else
                         {
                             _obranyKierunek = Kierunki.Gora;
-                            Console.WriteLine("Zawracam w górę");
+                            //Console.WriteLine("Zawracam w górę");
                         }
                     }
                 }
             }
+
             #endregion
-            Console.WriteLine($"Ostateczne {i}, {j}");
+
+            //Console.WriteLine($"Ostateczne {i}, {j}");
 
             _wylosowanePole = polaPlanszy[i, j];
             _w = i;
@@ -378,7 +376,7 @@ namespace GraWStatkiLogika.Komputer
                 return;
             }
 
-            Console.WriteLine($"Oceniam mój ruch!");
+            //Console.WriteLine($"Oceniam mój ruch!");
 
             if (_wylosowanePole.Zajete)
             {
@@ -390,7 +388,7 @@ namespace GraWStatkiLogika.Komputer
                     _wlasnieTrafilem = false;
                     _ktoryStrzal = 1;
                     _komenda = Komendy.Losuj;
-                    Console.WriteLine($"Zatopiłem statek!");
+                    //Console.WriteLine($"Zatopiłem statek!");
                 }
                 else
                 {
@@ -399,7 +397,7 @@ namespace GraWStatkiLogika.Komputer
                     {
                         _komenda = Komendy.StrzelajWTymKierunku;
                         _ktoryStrzal = 1;
-                        Console.WriteLine($"Trafiłem statek drugi raz! Teraz strzelam w jednym kierunku!");
+                        //Console.WriteLine($"Trafiłem statek drugi raz! Teraz strzelam w jednym kierunku!");
                     }
                     else
                     {
@@ -412,7 +410,7 @@ namespace GraWStatkiLogika.Komputer
                         _k_1 = _k;
 
                         _komenda = Komendy.SzukajDookola;
-                        Console.WriteLine($"Trafiłem statek pierwszy raz! Teraz strzelam w dookoła!");
+                        //Console.WriteLine($"Trafiłem statek pierwszy raz! Teraz strzelam dookoła!");
                     }
                 }
             }
@@ -426,35 +424,35 @@ namespace GraWStatkiLogika.Komputer
                 if (_obranyKierunek == Kierunki.Dol)
                 {
                     _obranyKierunek = Kierunki.Gora;
-                    Console.WriteLine($"Zawracam do góry!");
+                    //Console.WriteLine($"Zawracam do góry!");
                 }
                 else if (_obranyKierunek == Kierunki.Gora)
                 {
                     _obranyKierunek = Kierunki.Dol;
-                    Console.WriteLine($"Zawracam w dół!");
+                    //Console.WriteLine($"Zawracam w dół!");
                 }
 
                 else if (_obranyKierunek == Kierunki.Lewo)
                 {
                     _obranyKierunek = Kierunki.Prawo;
-                    Console.WriteLine($"Zawracam w prawo!");
+                    //Console.WriteLine($"Zawracam w prawo!");
                 }
                 else if (_obranyKierunek == Kierunki.Prawo)
                 {
                     _obranyKierunek = Kierunki.Lewo;
-                    Console.WriteLine($"Zawracam w lewo!");
+                    //Console.WriteLine($"Zawracam w lewo!");
                 }
             }
             else if (_komenda == Komendy.SzukajDookola)
             {
                 _wlasnieZatopilem = false;
                 _ktoryStrzal++;
-                Console.WriteLine($"Strzelam dookoła i spudłowałem, teraz czas na kolejny kierunek!");
+                //Console.WriteLine($"Strzelam dookoła i spudłowałem, teraz czas na kolejny kierunek!");
             }
             else
             {
                 _wlasnieTrafilem = false;
-                Console.WriteLine($"Spudłowałem losowo, teraz strzelam gdzie indziej!!");
+                //Console.WriteLine($"Spudłowałem losowo, teraz strzelam gdzie indziej!");
             }
         }
 
