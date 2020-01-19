@@ -9,13 +9,15 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.Komputer
 {
+    //Enum z poziomem trudności
+    public enum PoziomTrudnosci { Latwy, Zaawansowany, Trudny }
+
     /// <summary>
     /// Komputer, grający z graczem
     /// </summary>
     public class L_Komputer
     {
         //Poziom trudności
-        private enum PoziomTrudnosci { Latwy, Zaawansowany, Trudny }
         private PoziomTrudnosci _poziomTrudnosci;
 
         //Komputer przechowuje planszę gracza, żeby wiedzieć, w które pola już trafił
@@ -58,9 +60,9 @@ namespace GraWStatkiLogika.Komputer
         private enum Komendy { StrzelajWTymKierunku, Losuj, SzukajDookola }
         private Komendy _komenda;
 
-        public L_Komputer(L_PlanszaBitwy planszaGracza)
+        public L_Komputer(L_PlanszaBitwy planszaGracza, PoziomTrudnosci poziomTrudnosci)
         {
-            _poziomTrudnosci = PoziomTrudnosci.Trudny;
+            _poziomTrudnosci = poziomTrudnosci;
             _planszaGracza = planszaGracza;
 
             _wlasnieTrafilem = false;

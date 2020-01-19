@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GraWStatki"
         mc:Ignorable="d"
         Title="Gra W Statki" Height="800" Width="1060">
-    <Border Padding="20 30 20 20">
+    <Border Padding="20 30 20 20" x:Name="WindowBorder">
         <Border.Background>
             <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03">
                 <GradientStop Color="#9ad1d4" Offset="0"/> 
@@ -14,6 +14,27 @@
             </LinearGradientBrush>
         </Border.Background>
         <StackPanel Orientation="Vertical">
+            <Popup x:Name="PopupTrudnosci" HorizontalAlignment="Left" VerticalAlignment="Top" IsOpen="False"
+                   PlacementTarget="{Binding ElementName = WindowBorder}" Placement="Center">
+                <Border Padding="20 10" Background="#FFFFFF">
+                    <StackPanel>
+                        <TextBlock FontSize="32" TextAlignment="Center" FontWeight="ExtraLight" Margin="0 0 0 20" Foreground="#80ced7">  
+                            Wybierz poziom trudności
+                        </TextBlock>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="PoziomLatwy" Margin="10 0 10 0" FontSize="18" Foreground="#80ced7" Background="#FFFFFF" FontWeight="Light" Width="140" Height="50" Cursor="Hand" BorderBrush="#FFFFFF">
+                                Łatwy
+                            </Button>
+                            <Button x:Name="PoziomZaawansowany" Margin="10 0 10 0" FontSize="18" Foreground="#80ced7" Background="#FFFFFF" FontWeight="Medium" Width="140" Height="50" Cursor="Hand" BorderBrush="#FFFFFF">
+                                Zaawansowany
+                            </Button>
+                            <Button x:Name="PoziomTrudny" Margin="10 0 10 0" FontSize="18" Foreground="#80ced7" Background="#FFFFFF" FontWeight="Bold" Width="140" Height="50" Cursor="Hand" BorderBrush="#FFFFFF">
+                                Trudny
+                            </Button>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Popup>
             <Border BorderThickness="1" BorderBrush="#FFFFFF" Margin="0 0 0 40" Width="280" CornerRadius="33" Padding="0 10 0 12">
                 <TextBlock FontSize="32" Foreground="#FFFFFF" TextAlignment="Center" FontWeight="ExtraLight">
                     Gra W Statki

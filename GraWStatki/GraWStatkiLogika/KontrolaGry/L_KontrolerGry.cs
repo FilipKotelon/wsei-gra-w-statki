@@ -46,10 +46,7 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
-        public L_KontrolerGry()
-        {
-            NowaGra();
-        }
+        public L_KontrolerGry() { }
 
         public void NowaGra()
         {
