@@ -15,7 +15,7 @@ namespace GraWStatkiLogika.Komputer
     public class L_Komputer
     {
         //Poziom trudności
-        private enum PoziomTrudnosci { Latwy, Trudny }
+        private enum PoziomTrudnosci { Latwy, Zaawansowany, Trudny }
         private PoziomTrudnosci _poziomTrudnosci;
 
         //Komputer przechowuje planszę gracza, żeby wiedzieć, w które pola już trafił
@@ -96,11 +96,39 @@ namespace GraWStatkiLogika.Komputer
                 i = los.Next(0, 10);
                 j = los.Next(0, 10);
 
-                //Dopóki losowe pole jest polem już trafionym, szukaj innego pola
-                while (polaPlanszy[i, j].Trafione)
+                Random losTrudnosci = new Random(DateTime.Now.Millisecond);
+
+                //Szansa na trafienie prosto w statek wynosi 20% - tylko dla poziomu trudnego
+                int losowaLiczba = losTrudnosci.Next(0, 5);
+                bool czyStrzelicWStatek = losowaLiczba == 0;
+                Console.WriteLine($"{losowaLiczba}");
+
+                if (czyStrzelicWStatek && _poziomTrudnosci == PoziomTrudnosci.Trudny)
                 {
-                    i = los.Next(0, 10);
-                    j = los.Next(0, 10);
+                    //Dopóki losowe pole jest polem już trafionym i nie jest pole zajętym przez statek, szukaj dalej
+                    while ((polaPlanszy[i, j].Trafione && !polaPlanszy[i, j].Zajete) || (!polaPlanszy[i, j].Trafione && !polaPlanszy[i, j].Zajete) || (polaPlanszy[i, j].Trafione && polaPlanszy[i, j].Zajete))
+                    {
+                        i = los.Next(0, 10);
+                        j = los.Next(0, 10);
+                    }
+                }
+                else
+                {
+                    //Dopóki losowe pole jest polem już trafionym, szukaj innego pola
+                    while (polaPlanszy[i, j].Trafione)
+                    {
+                        i = los.Next(0, 10);
+                        j = los.Next(0, 10);
+                    }
+                }
+
+                
+
+                if (_poziomTrudnosci == PoziomTrudnosci.Trudny)
+                {
+                }
+                else
+                {
                 }
             }
             #endregion
