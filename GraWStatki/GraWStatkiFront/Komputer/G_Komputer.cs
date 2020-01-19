@@ -1,4 +1,5 @@
-﻿using GraWStatkiFront.PlanszaBitwy;
+﻿using GraWStatkiFront.KontrolaGry;
+using GraWStatkiFront.PlanszaBitwy;
 using GraWStatkiLogika.Komputer;
 using GraWStatkiLogika.PlanszaBitwy;
 using System;
@@ -17,16 +18,19 @@ namespace GraWStatkiFront.Komputer
     {
         private L_Komputer _lKomputer;
         private G_PlanszaBitwy _gPlanszaGracza;
+        private G_KontrolaGry _kontroler;
 
-        public G_Komputer(L_PlanszaBitwy lPlanszaGracza, G_PlanszaBitwy gPlanszaGracza)
+        public G_Komputer(L_PlanszaBitwy lPlanszaGracza, G_PlanszaBitwy gPlanszaGracza, G_KontrolaGry kontroler)
         {
             _gPlanszaGracza = gPlanszaGracza;
             _lKomputer = new L_Komputer(lPlanszaGracza);
+            _kontroler = kontroler;
         }
 
         private void KliknijPole(Button pole)
         {
-            pole.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
+            //pole.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
+            _kontroler.KliknieciePrzycisku(pole);
         }
 
         public async void WykonajRuch()
@@ -35,9 +39,10 @@ namespace GraWStatkiFront.Komputer
 
             Button pole = _gPlanszaGracza.PlanszaZPrzyciskami[indeksy[0], indeksy[1]];
 
-            //Odczekaj pół sekundy przed ruchem
-            await Task.Delay(1200);
+            //Odczekaj przed ruchem
+            await Task.Delay(1000);
             KliknijPole(pole);
+            _lKomputer.SprawdzRuch();
         }
     }
 }

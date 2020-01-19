@@ -8,8 +8,6 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
 {
     public class L_PoleZajete : L_Pole
     {
-        private int _IDStatku;
-
         public L_PoleZajete(int IDStatku)
         {
             this._zajete = true;

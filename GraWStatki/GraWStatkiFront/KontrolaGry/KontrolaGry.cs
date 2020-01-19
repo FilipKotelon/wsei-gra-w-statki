@@ -14,6 +14,9 @@ using GraWStatkiLogika.PlanszaBitwy.Pola;
 
 namespace GraWStatkiFront.KontrolaGry
 {
+    //TODO
+    //1. Uniemożliwić graczowi kliknięcie planszy komputera w trakcie jego tury
+    //2. Prześledzić wszystkie możliwe przypadki wywalenia się komputera podczas szukania pól do trafienia
     public class G_KontrolaGry
     {
         private L_KontrolerGry _kontroler;
@@ -57,7 +60,7 @@ namespace GraWStatkiFront.KontrolaGry
 
         private void KlikniecieNowejGry(Object sender, RoutedEventArgs e)
         {
-            if (!_kontroler.CzyTuraGracza) return;
+            if (!_kontroler.CzyTuraGracza && !_kontroler.GraSkonczona) return;
 
             NowaGra(xPlanszaGracza, xPlanszaKomputera, _pierwszaGra);
         }
@@ -81,7 +84,7 @@ namespace GraWStatkiFront.KontrolaGry
             gPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza, true, czyPierwszaGra);
             gPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera, false, czyPierwszaGra);
 
-            _komputer = new G_Komputer(lPlanszaGracza, gPlanszaGracza);
+            _komputer = new G_Komputer(lPlanszaGracza, gPlanszaGracza, this);
 
             _pierwszyRuch = true;
 
@@ -92,18 +95,14 @@ namespace GraWStatkiFront.KontrolaGry
 
         private void NasluchujKlikniec()
         {
-            Button[,] planszaGracza = gPlanszaGracza.PlanszaZPrzyciskami;
             Button[,] planszaKomputera = gPlanszaKomputera.PlanszaZPrzyciskami;
 
-            for (int i = 0; i < planszaGracza.GetLength(0); i++)
+            for (int i = 0; i < planszaKomputera.GetLength(0); i++)
             {
-                for (int j = 0; j < planszaGracza.GetLength(1); j++)
+                for (int j = 0; j < planszaKomputera.GetLength(1); j++)
                 {
-                    Button buttonGracza = planszaGracza[i, j];
-                    buttonGracza.Click += KliknieciePrzycisku;
-
                     Button buttonKomputera = planszaKomputera[i, j];
-                    buttonKomputera.Click += KliknieciePrzycisku;
+                    buttonKomputera.Click += KlikniecieGracza;
                 }
             }
         }
@@ -139,10 +138,8 @@ namespace GraWStatkiFront.KontrolaGry
         {
             if (czyTuraGracza)
             {
-                Console.WriteLine($"{_pierwszyRuch}");
                 if (!_pierwszyRuch)
                 {
-                    Console.WriteLine("Delay");
                     await Task.Delay(1000);
                     _pierwszyRuch = false;
                 }
@@ -156,7 +153,14 @@ namespace GraWStatkiFront.KontrolaGry
             }
         }
 
-        public async void KliknieciePrzycisku(Object sender, RoutedEventArgs e)
+        private void KlikniecieGracza(Object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)e.Source;
+
+            KliknieciePrzycisku(button);
+        }
+
+        public async void KliknieciePrzycisku(Button button)
         {
             //Jeśli gra jest skończona, zablokuj klikanie
             if (_kontroler.GraSkonczona)
@@ -164,7 +168,6 @@ namespace GraWStatkiFront.KontrolaGry
                 return;
             }
 
-            Button button = (Button)e.Source;
             int i = Grid.GetRow(button);
             int j = Grid.GetColumn(button);
 
@@ -228,7 +231,7 @@ namespace GraWStatkiFront.KontrolaGry
             }
             else if (!_kontroler.CzyTuraGracza)
             {
-                await Task.Delay(1200);
+                await Task.Delay(1000);
                 _komputer.WykonajRuch();
             }
 

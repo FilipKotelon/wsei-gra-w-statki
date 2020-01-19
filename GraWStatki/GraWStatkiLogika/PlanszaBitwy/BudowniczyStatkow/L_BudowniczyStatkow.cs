@@ -11,6 +11,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
     class L_BudowniczyStatkow
     {
         private L_Pole[,] _polaPlanszy;
+        private List<L_Statek> _statki = new List<L_Statek>();
 
         public L_BudowniczyStatkow(L_Pole[,] polaPlanszy)
         {
@@ -349,28 +350,36 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r, k - i] = new L_PoleZajete(statek.ID);
+                    L_Pole nowePole = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r, k - i] = nowePole;
+                    statek.DodajPole(nowePole);
                 }
             }
             else if(kierunek == Kierunki.Gora)
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r - i, k] = new L_PoleZajete(statek.ID);
+                    L_Pole nowePole = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r - i, k] = nowePole;
+                    statek.DodajPole(nowePole);
                 }
             }
             else if(kierunek == Kierunki.Prawo)
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r, k + i] = new L_PoleZajete(statek.ID);
+                    L_Pole nowePole = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r, k + i] = nowePole;
+                    statek.DodajPole(nowePole);
                 }
             }
             else if(kierunek == Kierunki.Dol)
             {
                 for (int i = 0; i < statek.IloscPol; i++)
                 {
-                    _polaPlanszy[r + i, k] = new L_PoleZajete(statek.ID);
+                    L_Pole nowePole = new L_PoleZajete(statek.ID);
+                    _polaPlanszy[r + i, k] = nowePole;
+                    statek.DodajPole(nowePole);
                 }
             }
         }
@@ -418,12 +427,18 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
                 }
 
                 BudujStatek(losowyR, losowaK, losowyKierunek, tablicaStatkow[i]);
+                _statki.Add(tablicaStatkow[i]);
             }
         }
 
         public L_Pole[,] OddajPlansze()
         {
             return _polaPlanszy;
+        }
+
+        public List<L_Statek> OddajStatki()
+        {
+            return _statki;
         }
     }
 }

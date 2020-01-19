@@ -10,6 +10,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
     {
         protected bool _zajete;
         protected bool _trafione;
+        protected int _IDStatku;
 
         public bool Zajete
         {
@@ -28,6 +29,14 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
             set
             {
                 _trafione = value;
+            }
+        }
+
+        public int IDStatku
+        {
+            get
+            {
+                return _IDStatku;
             }
         }
     }
