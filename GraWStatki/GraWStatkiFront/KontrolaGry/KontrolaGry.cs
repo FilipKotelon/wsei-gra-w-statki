@@ -11,6 +11,7 @@ using System.Windows;
 using GraWStatkiFront.Komputer;
 using System.Threading.Tasks;
 using GraWStatkiLogika.PlanszaBitwy.Pola;
+using GraWStatkiLogika.PlanszaBitwy.Statki;
 
 namespace GraWStatkiFront.KontrolaGry
 {
@@ -58,6 +59,11 @@ namespace GraWStatkiFront.KontrolaGry
             _komunikat = komunikat;
         }
 
+        /// <summary>
+        /// Rozpoczęcie nowej gry
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void KlikniecieNowejGry(Object sender, RoutedEventArgs e)
         {
             if (!_kontroler.CzyTuraGracza && !_kontroler.GraSkonczona) return;
@@ -122,13 +128,17 @@ namespace GraWStatkiFront.KontrolaGry
             }
         }
 
-        private void ZmienKomunikat(bool czyTrafiono)
+        private void ZmienKomunikat(bool czyTrafiono, bool zatopionoStatek)
         {
-            if (czyTrafiono)
+            if (czyTrafiono && zatopionoStatek)
+            {
+                _komunikat.Text = "Trafiony zatopiony!";
+            }
+            else if (czyTrafiono)
             {
                 _komunikat.Text = "Trafiony!";
             }
-            else
+            else if(!czyTrafiono)
             {
                 _komunikat.Text = "Pudło!";
             }
@@ -174,6 +184,7 @@ namespace GraWStatkiFront.KontrolaGry
             Grid buttonParent = (Grid)button.Parent;
 
             L_Pole[,] polaPlanszy;
+            L_PlanszaBitwy plansza;
 
             //Tura gracza
             if (_kontroler.CzyTuraGracza)
@@ -184,7 +195,7 @@ namespace GraWStatkiFront.KontrolaGry
                 }
                 else
                 {
-                    polaPlanszy = lPlanszaKomputera.Pola;
+                    plansza = lPlanszaKomputera;
                 }
             }
             //Tura komputera
@@ -196,12 +207,16 @@ namespace GraWStatkiFront.KontrolaGry
                 }
                 else
                 {
-                    polaPlanszy = lPlanszaGracza.Pola;
+                    plansza = lPlanszaGracza;
                 }
             }
 
+            polaPlanszy = plansza.Pola;
+
             bool trafionoStatek = false;
+            bool zatopionoStatek = false;
             L_Pole pole = polaPlanszy[i, j];
+
             //Jeżeli pole już zostało trafione, nic się nie dzieje
             if (pole.Trafione)
             {
@@ -213,6 +228,13 @@ namespace GraWStatkiFront.KontrolaGry
                 button.Background = G_PlanszaBitwy.KolorZHex("#AA0000", 0.9);
                 pole.Trafione = true;
                 trafionoStatek = true;
+                L_Statek statek = plansza.Statki[pole.IDStatku];
+                statek.SprawdzStan();
+
+                if (statek.Zatopiony)
+                {
+                    zatopionoStatek = true;
+                }
             }
             else
             {
@@ -221,7 +243,9 @@ namespace GraWStatkiFront.KontrolaGry
             }
 
             _kontroler.SprawdzRuch(trafionoStatek);
-            ZmienKomunikat(trafionoStatek);
+
+
+            ZmienKomunikat(trafionoStatek, zatopionoStatek);
 
             if (_kontroler.GraSkonczona)
             {
