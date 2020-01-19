@@ -20,10 +20,10 @@ namespace GraWStatkiFront.Komputer
         private G_PlanszaBitwy _gPlanszaGracza;
         private G_KontrolaGry _kontroler;
 
-        public G_Komputer(L_PlanszaBitwy lPlanszaGracza, G_PlanszaBitwy gPlanszaGracza, G_KontrolaGry kontroler)
+        public G_Komputer(G_KontrolaGry kontroler, L_PlanszaBitwy lPlanszaGracza, G_PlanszaBitwy gPlanszaGracza, PoziomTrudnosci poziomTrudnosci)
         {
             _gPlanszaGracza = gPlanszaGracza;
-            _lKomputer = new L_Komputer(lPlanszaGracza);
+            _lKomputer = new L_Komputer(lPlanszaGracza, poziomTrudnosci);
             _kontroler = kontroler;
         }
 

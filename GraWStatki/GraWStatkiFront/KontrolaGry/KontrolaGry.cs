@@ -12,6 +12,8 @@ using GraWStatkiFront.Komputer;
 using System.Threading.Tasks;
 using GraWStatkiLogika.PlanszaBitwy.Pola;
 using GraWStatkiLogika.PlanszaBitwy.Statki;
+using System.Windows.Controls.Primitives;
+using GraWStatkiLogika.Komputer;
 
 namespace GraWStatkiFront.KontrolaGry
 {
@@ -43,10 +45,16 @@ namespace GraWStatkiFront.KontrolaGry
         //TextBlock z komunikatami
         private TextBlock _komunikat;
 
+        //Popup z wyborem poziomu trudności
+        private Popup _popupTrudnosci;
+
+        //Przyciski do wybrania poziomu trudności
+        private List<Button> _przyciskiPoziomowTrudnosci;
+
         private bool _pierwszaGra = true;
         private bool _pierwszyRuch = true;
 
-        public G_KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera, Button przyciskNowejGry, TextBlock komunikat)
+        public G_KontrolaGry(Grid xPlanszaGracza, Grid xPlanszaKomputera, Button przyciskNowejGry, TextBlock komunikat, Popup popupTrudnosci, List<Button> przyciskiPoziomowTrudnosci)
         {
             _kontroler = new L_KontrolerGry();
 
@@ -57,6 +65,10 @@ namespace GraWStatkiFront.KontrolaGry
             _przyciskNowejGry.Click += KlikniecieNowejGry;
 
             _komunikat = komunikat;
+            _popupTrudnosci = popupTrudnosci;
+            _przyciskiPoziomowTrudnosci = przyciskiPoziomowTrudnosci;
+
+            PodepnijWyborTrudnosci();
         }
 
         /// <summary>
@@ -66,14 +78,15 @@ namespace GraWStatkiFront.KontrolaGry
         /// <param name="e"></param>
         private void KlikniecieNowejGry(Object sender, RoutedEventArgs e)
         {
-            if (!_kontroler.CzyTuraGracza && !_kontroler.GraSkonczona) return;
+            if (!_kontroler.CzyTuraGracza && !_kontroler.GraSkonczona && !_pierwszaGra) return;
 
-            NowaGra(xPlanszaGracza, xPlanszaKomputera, _pierwszaGra);
+            _popupTrudnosci.IsOpen = true;
         }
 
-        private void NowaGra(Grid xPlanszaGracza, Grid xPlanszaKomputera, bool czyPierwszaGra)
+        private void NowaGra(Grid xPlanszaGracza, Grid xPlanszaKomputera, bool czyPierwszaGra, PoziomTrudnosci poziomTrudnosci)
         {
             _kontroler.NowaGra();
+
             if (_pierwszaGra)
             {
                 _pierwszaGra = false;
@@ -90,13 +103,40 @@ namespace GraWStatkiFront.KontrolaGry
             gPlanszaGracza = new G_PlanszaBitwy(xPlanszaGracza, lPlanszaGracza, true, czyPierwszaGra);
             gPlanszaKomputera = new G_PlanszaBitwy(xPlanszaKomputera, lPlanszaKomputera, false, czyPierwszaGra);
 
-            _komputer = new G_Komputer(lPlanszaGracza, gPlanszaGracza, this);
+            _komputer = new G_Komputer(this, lPlanszaGracza, gPlanszaGracza, poziomTrudnosci);
 
             _pierwszyRuch = true;
 
             ZmienAktywnaPlansze(_kontroler.CzyTuraGracza);
 
             NasluchujKlikniec();
+        }
+
+        private void WybierzPoziomTrudnosci(Object sender, RoutedEventArgs e, PoziomTrudnosci poziomTrudnosci)
+        {
+            NowaGra(xPlanszaGracza, xPlanszaKomputera, _pierwszaGra, poziomTrudnosci);
+            _popupTrudnosci.IsOpen = false;
+        }
+
+        private void PodepnijWyborTrudnosci()
+        {
+            for(int i = 0; i < _przyciskiPoziomowTrudnosci.Count; i++)
+            {
+                Button przycisk = _przyciskiPoziomowTrudnosci[i];
+
+                if (przycisk.Name == "PoziomLatwy")
+                {
+                    przycisk.Click += (sender, e) => WybierzPoziomTrudnosci(sender, e, PoziomTrudnosci.Latwy);
+                }
+                else if (przycisk.Name == "PoziomZaawansowany")
+                {
+                    przycisk.Click += (sender, e) => WybierzPoziomTrudnosci(sender, e, PoziomTrudnosci.Zaawansowany);
+                }
+                else if (przycisk.Name == "PoziomTrudny")
+                {
+                    przycisk.Click += (sender, e) => WybierzPoziomTrudnosci(sender, e, PoziomTrudnosci.Trudny);
+                }
+            }
         }
 
         private void NasluchujKlikniec()

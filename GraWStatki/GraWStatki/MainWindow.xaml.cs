@@ -25,8 +25,9 @@ namespace GraWStatki
         public MainWindow()
         {
             InitializeComponent();
+            List<Button> poziomyTrudnosci = new List<Button> { PoziomLatwy, PoziomZaawansowany, PoziomTrudny };
 
-            G_KontrolaGry kontroler = new G_KontrolaGry(PlanszaGracza, PlanszaKomputera, NowaGra, Komunikat);
+            G_KontrolaGry kontroler = new G_KontrolaGry(PlanszaGracza, PlanszaKomputera, NowaGra, Komunikat, PopupTrudnosci, poziomyTrudnosci);
         }
     }
 }
