@@ -51,7 +51,9 @@
   <ItemGroup>
     <Compile Include="KontrolaGry\L_KontrolerGryTesty.cs" />
     <Compile Include="KontrolaGry\L_SedziaTesty.cs" />
+    <Compile Include="PlanszaBitwy\L_BudowniczyStatkowTesty.cs" />
     <Compile Include="PlanszaBitwy\L_PlanszaBitwyTesty.cs" />
+    <Compile Include="PlanszaBitwy\L_StatekTesty.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

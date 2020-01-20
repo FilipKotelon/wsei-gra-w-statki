@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.Statki
 {
-    class L_Dwumasztowiec : L_Statek
+    public class L_Dwumasztowiec : L_Statek
     {
         public L_Dwumasztowiec(int ID)
         {

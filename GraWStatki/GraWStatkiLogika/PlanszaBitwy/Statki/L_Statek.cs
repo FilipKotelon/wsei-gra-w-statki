@@ -48,7 +48,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
 
         public void DodajPole(L_Pole pole)
         {
-            if (this._pola.Count < this._iloscPol)
+            if (this._pola.Count < this._iloscPol && pole.Zajete)
             {
                 this._pola.Add(pole);
             }
