@@ -2,6 +2,9 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using GraWStatkiLogika.PlanszaBitwy;
+using GraWStatkiLogika.PlanszaBitwy.Pola;
+using GraWStatkiLogika.PlanszaBitwy.Statki;
 
 namespace GraWStatkiTesty.PlanszaBitwy
 {
@@ -13,18 +16,28 @@ namespace GraWStatkiTesty.PlanszaBitwy
     {
         //Todo
         [TestMethod]
-        public void WypelnijPustePola_NieMaPustychPol()
+        public void WypelnijPustePola_NieMaPolOwartosciNull()
         {
             //Przygotowanie
-            //Zrób sobie nową L_PlanszaBitwy i pobierz jej pola, np pola = plansza.Pola
-            //Potem w działaniu sprawdź czy wszystkie pola są puste
+            L_PlanszaBitwy plansza = new L_PlanszaBitwy();
+            L_Pole[,] pola = plansza.Pola;
 
             //Działanie
-            //Daj flagę przed, np. bool polaSaPuste = true;
-            //Przy kazdym przejsciu petli, jesli plansza.Pola[i, j] != null to polaSaPuste = false
+            bool polaSaPuste = true;
+
+            for (int i = 0; i < pola.GetLength(0); i++)
+            {
+                for (int j = 0; j < pola.GetLength(1); j++)
+                {
+                    if (pola[i, j] == null)
+                    {
+                        polaSaPuste = false;
+                    }
+                }
+            }
 
             //Sprawdzenie
-            //Assert czy polaSaPuste to true
+            Assert.IsTrue(polaSaPuste);
         }
 
         //Todo
@@ -32,15 +45,17 @@ namespace GraWStatkiTesty.PlanszaBitwy
         public void DodajStatek_DodanoJedenStatek()
         {
             //Przygotowanie
-            //Zrób sobie nową L_PlanszaBitwy i pobierz jej statki
-            //Pobierz długość listy ze statkami (obecnaDlugosc = lista.Count)
-            //Stwórz nowy statek (np. w pliku L_BudowniczyStatków, linia 399)
+            L_PlanszaBitwy plansza = new L_PlanszaBitwy();
+            List<L_Statek> listaStatkow = plansza.Statki;
+            int poprzedniaDlugosc = listaStatkow.Count;
+
+            L_Statek statek = new L_Statek();
 
             //Działanie
-            //Dodaj statek funkcją
+            plansza.DodajStatek(statek);
 
             //Sprawdzenie
-            //Assert czy długość listy statków się powiększyła
+            Assert.IsTrue(listaStatkow.Count > poprzedniaDlugosc);
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
 {
-    class L_BudowniczyStatkow
+    public class L_BudowniczyStatkow
     {
         private L_Pole[,] _polaPlanszy;
         private List<L_Statek> _statki = new List<L_Statek>();

@@ -9,6 +9,7 @@ namespace GraWStatkiTesty.KontrolaGry
     [TestClass]
     public class L_KontrolerGryTesty
     {
+        #region ZmienTure
         [TestMethod]
         public void ZmienTure_TuraZostalaZmienionaILicznikTurZostalPowiekszony()
         {
@@ -23,55 +24,55 @@ namespace GraWStatkiTesty.KontrolaGry
             //Sprawdzenie
             Assert.IsTrue(czyTuraGracza != kontroler.CzyTuraGracza && poprzedniaTura < kontroler.LicznikTur);
         }
+        #endregion
 
-
-        //Todo
+        #region SprawdzRuch
         [TestMethod]
         public void SprawdzRuch_NieTrafionoStatku_TuraZostalaZmienionaILicznikTurZostalPowiekszony()
         {
             //Przygotowanie
             L_KontrolerGry kontroler = new L_KontrolerGry();
+            kontroler.NowaGra();
             bool czyTuraGracza = kontroler.CzyTuraGracza;
             int poprzedniaTura = kontroler.LicznikTur;
 
             //Działanie
-            //SprawdzRuch
+            kontroler.SprawdzRuch(false);
 
             //Sprawdzenie
             Assert.IsTrue(czyTuraGracza != kontroler.CzyTuraGracza && poprzedniaTura < kontroler.LicznikTur);
         }
 
-        //Todo
         [TestMethod]
         public void SprawdzRuch_TrafionoStatek_TuraNieZostalaZmienionaILicznikTurNieZostalPowiekszony()
         {
             //Przygotowanie
             L_KontrolerGry kontroler = new L_KontrolerGry();
+            kontroler.NowaGra();
             bool czyTuraGracza = kontroler.CzyTuraGracza;
             int poprzedniaTura = kontroler.LicznikTur;
 
             //Działanie
-            //SprawdzRuch
+            kontroler.SprawdzRuch(true);
 
             //Sprawdzenie
-            //Sprawdź czy są równe temu co było
-            //Assert.IsTrue();
+            Assert.IsTrue(czyTuraGracza == kontroler.CzyTuraGracza && poprzedniaTura == kontroler.LicznikTur);
         }
+        #endregion
 
-        //Todo
+        #region ZakonczGre
         [TestMethod]
         public void ZakonczGre_TuraGracza_ZwyciezcaToGracz()
         {
             //Przygotowanie
             L_KontrolerGry kontroler = new L_KontrolerGry();
-            //Tworzysz nową grę kontroler.NowaGra()
-            //Na początku jest tura gracza więc tu jest ok
+            kontroler.NowaGra();
 
             //Działanie
-            //ZakonczGre
+            kontroler.ZakonczGre();
 
             //Sprawdzenie
-            //Assert czy zwyciezca == "Gracz"
+            Assert.IsTrue(kontroler.ObecnaGra.zwyciezca == "Gracz");
         }
 
         //Todo
@@ -79,13 +80,17 @@ namespace GraWStatkiTesty.KontrolaGry
         public void ZakonczGre_TuraKomputera_ZwyciezcaToKomputer()
         {
             //Przygotowanie
-            //To samo co wyżej, tylko w działaniu najpierw zmieniasz turę, żeby była komputera
+            L_KontrolerGry kontroler = new L_KontrolerGry();
+            kontroler.NowaGra();
+            //Zmiana tury na turę komputera
+            kontroler.ZmienTure();
 
             //Działanie
-            //A potem kończysz
+            kontroler.ZakonczGre();
 
             //Sprawdzenie
-            //Assert czy zwyciezca == "Komputer"
+            Assert.IsTrue(kontroler.ObecnaGra.zwyciezca == "Komputer");
         }
+        #endregion
     }
 }
