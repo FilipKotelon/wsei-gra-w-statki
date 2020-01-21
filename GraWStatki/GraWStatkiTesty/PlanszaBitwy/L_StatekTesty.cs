@@ -495,7 +495,7 @@ namespace GraWStatkiTesty.PlanszaBitwy
         {
             //Przygotowanie
             int IDStatku = 0;
-            L_Statek statek = new L_Jednomasztowiec(IDStatku);
+            L_Statek statek = new L_Dwumasztowiec(IDStatku);
 
             L_Pole pole = new L_PoleZajete(IDStatku);
             pole.Trafione = true;
@@ -514,13 +514,170 @@ namespace GraWStatkiTesty.PlanszaBitwy
 
         #endregion
 
-        //Todo
         #region SprawdzStan_Trojmasztowiec
+
+        [TestMethod]
+        public void SprawdzStan_TrojmasztowiecIPolaNieTrafione_StatekNieJestZatopiony()
+        {
+            //Przygotowanie
+            int IDStatku = 0;
+            L_Statek statek = new L_Trojmasztowiec(IDStatku);
+
+            L_Pole pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            //Działanie
+            statek.SprawdzStan();
+
+            //Sprawdzenie
+            Assert.IsTrue(statek.Zatopiony == false);
+        }
+
+        [TestMethod]
+        public void SprawdzStan_TrojmasztowiecINieWszystkiePolaTrafione_StatekNieJestZatopiony()
+        {
+            //Przygotowanie
+            int IDStatku = 0;
+            L_Statek statek = new L_Trojmasztowiec(IDStatku);
+
+            L_Pole pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            //Działanie
+            statek.SprawdzStan();
+
+            //Sprawdzenie
+            Assert.IsTrue(statek.Zatopiony == false);
+        }
+
+        [TestMethod]
+        public void SprawdzStan_TrojmasztowiecIPolaTrafione_StatekJestZatopiony()
+        {
+            //Przygotowanie
+            int IDStatku = 0;
+            L_Statek statek = new L_Trojmasztowiec(IDStatku);
+
+            L_Pole pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            //Działanie
+            statek.SprawdzStan();
+
+            //Sprawdzenie
+            Assert.IsTrue(statek.Zatopiony == true);
+        }
 
         #endregion
 
-        //Todo
         #region SprawdzStan_Czteromasztowiec
+
+        [TestMethod]
+        public void SprawdzStan_CzteromasztowiecIPolaNieTrafione_StatekNieJestZatopiony()
+        {
+            //Przygotowanie
+            int IDStatku = 0;
+            L_Statek statek = new L_Czteromasztowiec(IDStatku);
+
+            L_Pole pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            //Działanie
+            statek.SprawdzStan();
+
+            //Sprawdzenie
+            Assert.IsTrue(statek.Zatopiony == false);
+        }
+
+        [TestMethod]
+        public void SprawdzStan_CzteromasztowiecINieWszystkiePolaTrafione_StatekNieJestZatopiony()
+        {
+            //Przygotowanie
+            int IDStatku = 0;
+            L_Statek statek = new L_Czteromasztowiec(IDStatku);
+
+            L_Pole pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            statek.DodajPole(pole);
+
+            //Działanie
+            statek.SprawdzStan();
+
+            //Sprawdzenie
+            Assert.IsTrue(statek.Zatopiony == false);
+        }
+
+        [TestMethod]
+        public void SprawdzStan_CzteromasztowiecIPolaTrafione_StatekJestZatopiony()
+        {
+            //Przygotowanie
+            int IDStatku = 0;
+            L_Statek statek = new L_Czteromasztowiec(IDStatku);
+
+            L_Pole pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            pole = new L_PoleZajete(IDStatku);
+            pole.Trafione = true;
+            statek.DodajPole(pole);
+
+            //Działanie
+            statek.SprawdzStan();
+
+            //Sprawdzenie
+            Assert.IsTrue(statek.Zatopiony == true);
+        }
 
         #endregion
     }
