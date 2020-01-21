@@ -14,6 +14,9 @@ namespace GraWStatkiLogika.KontrolaGry
         private bool _czyTuraGracza;
         private int _licznikTur;
 
+        /// <summary>
+        /// Instancja obecnej gry.
+        /// </summary>
         public L_Gra ObecnaGra
         {
             get
@@ -22,6 +25,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// Flaga zmieniana co turę.
+        /// </summary>
         public bool CzyTuraGracza
         {
             get
@@ -30,6 +36,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// Gra jest uznana za skończoną, gdy wszystkie pola zajęte jednego z graczy zostały trafione.
+        /// </summary>
         public bool GraSkonczona
         {
             get
@@ -38,6 +47,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// Ilość tur, powiększana z każdą turą.
+        /// </summary>
         public int LicznikTur
         {
             get
@@ -48,6 +60,9 @@ namespace GraWStatkiLogika.KontrolaGry
 
         public L_KontrolerGry() { }
 
+        /// <summary>
+        /// Stworzenie nowej gry i zresetowanie danych poprzednich gier.
+        /// </summary>
         public void NowaGra()
         {
             _obecnaGra = new L_Gra();
@@ -57,12 +72,18 @@ namespace GraWStatkiLogika.KontrolaGry
             _graSkonczona = false;
         }
 
+        /// <summary>
+        /// Zmiana tury z tury gracza na komputera i odwrotnie.
+        /// </summary>
         public void ZmienTure()
         {
             _czyTuraGracza = !_czyTuraGracza;
             _licznikTur++;
         }
 
+        /// <summary>
+        /// Funkcja kończąca rozgrywkę i wyłaniająca zwycięzcę.
+        /// </summary>
         public void ZakonczGre()
         {
             if (_czyTuraGracza)
@@ -76,7 +97,7 @@ namespace GraWStatkiLogika.KontrolaGry
         }
 
         /// <summary>
-        /// Funkcja wywoływana po kliknięciu któregoś z pól
+        /// Funkcja wywoływana po kliknięciu któregoś z pól, sprawdza, czy należy zmienić turę lub zakończyć rozgrywkę.
         /// </summary>
         public void SprawdzRuch(bool trafionoStatek)
         {
@@ -96,9 +117,5 @@ namespace GraWStatkiLogika.KontrolaGry
                 return;
             }
         }
-
-        //W graficznej kontroli po logicznym sprawdzeniu ruchu będzie sprawdzane, czy gra się zakończyła
-        //Potem nastąpi zakończenie gry najpierw logiczne, a potem graficzne
-        //Na koniec gra zapyta, czy rozpocząć grę od nowa
     }
 }

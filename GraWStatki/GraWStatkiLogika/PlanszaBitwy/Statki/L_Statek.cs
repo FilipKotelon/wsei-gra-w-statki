@@ -15,7 +15,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         protected List<L_Pole> _pola = new List<L_Pole>();
 
         /// <summary>
-        /// Identyfikator Statku, nadawany również jego polom
+        /// Identyfikator Statku, nadawany również jego polom.
         /// </summary>
         public int ID
         {
@@ -26,7 +26,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         }
 
         /// <summary>
-        /// Ilość pól statku
+        /// Ilość pól statku.
         /// </summary>
         public int IloscPol
         {
@@ -37,7 +37,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         }
 
         /// <summary>
-        /// Zwraca true, jeśli wszystkie pola statku są trafione
+        /// Zwraca true, jeśli wszystkie pola statku są trafione.
         /// </summary>
         public bool Zatopiony
         {
@@ -48,7 +48,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         }
 
         /// <summary>
-        /// Lista pól należących do danego statku
+        /// Lista pól należących do danego statku.
         /// </summary>
         public List<L_Pole> Pola
         {
@@ -59,7 +59,7 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         }
 
         /// <summary>
-        /// Funkcja dodająca nowe pole do statku
+        /// Funkcja dodająca nowe pole do statku.
         /// </summary>
         public void DodajPole(L_Pole pole)
         {

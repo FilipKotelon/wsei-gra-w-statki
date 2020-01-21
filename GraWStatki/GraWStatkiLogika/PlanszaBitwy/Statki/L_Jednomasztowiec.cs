@@ -8,6 +8,10 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
 {
     public class L_Jednomasztowiec : L_Statek
     {
+        /// <summary>
+        /// Statek posiadający jedno pole.
+        /// </summary>
+        /// <param name="ID"></param>
         public L_Jednomasztowiec(int ID)
         {
             _ID = ID;
