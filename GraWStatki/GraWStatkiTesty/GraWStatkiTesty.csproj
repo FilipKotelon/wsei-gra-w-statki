@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Komputer\L_KomputerTesty.cs" />
     <Compile Include="KontrolaGry\L_KontrolerGryTesty.cs" />
     <Compile Include="KontrolaGry\L_SedziaTesty.cs" />
     <Compile Include="PlanszaBitwy\L_BudowniczyStatkowTesty.cs" />
@@ -59,9 +60,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Komputer\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\GraWStatkiLogika\GraWStatkiLogika.csproj">
       <Project>{6179D481-634F-479F-8F9A-19E19412EAD0}</Project>

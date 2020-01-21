@@ -9,55 +9,87 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.Komputer
 {
-    //Enum z poziomem trudności
+    /// <summary>
+    /// Enum z poziomem trudności.
+    /// </summary>
     public enum PoziomTrudnosci { Latwy, Zaawansowany, Trudny }
 
     /// <summary>
-    /// Komputer, grający z graczem
+    /// Komputer, grający z graczem.
     /// </summary>
     public class L_Komputer
     {
-        //Poziom trudności
+        /// <summary>
+        /// Poziom trudności
+        /// </summary>
         private PoziomTrudnosci _poziomTrudnosci;
 
-        //Komputer przechowuje planszę gracza, żeby wiedzieć, w które pola już trafił
+        /// <summary>
+        /// Komputer przechowuje planszę gracza, żeby wiedzieć, w które pola już trafił.
+        /// </summary>
         private L_PlanszaBitwy _planszaGracza;
 
-        //Sprawdza, czy właśnie trafił pole jakiegoś statku
+        /// <summary>
+        /// Sprawdza, czy właśnie trafił pole jakiegoś statku.
+        /// </summary>
         private bool _wlasnieTrafilem;
 
-        //Sprawdza, czy właśnie zatopił jakiś statek
+        /// <summary>
+        /// Sprawdza, czy właśnie zatopił jakiś statek.
+        /// </summary>
         private bool _wlasnieZatopilem;
 
-        //Wylosowane w danej turze pole
+        /// <summary>
+        /// Wylosowane w danej turze pole.
+        /// </summary>
         private L_Pole _wylosowanePole;
 
-        //Wiersz, w którym znajduje się wylosowane pole
+        /// <summary>
+        /// Wiersz, w którym znajduje się wylosowane pole.
+        /// </summary>
         private int _w;
 
-        //Kolumna, w której znajduje się wylosowane pole
+        /// <summary>
+        /// Kolumna, w której znajduje się wylosowane pole.
+        /// </summary>
         private int _k;
 
-        //Pole, dookoła którego należy strzelać
+        /// <summary>
+        /// Pierwsze napotkane pole statku, dookoła którego należy strzelać, by znaleźć następne.
+        /// </summary>
         private L_Pole _trafionePierwszePole;
 
-        //Wiersz, w którym znajduje się pole, dookoła którego należy strzelać
+        /// <summary>
+        /// Wiersz, w którym znajduje się pierwsze napotkane pole statku, dookoła którego należy strzelać, by znaleźć następne.
+        /// </summary>
         private int _w_1;
 
-        //Kolumna, w której znajduje się pole, dookoła którego należy strzelać
+        /// <summary>
+        /// Kolumna, w której znajduje się pierwsze napotkane pole statku, dookoła którego należy strzelać, by znaleźć następne.
+        /// </summary>
         private int _k_1;
 
 
-        //Obrany kierunek trafiania w pola gracza
-        //Wykorzystywany po trafieniu
+        /// <summary>
+        /// Obrany kierunek trafiania w pola gracza.
+        /// Wykorzystywany po trafieniu.
+        /// </summary>
         private Kierunki? _obranyKierunek;
 
-        //Sprawdza, który raz strzela dookola statku w poszukiwaniu jego pól
-        //1 - strzel w lewo, 2 - góra, 3 - prawo, 4 - dół
+        /// <summary>
+        /// Sprawdza, który raz strzela dookola statku w poszukiwaniu jego pól.
+        /// 1 - strzel w lewo, 2 - góra, 3 - prawo, 4 - dół.
+        /// </summary>
         private int _ktoryStrzal;
 
-        //Tutaj komputer przechowuje swoją kolejną akcję do wykonania
+        /// <summary>
+        /// Enum z możliwymi komendami komputera
+        /// </summary>
         private enum Komendy { StrzelajWTymKierunku, Losuj, SzukajDookola }
+
+        /// <summary>
+        /// Tutaj komputer przechowuje swoją kolejną akcję do wykonania
+        /// </summary>
         private Komendy _komenda;
 
         public L_Komputer(L_PlanszaBitwy planszaGracza, PoziomTrudnosci poziomTrudnosci)
@@ -80,7 +112,7 @@ namespace GraWStatkiLogika.Komputer
         }
 
         /// <summary>
-        /// Funkcja zwracająca tablicę z losowym indeksem tablicy
+        /// Funkcja zwracająca tablicę z losowym indeksem tablicy.
         /// </summary>
         /// <returns>tablica z numerami wiersza i kolumny, w których znajduje się pole</returns>
         public int[] LosujPole()
