@@ -14,7 +14,6 @@ namespace GraWStatkiTesty.PlanszaBitwy
     [TestClass]
     public class L_PlanszaBitwyTesty
     {
-        //Todo
         [TestMethod]
         public void WypelnijPustePola_NieMaPolOwartosciNull()
         {
@@ -40,7 +39,6 @@ namespace GraWStatkiTesty.PlanszaBitwy
             Assert.IsTrue(polaSaPuste);
         }
 
-        //Todo
         [TestMethod]
         public void DodajStatek_DodanoJedenStatek()
         {

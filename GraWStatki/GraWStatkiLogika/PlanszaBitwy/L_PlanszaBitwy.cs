@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy
 {
+    /// <summary>
+    /// Enum kierunków, w które można wybudować statki.
+    /// </summary>
     public enum Kierunki { Lewo, Gora, Prawo, Dol };
 
     public class L_PlanszaBitwy
@@ -17,6 +20,9 @@ namespace GraWStatkiLogika.PlanszaBitwy
         private List<L_Statek> _statki = new List<L_Statek>();
         private L_BudowniczyStatkow budowniczy;
 
+        /// <summary>
+        /// Tablica dwuwymiarowa ze wszystkimi polami planszy.
+        /// </summary>
         public L_Pole[,] Pola
         {
             get
@@ -25,6 +31,9 @@ namespace GraWStatkiLogika.PlanszaBitwy
             }
         }
 
+        /// <summary>
+        /// Lista ze statkami znajdującymi się na planszy.
+        /// </summary>
         public List<L_Statek> Statki
         {
             get
@@ -34,7 +43,7 @@ namespace GraWStatkiLogika.PlanszaBitwy
         }
 
         /// <summary>
-        /// Konstruktor
+        /// Konstruktor, uruchamia budowniczego i wypełnia planszę statkami w postaci pól zajętych oraz polami pustymi.
         /// </summary>
         public L_PlanszaBitwy()
         {
@@ -47,6 +56,9 @@ namespace GraWStatkiLogika.PlanszaBitwy
             WypelnijPustePola();
         }
 
+        /// <summary>
+        /// Funkcja wypełniająca pola planszy niezajęte przez statki polami pustymi.
+        /// </summary>
         private void WypelnijPustePola()
         {
             for (int i = 0; i < _pola.GetLength(0); i++)
@@ -61,6 +73,10 @@ namespace GraWStatkiLogika.PlanszaBitwy
             }
         }
 
+        /// <summary>
+        /// Funkcja dodająca statek do listy statków na planszy.
+        /// </summary>
+        /// <param name="statek">L_Statek do dodania do planszy</param>
         public void DodajStatek(L_Statek statek)
         {
             _statki.Add(statek);

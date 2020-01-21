@@ -12,6 +12,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
         protected bool _trafione;
         protected int _IDStatku;
 
+        /// <summary>
+        /// Pola zajęte należą do statków i trafienie ich decyduje o wygraniu gry.
+        /// </summary>
         public bool Zajete
         {
             get
@@ -20,6 +23,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
             }
         }
 
+        /// <summary>
+        /// Pola trafione są odsłonięte graficznie.
+        /// </summary>
         public bool Trafione
         {
             get
@@ -32,6 +38,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Pola
             }
         }
 
+        /// <summary>
+        /// ID statku, do którego należy dane pole. Jeśli wszystkie pola o danym ID są trafione, to znaczy, że statek o tym samym ID został zatopiony.
+        /// </summary>
         public int IDStatku
         {
             get

@@ -13,18 +13,25 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
         private L_Pole[,] _polaPlanszy;
         private List<L_Statek> _statki = new List<L_Statek>();
 
+        /// <summary>
+        /// Budowniczy wypełniający planszę statkami w postaci pól zajętych.
+        /// </summary>
+        /// <param name="polaPlanszy">Pola planszy, na której mają zostać wybudowane statki</param>
         public L_BudowniczyStatkow(L_Pole[,] polaPlanszy)
         {
             _polaPlanszy = polaPlanszy;
         }
 
         /// <summary>
-        /// Funkcja sprawdzająca, czy można budować statek w danym położeniu
+        /// Funkcja sprawdzająca, czy można budować statek w danej pozycji na planszy i w danym kierunku.
+        /// Aby statek dało się wybudować, należy spełnić dwa warunki:
+        /// 1. Żadne pole statku nie może wychodzić poza planszę.
+        /// 2. W bezpośrednim sąsiedztwie statku nie może znajdować się inne pole zajęte.
         /// </summary>
         /// <param name="r">Rząd</param>
         /// <param name="k">Kolumna</param>
         /// <param name="kierunek">Kierunek budowania statku</param>
-        /// <param name="statek">Statek</param>
+        /// <param name="statek">Statek do wybudowania</param>
         /// <returns></returns>
         private bool MoznaBudowac(int r, int k, Kierunki kierunek, L_Statek statek)
         {
@@ -49,7 +56,6 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             }
 
             #endregion
-
 
             #region 2. Czy pola statku oraz pola dookoła są zajęte
 
@@ -344,6 +350,13 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             return true;
         }
 
+        /// <summary>
+        /// Funkcja, która dodaje pola zajęte stanowiące statek do planszy.
+        /// </summary>
+        /// <param name="r">Rząd</param>
+        /// <param name="k">Kolumna</param>
+        /// <param name="kierunek">Kierunek budowania statku</param>
+        /// <param name="statek">Statek do wybudowania</param>
         private void BudujStatek(int r, int k, Kierunki kierunek, L_Statek statek)
         {
             if(kierunek == Kierunki.Lewo)
@@ -386,13 +399,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
 
 
         /// <summary>
-        /// Funkcja budująca statki w losowych miejscach planszy
+        /// Funkcja budująca statki w losowych położeniach oraz kierunkach.
+        /// Budowane są cztery jednomasztowce, trzy dwumasztowce, dwa trójmasztowce i jeden czteromasztowiec.
         /// </summary>
-        /// <param name="r">Rząd</param>
-        /// <param name="k">Kolumna</param>
-        /// <param name="kierunek">Kierunek budowania statku</param>
-        /// <param name="statek">Statek</param>
-        /// <returns></returns>
         public void BudujStatkiLosowo()
         {
             L_Statek[] tablicaStatkow = new L_Statek[10];
@@ -431,11 +440,19 @@ namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
             }
         }
 
+        /// <summary>
+        /// Funkcja zwracająca planszę wypełnioną polami zajętymi.
+        /// </summary>
+        /// <returns></returns>
         public L_Pole[,] OddajPlansze()
         {
             return _polaPlanszy;
         }
 
+        /// <summary>
+        /// Funkcja zwracająca statki wybudowane na planszy.
+        /// </summary>
+        /// <returns></returns>
         public List<L_Statek> OddajStatki()
         {
             return _statki;

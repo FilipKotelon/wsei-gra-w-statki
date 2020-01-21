@@ -16,6 +16,9 @@ namespace GraWStatkiLogika.KontrolaGry
         private L_PlanszaBitwy _planszaGracza;
         private L_PlanszaBitwy _planszaKomputera;
 
+        /// <summary>
+        /// Dane o planszy gracza.
+        /// </summary>
         public L_PlanszaBitwy PlanszaGracza
         {
             get
@@ -24,6 +27,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// Dane o planszy komputera.
+        /// </summary>
         public L_PlanszaBitwy PlanszaKomputera
         {
             get
@@ -32,6 +38,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// String z nazwą gracza == "Gracz"
+        /// </summary>
         public string Gracz
         {
             get
@@ -40,6 +49,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// String z nazwą komputera == "Komputer"
+        /// </summary>
         public string Komputer
         {
             get
@@ -48,6 +60,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// Instancja obecnej gry, zawierająca w sobie plansze gracza i komputera oraz zwycięzcę gry.
+        /// </summary>
         public L_Gra()
         {
             _planszaGracza = new L_PlanszaBitwy();

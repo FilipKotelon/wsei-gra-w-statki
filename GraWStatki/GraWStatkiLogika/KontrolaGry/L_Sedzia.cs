@@ -14,6 +14,10 @@ namespace GraWStatkiLogika.KontrolaGry
         private L_PlanszaBitwy _planszaKomputera;
         private L_Gra _gra;
 
+        /// <summary>
+        /// Sędzia sprawdzający, czy gra się skończyła.
+        /// </summary>
+        /// <param name="gra">obecna gra</param>
         public L_Sedzia(L_Gra gra)
         {
             _gra = gra;
@@ -22,7 +26,7 @@ namespace GraWStatkiLogika.KontrolaGry
         }
 
         /// <summary>
-        /// Funkcja sprawdzająca, czy gra zakończyła się po danym ruchu
+        /// Funkcja sprawdzająca, czy gra zakończyła się po danym ruchu.
         /// </summary>
         /// <returns>prawda/fałsz - czy gra została zakończona</returns>
         public bool SprawdzCzyKoniec(bool czyTuraGracza)
