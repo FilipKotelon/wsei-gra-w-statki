@@ -14,6 +14,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
         protected bool _zatopiony;
         protected List<L_Pole> _pola = new List<L_Pole>();
 
+        /// <summary>
+        /// Identyfikator Statku, nadawany również jego polom
+        /// </summary>
         public int ID
         {
             get
@@ -22,6 +25,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
             }
         }
 
+        /// <summary>
+        /// Ilość pól statku
+        /// </summary>
         public int IloscPol
         {
             get
@@ -30,6 +36,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
             }
         }
 
+        /// <summary>
+        /// Zwraca true, jeśli wszystkie pola statku są trafione
+        /// </summary>
         public bool Zatopiony
         {
             get
@@ -38,6 +47,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
             }
         }
 
+        /// <summary>
+        /// Lista pól należących do danego statku
+        /// </summary>
         public List<L_Pole> Pola
         {
             get
@@ -46,6 +58,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
             }
         }
 
+        /// <summary>
+        /// Funkcja dodająca nowe pole do statku
+        /// </summary>
         public void DodajPole(L_Pole pole)
         {
             if (this._pola.Count < this._iloscPol && pole.Zajete)
@@ -54,6 +69,9 @@ namespace GraWStatkiLogika.PlanszaBitwy.Statki
             }
         }
 
+        /// <summary>
+        /// Funkcja sprawdzająca stan statku. Jeśli wszystkie pola statku są trafione, statek zmienia status na zatopiony.
+        /// </summary>
         public void SprawdzStan()
         {
             bool zatopiony = true;
