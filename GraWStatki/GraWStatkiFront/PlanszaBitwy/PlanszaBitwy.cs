@@ -99,7 +99,6 @@ namespace GraWStatkiFront.PlanszaBitwy
                             if (pole.Zajete)
                             {
                                 button.Background = KolorZHex("#000000", 0.75);
-                                //AnimacjaKoloru(button, KolorZHex("#000000", 0.5), KolorZHex("#000000", 0.75));
                             }
                             else
                             {
@@ -133,16 +132,6 @@ namespace GraWStatkiFront.PlanszaBitwy
             SolidColorBrush kolor = (SolidColorBrush)(new BrushConverter().ConvertFrom(hex));
             kolor.Opacity = opacity;
             return kolor;
-        }
-
-        public static void AnimacjaKoloru(Button button, SolidColorBrush kolor1, SolidColorBrush kolor2)
-        {
-            ColorAnimation animation;
-            animation = new ColorAnimation();
-            animation.From = kolor1.Color;
-            animation.To = kolor2.Color;
-            animation.Duration = new Duration(TimeSpan.FromSeconds(1));
-            button.Background.BeginAnimation(SolidColorBrush.ColorProperty, animation);
         }
 
         /// <summary>
