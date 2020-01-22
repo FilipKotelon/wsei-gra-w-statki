@@ -8,3 +8,7 @@ D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatki
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.csprojAssemblyReference.cache
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.dll
 D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.pdb
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.dll
+D:\STUDIA\c# molenda\statki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.pdb
