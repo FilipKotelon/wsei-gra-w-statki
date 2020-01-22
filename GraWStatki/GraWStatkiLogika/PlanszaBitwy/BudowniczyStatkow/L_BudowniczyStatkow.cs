@@ -8,13 +8,16 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow
 {
+    /// <summary>
+    /// Budowniczy wypełniający planszę statkami w postaci pól zajętych.
+    /// </summary>
     public class L_BudowniczyStatkow
     {
         private L_Pole[,] _polaPlanszy;
         private List<L_Statek> _statki = new List<L_Statek>();
 
         /// <summary>
-        /// Budowniczy wypełniający planszę statkami w postaci pól zajętych.
+        /// Konstruktor budowniczego statków.
         /// </summary>
         /// <param name="polaPlanszy">Pola planszy, na której mają zostać wybudowane statki</param>
         public L_BudowniczyStatkow(L_Pole[,] polaPlanszy)

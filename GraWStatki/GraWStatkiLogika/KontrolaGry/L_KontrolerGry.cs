@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.KontrolaGry
 {
+    /// <summary>
+    /// Kontroler gry, obsługujący tworzenie nowych gier, zmianę tur i kończenie gier.
+    /// </summary>
     public class L_KontrolerGry
     {
         private L_Gra _obecnaGra;
@@ -58,6 +61,9 @@ namespace GraWStatkiLogika.KontrolaGry
             }
         }
 
+        /// <summary>
+        /// Konstruktor kontrolera gry.
+        /// </summary>
         public L_KontrolerGry() { }
 
         /// <summary>

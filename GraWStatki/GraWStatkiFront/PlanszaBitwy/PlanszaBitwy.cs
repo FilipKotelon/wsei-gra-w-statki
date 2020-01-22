@@ -10,6 +10,9 @@ using System.Windows.Media.Animation;
 
 namespace GraWStatkiFront.PlanszaBitwy
 {
+    /// <summary>
+    /// Graficzne przedstawienie planszy wygenerowanej w postaci logicznej.
+    /// </summary>
     public class G_PlanszaBitwy
     {
         private Grid _grid;
