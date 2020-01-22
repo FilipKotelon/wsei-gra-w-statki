@@ -17,6 +17,9 @@ namespace GraWStatkiFront.PlanszaBitwy
         private bool _czyPlanszaGracza;
         private Button[,] _planszaZPrzyciskami = new Button[10, 10];
 
+        /// <summary>
+        /// Tablica dwuwymiarowa przechowująca przyciski
+        /// </summary>
         public Button[,] PlanszaZPrzyciskami
         {
             get

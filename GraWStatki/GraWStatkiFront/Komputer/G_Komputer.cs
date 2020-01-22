@@ -20,6 +20,13 @@ namespace GraWStatkiFront.Komputer
         private G_PlanszaBitwy _gPlanszaGracza;
         private G_KontrolaGry _kontroler;
 
+        /// <summary>
+        /// Komputer, strzelający w pola podane mu przez logiczny komputer.
+        /// </summary>
+        /// <param name="kontroler">Kontroler graficzny gry</param>
+        /// <param name="lPlanszaGracza">Plansza logiczna gracza</param>
+        /// <param name="gPlanszaGracza">Plansza graficzna gracza</param>
+        /// <param name="poziomTrudnosci">Poziom trudnościu komputera logicznego</param>
         public G_Komputer(G_KontrolaGry kontroler, L_PlanszaBitwy lPlanszaGracza, G_PlanszaBitwy gPlanszaGracza, PoziomTrudnosci poziomTrudnosci)
         {
             _gPlanszaGracza = gPlanszaGracza;
@@ -27,12 +34,18 @@ namespace GraWStatkiFront.Komputer
             _kontroler = kontroler;
         }
 
+        /// <summary>
+        /// Kliknięcie przycisku odpowiadającego danemu polu na planszy logicznej.
+        /// </summary>
+        /// <param name="pole"></param>
         private void KliknijPole(Button pole)
         {
-            //pole.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
             _kontroler.KliknieciePrzycisku(pole);
         }
 
+        /// <summary>
+        /// Wylosowanie pola i strzelenie w odpowiadający mu na gridzie przycisk.
+        /// </summary>
         public async void WykonajRuch()
         {
             int[] indeksy = _lKomputer.LosujPole();
