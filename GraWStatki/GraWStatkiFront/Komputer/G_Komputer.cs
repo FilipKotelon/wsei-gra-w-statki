@@ -14,6 +14,9 @@ using System.Windows.Controls.Primitives;
 
 namespace GraWStatkiFront.Komputer
 {
+    /// <summary>
+    /// Komputer, grający z przeciwnikiem. Wykonując ruch, otrzymuje wylosowane pole i strzela w przycisk z nim powiązany na planszy graficznej.
+    /// </summary>
     class G_Komputer
     {
         private L_Komputer _lKomputer;
@@ -21,7 +24,7 @@ namespace GraWStatkiFront.Komputer
         private G_KontrolaGry _kontroler;
 
         /// <summary>
-        /// Komputer, strzelający w pola podane mu przez logiczny komputer.
+        /// Konstruktor komputera.
         /// </summary>
         /// <param name="kontroler">Kontroler graficzny gry</param>
         /// <param name="lPlanszaGracza">Plansza logiczna gracza</param>

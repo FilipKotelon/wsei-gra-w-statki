@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.KontrolaGry
 {
+    /// <summary>
+    /// Instancja obecnej gry, zawierająca w sobie plansze gracza i komputera oraz zwycięzcę gry.
+    /// </summary>
     public class L_Gra
     {
         public string zwyciezca;
@@ -61,7 +64,7 @@ namespace GraWStatkiLogika.KontrolaGry
         }
 
         /// <summary>
-        /// Instancja obecnej gry, zawierająca w sobie plansze gracza i komputera oraz zwycięzcę gry.
+        /// Konstruktor nowej gry.
         /// </summary>
         public L_Gra()
         {

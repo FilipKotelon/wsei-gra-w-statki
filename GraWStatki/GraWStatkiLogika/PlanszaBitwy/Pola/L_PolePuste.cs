@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.Pola
 {
+    /// <summary>
+    /// Pole puste, którego trafienie powoduje zmianę tury.
+    /// </summary>
     public class L_PolePuste : L_Pole
     {
         /// <summary>
-        /// Pole puste, którego trafienie powoduje zmianę tury.
+        /// Konstruktor pola pustego.
         /// </summary>
         public L_PolePuste()
         {

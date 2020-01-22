@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.Statki
 {
+    /// <summary>
+    /// Statek posiadający dwa pola.
+    /// </summary>
     public class L_Dwumasztowiec : L_Statek
     {
         /// <summary>
-        /// Statek posiadający dwa pola.
+        /// Konstruktor statku.
         /// </summary>
-        /// <param name="ID"></param>
+        /// <param name="ID">Unikalny identyfikator statku.</param>
         public L_Dwumasztowiec(int ID)
         {
             _ID = ID;

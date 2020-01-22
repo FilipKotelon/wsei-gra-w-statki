@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.KontrolaGry
 {
+    /// <summary>
+    /// Sędzia sprawdzający, czy gra się skończyła.
+    /// </summary>
     public class L_Sedzia
     {
         private L_PlanszaBitwy _planszaGracza;
@@ -15,7 +18,7 @@ namespace GraWStatkiLogika.KontrolaGry
         private L_Gra _gra;
 
         /// <summary>
-        /// Sędzia sprawdzający, czy gra się skończyła.
+        /// Sędzia kalosz
         /// </summary>
         /// <param name="gra">obecna gra</param>
         public L_Sedzia(L_Gra gra)

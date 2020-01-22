@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.Statki
 {
+    /// <summary>
+    /// Statek, przedstawiony w postaci pól zajętych.
+    /// </summary>
     public class L_Statek
     {
         protected int _ID;

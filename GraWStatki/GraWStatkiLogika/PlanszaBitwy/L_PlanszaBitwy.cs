@@ -14,6 +14,9 @@ namespace GraWStatkiLogika.PlanszaBitwy
     /// </summary>
     public enum Kierunki { Lewo, Gora, Prawo, Dol };
 
+    /// <summary>
+    /// Logiczne przedstawienie planszy bitwy.
+    /// </summary>
     public class L_PlanszaBitwy
     {
         private L_Pole[,] _pola = new L_Pole[10, 10];

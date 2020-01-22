@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GraWStatkiLogika.PlanszaBitwy.Pola
 {
+    /// <summary>
+    /// Logiczne przedstawienie pola na planszy.
+    /// </summary>
     public class L_Pole
     {
         protected bool _zajete;
