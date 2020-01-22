@@ -43,7 +43,7 @@ namespace GraWStatkiLogika.PlanszaBitwy
         }
 
         /// <summary>
-        /// Konstruktor, uruchamia budowniczego i wypełnia planszę statkami w postaci pól zajętych oraz polami pustymi.
+        /// Konstruktor, uruchamia budowniczego i wypełnia planszę statkami w postaci pól zajętych, a w pozostałe miejsce wstawia pola puste.
         /// </summary>
         public L_PlanszaBitwy()
         {

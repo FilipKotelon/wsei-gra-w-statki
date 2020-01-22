@@ -19,6 +19,8 @@ namespace GraWStatkiLogika.Komputer
     /// </summary>
     public class L_Komputer
     {
+        #region Zmienne przechowujące informacje dla komputera
+
         /// <summary>
         /// Poziom trudności
         /// </summary>
@@ -69,7 +71,6 @@ namespace GraWStatkiLogika.Komputer
         /// </summary>
         private int _k_1;
 
-
         /// <summary>
         /// Obrany kierunek trafiania w pola gracza.
         /// Wykorzystywany po trafieniu.
@@ -92,6 +93,13 @@ namespace GraWStatkiLogika.Komputer
         /// </summary>
         private Komendy _komenda;
 
+        #endregion
+
+        /// <summary>
+        /// Konstruktor komputera
+        /// </summary>
+        /// <param name="planszaGracza">Logiczna plansza gracza</param>
+        /// <param name="poziomTrudnosci">Poziom trudności, na jakim będzie się odbywać rozgrywka</param>
         public L_Komputer(L_PlanszaBitwy planszaGracza, PoziomTrudnosci poziomTrudnosci)
         {
             _poziomTrudnosci = poziomTrudnosci;
@@ -401,6 +409,9 @@ namespace GraWStatkiLogika.Komputer
             return indeksy;
         }
 
+        /// <summary>
+        /// Komputer po każdym wykonanym ruchu sprawdza co ten ruch spowodował i zależnie od tego podejmuje kolejną akcję.
+        /// </summary>
         public void SprawdzRuch()
         {
             //Jeśli poziom trudności jest ustawiony na łatwy, strzelaj na ślepo
@@ -411,6 +422,8 @@ namespace GraWStatkiLogika.Komputer
             }
 
             //Console.WriteLine($"Oceniam mój ruch!");
+
+            #region Trafione pole było zajęte
 
             if (_wylosowanePole.Zajete)
             {
@@ -448,12 +461,18 @@ namespace GraWStatkiLogika.Komputer
                     }
                 }
             }
-            //Jeżeli trafiło się kolejne pole statku, po czym spudłowało, ale statek statek nie został zatopiony
-            //Np. Kiedy trafiono w lewą stronę 3 pola 4-masztowca, ale jego ostatnie pole jest po prawej
+
+            #endregion
+
+            #region Trafione pole było puste
+
+            //Jeżeli trafiło się kolejne pole statku, po czym spudłowało, ale statek statek nie został zatopiony.
+            //Np. Kiedy trafiono w lewą stronę 3 pola 4-masztowca, ale jego ostatnie pole jest po prawej.
             else if (_komenda == Komendy.StrzelajWTymKierunku)
             {
                 _ktoryStrzal = 1;
                 _wlasnieZatopilem = false;
+
                 //Zamień obecny kierunek na przeciwny
                 if (_obranyKierunek == Kierunki.Dol)
                 {
@@ -465,7 +484,6 @@ namespace GraWStatkiLogika.Komputer
                     _obranyKierunek = Kierunki.Dol;
                     //Console.WriteLine($"Zawracam w dół!");
                 }
-
                 else if (_obranyKierunek == Kierunki.Lewo)
                 {
                     _obranyKierunek = Kierunki.Prawo;
@@ -477,19 +495,28 @@ namespace GraWStatkiLogika.Komputer
                     //Console.WriteLine($"Zawracam w lewo!");
                 }
             }
+            //Jeżeli komputer szuka kolejnego pola statku dookoła, to następnym razem strzeli w kolejnym kierunku
             else if (_komenda == Komendy.SzukajDookola)
             {
                 _wlasnieZatopilem = false;
                 _ktoryStrzal++;
                 //Console.WriteLine($"Strzelam dookoła i spudłowałem, teraz czas na kolejny kierunek!");
             }
+            //Jeżeli nie trafił losowo, strzela dalej
             else
             {
                 _wlasnieTrafilem = false;
                 //Console.WriteLine($"Spudłowałem losowo, teraz strzelam gdzie indziej!");
             }
+
+            #endregion
         }
 
+        /// <summary>
+        /// Funkcja sprawdzająca, czy wszystkie pola statku są trafione. Jeśli tak, statek został zatopiony.
+        /// </summary>
+        /// <param name="IDStatku">ID Statku do sprawdzenia</param>
+        /// <returns></returns>
         private bool CzyZatopilemStatek(int IDStatku)
         {
             List<L_Statek> statkiGracza = _planszaGracza.Statki;
