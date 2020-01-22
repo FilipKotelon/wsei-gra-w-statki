@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatki::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1a5ad7917f5cdb20e9fdbe9bf4374ce494" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Border</type>
+        <definition>System Windows Controls Border GraWStatki.MainWindow::WindowBorder</definition>
+        <argsstring></argsstring>
+        <name>WindowBorder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="46" column="46" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1a1f92af836faeadcac753bff1b0bafa22" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Primitives.Popup</type>
+        <definition>System Windows Controls Primitives Popup GraWStatki.MainWindow::PopupTrudnosci</definition>
+        <argsstring></argsstring>
+        <name>PopupTrudnosci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="54" column="55" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1a475b97b7a1dbd776941096cbd98b2f0e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button GraWStatki.MainWindow::PoziomLatwy</definition>
+        <argsstring></argsstring>
+        <name>PoziomLatwy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="62" column="46" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1ad653e93c10be5db26ac64800cf1615c0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button GraWStatki.MainWindow::PoziomZaawansowany</definition>
+        <argsstring></argsstring>
+        <name>PoziomZaawansowany</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="70" column="46" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1a186e53d2d54bbd458d5d445f92316027" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button GraWStatki.MainWindow::PoziomTrudny</definition>
+        <argsstring></argsstring>
+        <name>PoziomTrudny</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="78" column="46" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1afab46fe08a9570b2932f412abda5c37b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button GraWStatki.MainWindow::NowaGra</definition>
+        <argsstring></argsstring>
+        <name>NowaGra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="86" column="46" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1af55067fefad1017f309375a3d6b2b626" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBlock</type>
+        <definition>System Windows Controls TextBlock GraWStatki.MainWindow::Komunikat</definition>
+        <argsstring></argsstring>
+        <name>Komunikat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="94" column="49" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1aa571dc70398334666d9de4b047c29aec" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid GraWStatki.MainWindow::KontenerGry</definition>
+        <argsstring></argsstring>
+        <name>KontenerGry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="102" column="44" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1ae4e786843cbcd1c47f8a95346b84a0f2" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid GraWStatki.MainWindow::PlanszaGracza</definition>
+        <argsstring></argsstring>
+        <name>PlanszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="110" column="44" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1a448fa47e907b739cd6efaaebc50f6fb6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid GraWStatki.MainWindow::PlanszaKomputera</definition>
+        <argsstring></argsstring>
+        <name>PlanszaKomputera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="118" column="44" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_1_1_main_window_1af7e0c62c8c3dbedc6a00113e449a1e21" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraWStatki.MainWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="123" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1a064717c44fae84fbf370084ccd258308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatki.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/MainWindow.xaml.cs" line="25" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/MainWindow.xaml.cs" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="130" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="130" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.i.cs" line="130" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.i.cs" bodystart="130" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.cs" line="90" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.i.cs" line="90" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.i.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GraWStatki.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" line="150" column="52" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.cs" bodystart="150" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GraWStatki.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.i.cs" line="150" column="52" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/MainWindow.g.i.cs" bodystart="150" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GraWStatki.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.cs" line="110" column="52" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.cs" bodystart="110" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GraWStatki.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.i.cs" line="110" column="52" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/MainWindow.g.i.cs" bodystart="110" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interakcja dla MainWindow.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_gra_w_statki_1_1_main_window" kindref="compound">MainWindow</ref></para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>GraWStatki.MainWindow</label>
+        <link refid="class_gra_w_statki_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>GraWStatki.MainWindow</label>
+        <link refid="class_gra_w_statki_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>PlanszaGracza</edgelabel>
+          <edgelabel>KontenerGry</edgelabel>
+          <edgelabel>PlanszaKomputera</edgelabel>
+          <edgelabel>NowaGra</edgelabel>
+          <edgelabel>WindowBorder</edgelabel>
+          <edgelabel>Komunikat</edgelabel>
+          <edgelabel>PoziomZaawansowany</edgelabel>
+          <edgelabel>PoziomLatwy</edgelabel>
+          <edgelabel>PopupTrudnosci</edgelabel>
+          <edgelabel>PoziomTrudny</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/MainWindow.xaml.cs" line="24" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/MainWindow.xaml.cs" bodystart="23" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_1_1_main_window_1af7e0c62c8c3dbedc6a00113e449a1e21" prot="private" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" prot="private" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" prot="public" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1af55067fefad1017f309375a3d6b2b626" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>Komunikat</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1aa571dc70398334666d9de4b047c29aec" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>KontenerGry</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1a064717c44fae84fbf370084ccd258308" prot="public" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1afab46fe08a9570b2932f412abda5c37b" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>NowaGra</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1ae4e786843cbcd1c47f8a95346b84a0f2" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>PlanszaGracza</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1a448fa47e907b739cd6efaaebc50f6fb6" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>PlanszaKomputera</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1a1f92af836faeadcac753bff1b0bafa22" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>PopupTrudnosci</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1a475b97b7a1dbd776941096cbd98b2f0e" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>PoziomLatwy</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1a186e53d2d54bbd458d5d445f92316027" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>PoziomTrudny</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1ad653e93c10be5db26ac64800cf1615c0" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>PoziomZaawansowany</name></member>
+      <member refid="class_gra_w_statki_1_1_main_window_1a5ad7917f5cdb20e9fdbe9bf4374ce494" prot="package" virt="non-virtual"><scope>GraWStatki::MainWindow</scope><name>WindowBorder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

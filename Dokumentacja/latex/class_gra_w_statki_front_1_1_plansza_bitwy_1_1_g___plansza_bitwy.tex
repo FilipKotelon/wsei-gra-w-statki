@@ -1,0 +1,228 @@
+\hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy}{}\doxysection{Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy Class Reference}
+\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy}\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a47d318060ec077031c7cfbf7b0678abf}{G\+\_\+\+Plansza\+Bitwy}} (Grid grid, \mbox{\hyperlink{class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy}{L\+\_\+\+Plansza\+Bitwy}} plansza\+Logiczna, bool czy\+Plansza\+Gracza, bool czy\+Pierwsza\+Gra)
+\begin{DoxyCompactList}\small\item\em Konstruktor Planszy Bitwy \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Solid\+Color\+Brush \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a88f0951552b5552e2038d8f6d9880db3}{Kolor\+Z\+Hex}} (string hex, double opacity)
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca kolor z kodu heksadecymalnego, który można przypisać do tła przycisku \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_ad044d39b20e9a47789c09422443af136}{Animacja\+Koloru}} (Button button, Solid\+Color\+Brush kolor1, Solid\+Color\+Brush kolor2)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Button\mbox{[},\mbox{]} \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a1a2f403643e0b372513c88dbba976a68}{Plansza\+Z\+Przyciskami}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Column\+Definition \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a627532acc51f3cdd9b67fcecd9b014bc}{Get\+Kolumna}} (int iterator)
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca nową kolumnę o relatywnej szerokości \end{DoxyCompactList}\item 
+Row\+Definition \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a169b6ae61e5b90c0d3a8ca0913a2dba1}{Get\+Wiersz}} (int iterator)
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca nowy wiersz o relatywnej wysokości \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a8ea1957bb6d5d09f32f784c7b72ac308}{Tworz\+Siatke}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja tworząca siatkę 10x10 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a50f8be44dbf6fbca5fb86d1b2150c252}{Wypelnij\+Polami}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wypełniająca planszę polami \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Grid \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_aef14f7df1a1654d8a8e879c18e208c34}{\+\_\+grid}}
+\item 
+\mbox{\hyperlink{class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy}{L\+\_\+\+Plansza\+Bitwy}} \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_af25d63b3bd22d12e361d30058ba98597}{\+\_\+plansza\+Logiczna}}
+\item 
+bool \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a54219bbaf8b692f6a2853806e6f899a5}{\+\_\+czy\+Plansza\+Gracza}}
+\item 
+Button\mbox{[},\mbox{]} \mbox{\hyperlink{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a1abc4a3759f39fb7a3dc39ef199e87be}{\+\_\+plansza\+Z\+Przyciskami}} = new Button\mbox{[}10, 10\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 13 of file Plansza\+Bitwy.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a47d318060ec077031c7cfbf7b0678abf}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a47d318060ec077031c7cfbf7b0678abf}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!G\_PlanszaBitwy@{G\_PlanszaBitwy}}
+\index{G\_PlanszaBitwy@{G\_PlanszaBitwy}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{G\_PlanszaBitwy()}{G\_PlanszaBitwy()}}
+{\footnotesize\ttfamily Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy (\begin{DoxyParamCaption}\item[{Grid}]{grid,  }\item[{\mbox{\hyperlink{class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy}{L\+\_\+\+Plansza\+Bitwy}}}]{plansza\+Logiczna,  }\item[{bool}]{czy\+Plansza\+Gracza,  }\item[{bool}]{czy\+Pierwsza\+Gra }\end{DoxyParamCaption})}
+
+
+
+Konstruktor Planszy Bitwy 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grid} & Grid, w którym zostanie stworzona siatka 10x10\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 146 of file Plansza\+Bitwy.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_ad044d39b20e9a47789c09422443af136}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_ad044d39b20e9a47789c09422443af136}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!AnimacjaKoloru@{AnimacjaKoloru}}
+\index{AnimacjaKoloru@{AnimacjaKoloru}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{AnimacjaKoloru()}{AnimacjaKoloru()}}
+{\footnotesize\ttfamily static void Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+Animacja\+Koloru (\begin{DoxyParamCaption}\item[{Button}]{button,  }\item[{Solid\+Color\+Brush}]{kolor1,  }\item[{Solid\+Color\+Brush}]{kolor2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 132 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a627532acc51f3cdd9b67fcecd9b014bc}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a627532acc51f3cdd9b67fcecd9b014bc}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!GetKolumna@{GetKolumna}}
+\index{GetKolumna@{GetKolumna}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{GetKolumna()}{GetKolumna()}}
+{\footnotesize\ttfamily Column\+Definition Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+Get\+Kolumna (\begin{DoxyParamCaption}\item[{int}]{iterator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Funkcja zwracająca nową kolumnę o relatywnej szerokości 
+
+\begin{DoxyReturn}{Returns}
+Column\+Definition
+\end{DoxyReturn}
+
+
+Definition at line 32 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a169b6ae61e5b90c0d3a8ca0913a2dba1}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a169b6ae61e5b90c0d3a8ca0913a2dba1}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!GetWiersz@{GetWiersz}}
+\index{GetWiersz@{GetWiersz}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{GetWiersz()}{GetWiersz()}}
+{\footnotesize\ttfamily Row\+Definition Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+Get\+Wiersz (\begin{DoxyParamCaption}\item[{int}]{iterator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Funkcja zwracająca nowy wiersz o relatywnej wysokości 
+
+\begin{DoxyReturn}{Returns}
+Column\+Definition
+\end{DoxyReturn}
+
+
+Definition at line 45 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a88f0951552b5552e2038d8f6d9880db3}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a88f0951552b5552e2038d8f6d9880db3}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!KolorZHex@{KolorZHex}}
+\index{KolorZHex@{KolorZHex}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{KolorZHex()}{KolorZHex()}}
+{\footnotesize\ttfamily static Solid\+Color\+Brush Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+Kolor\+Z\+Hex (\begin{DoxyParamCaption}\item[{string}]{hex,  }\item[{double}]{opacity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkcja zwracająca kolor z kodu heksadecymalnego, który można przypisać do tła przycisku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hex} & kod heksadecymaalny\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Solid\+Color\+Brush
+\end{DoxyReturn}
+
+
+Definition at line 125 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a8ea1957bb6d5d09f32f784c7b72ac308}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a8ea1957bb6d5d09f32f784c7b72ac308}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!TworzSiatke@{TworzSiatke}}
+\index{TworzSiatke@{TworzSiatke}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{TworzSiatke()}{TworzSiatke()}}
+{\footnotesize\ttfamily void Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+Tworz\+Siatke (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Funkcja tworząca siatkę 10x10 
+
+
+
+Definition at line 57 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a50f8be44dbf6fbca5fb86d1b2150c252}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a50f8be44dbf6fbca5fb86d1b2150c252}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!WypelnijPolami@{WypelnijPolami}}
+\index{WypelnijPolami@{WypelnijPolami}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{WypelnijPolami()}{WypelnijPolami()}}
+{\footnotesize\ttfamily void Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+Wypelnij\+Polami (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Funkcja wypełniająca planszę polami 
+
+
+
+Definition at line 77 of file Plansza\+Bitwy.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a54219bbaf8b692f6a2853806e6f899a5}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a54219bbaf8b692f6a2853806e6f899a5}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!\_czyPlanszaGracza@{\_czyPlanszaGracza}}
+\index{\_czyPlanszaGracza@{\_czyPlanszaGracza}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{\_czyPlanszaGracza}{\_czyPlanszaGracza}}
+{\footnotesize\ttfamily bool Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+\_\+czy\+Plansza\+Gracza\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 17 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_aef14f7df1a1654d8a8e879c18e208c34}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_aef14f7df1a1654d8a8e879c18e208c34}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!\_grid@{\_grid}}
+\index{\_grid@{\_grid}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{\_grid}{\_grid}}
+{\footnotesize\ttfamily Grid Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+\_\+grid\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 15 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_af25d63b3bd22d12e361d30058ba98597}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_af25d63b3bd22d12e361d30058ba98597}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!\_planszaLogiczna@{\_planszaLogiczna}}
+\index{\_planszaLogiczna@{\_planszaLogiczna}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{\_planszaLogiczna}{\_planszaLogiczna}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy}{L\+\_\+\+Plansza\+Bitwy}} Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+\_\+plansza\+Logiczna\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 16 of file Plansza\+Bitwy.\+cs.
+
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a1abc4a3759f39fb7a3dc39ef199e87be}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a1abc4a3759f39fb7a3dc39ef199e87be}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!\_planszaZPrzyciskami@{\_planszaZPrzyciskami}}
+\index{\_planszaZPrzyciskami@{\_planszaZPrzyciskami}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{\_planszaZPrzyciskami}{\_planszaZPrzyciskami}}
+{\footnotesize\ttfamily Button \mbox{[},\mbox{]} Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+\_\+plansza\+Z\+Przyciskami = new Button\mbox{[}10, 10\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 18 of file Plansza\+Bitwy.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a1a2f403643e0b372513c88dbba976a68}\label{class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_a1a2f403643e0b372513c88dbba976a68}} 
+\index{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}!PlanszaZPrzyciskami@{PlanszaZPrzyciskami}}
+\index{PlanszaZPrzyciskami@{PlanszaZPrzyciskami}!GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy@{GraWStatkiFront.PlanszaBitwy.G\_PlanszaBitwy}}
+\doxysubsubsection{\texorpdfstring{PlanszaZPrzyciskami}{PlanszaZPrzyciskami}}
+{\footnotesize\ttfamily Button \mbox{[},\mbox{]} Gra\+W\+Statki\+Front.\+Plansza\+Bitwy.\+G\+\_\+\+Plansza\+Bitwy.\+Plansza\+Z\+Przyciskami\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 21 of file Plansza\+Bitwy.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+S\+T\+U\+D\+I\+A/c\# molenda/statki/wsei-\/gra-\/w-\/statki/\+Gra\+W\+Statki/\+Gra\+W\+Statki\+Front/\+Plansza\+Bitwy/\mbox{\hyperlink{_plansza_bitwy_8cs}{Plansza\+Bitwy.\+cs}}\end{DoxyCompactItemize}

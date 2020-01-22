@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="class_gra_w_statki_1_1_app" kind="class"><name>GraWStatki::App</name>
+    <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" kind="function"><name>Main</name></member>
+    <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" kind="function"><name>Main</name></member>
+    <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" kind="function"><name>Main</name></member>
+    <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer" kind="class"><name>GraWStatkiFront::Komputer::G_Komputer</name>
+    <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a601af0af31b7668ba0489e32601176ff" kind="variable"><name>_lKomputer</name></member>
+    <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1aa1bff8f976bf81411e80c783ad5cb13b" kind="variable"><name>_gPlanszaGracza</name></member>
+    <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a389bd65d9453b933eb6e0e682244f435" kind="variable"><name>_kontroler</name></member>
+    <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a300d4755a74653cb3c7fd9df6575266b" kind="function"><name>G_Komputer</name></member>
+    <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1af92f2996426f1b99351432501cab8b5f" kind="function"><name>WykonajRuch</name></member>
+    <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1acf4e970f8723d772ebd2f8315d4e52b5" kind="function"><name>KliknijPole</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry" kind="class"><name>GraWStatkiFront::KontrolaGry::G_KontrolaGry</name>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0ec40e25cfcb2a74b9af47947a10400d" kind="variable"><name>_kontroler</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a72d4ae863b49a77954969b2b31af9387" kind="variable"><name>lPlanszaGracza</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a95e4040f0d692818cc8609e5a31cca3e" kind="variable"><name>lPlanszaKomputera</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a69dca3deb84aa12dfe46debe118bbcee" kind="variable"><name>gPlanszaGracza</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ad521d16de880ff524b8297c5b9a4c678" kind="variable"><name>gPlanszaKomputera</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a8b8bbfc066b9e0453c8a4dd33cd376bc" kind="variable"><name>xPlanszaGracza</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a2b8b0af8cd8d539f5968d02b383928ef" kind="variable"><name>xPlanszaKomputera</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a632c2b23b304c837def7a3bfe261f2bb" kind="variable"><name>_komputer</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ae8c919bee7c29569d388d338a61b7fbf" kind="variable"><name>_przyciskNowejGry</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a58bf33727f370c33a40511e8130fb098" kind="variable"><name>_komunikat</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a90f55e05a719ab6ebf1875cb09b86ab5" kind="variable"><name>_popupTrudnosci</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0815a5b547c44e174d7b46f41e64f2bd" kind="variable"><name>_przyciskiPoziomowTrudnosci</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ad86fbaad32ed7cee2ad7e5c4aac37a53" kind="variable"><name>_pierwszaGra</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a101cbb8aa5bbe707b938b43dceb6d239" kind="variable"><name>_pierwszyRuch</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a4f6aac1821a54002d5d7712d82dba44f" kind="function"><name>G_KontrolaGry</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a32e2d348879586248352cc3069e73d63" kind="function"><name>KliknieciePrzycisku</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a8b02fd400928318a2877dd37cb9b295d" kind="function"><name>KlikniecieNowejGry</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a94da5261084737695f17ef053fc77308" kind="function"><name>NowaGra</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a3a9b87cb1d85cc9fb7c409878ff225e8" kind="function"><name>WybierzPoziomTrudnosci</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0584e7202d0a235087e1d72a398b6060" kind="function"><name>PodepnijWyborTrudnosci</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a251ca64ec2702723d69a9311d416b127" kind="function"><name>NasluchujKlikniec</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a905ce3f32fd30b81cb809759773d7749" kind="function"><name>WyczyscPlansze</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1afae5b470d21a934086af412db0170daa" kind="function"><name>ZmienKomunikat</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1aae883897989dd0c64ada12f8d03ee1e5" kind="function"><name>ZmienAktywnaPlansze</name></member>
+    <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a178e241f37e42b98b0708493c420e68b" kind="function"><name>KlikniecieGracza</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy" kind="class"><name>GraWStatkiFront::PlanszaBitwy::G_PlanszaBitwy</name>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1aef14f7df1a1654d8a8e879c18e208c34" kind="variable"><name>_grid</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1af25d63b3bd22d12e361d30058ba98597" kind="variable"><name>_planszaLogiczna</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a54219bbaf8b692f6a2853806e6f899a5" kind="variable"><name>_czyPlanszaGracza</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a1abc4a3759f39fb7a3dc39ef199e87be" kind="variable"><name>_planszaZPrzyciskami</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a1a2f403643e0b372513c88dbba976a68" kind="property"><name>PlanszaZPrzyciskami</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a627532acc51f3cdd9b67fcecd9b014bc" kind="function"><name>GetKolumna</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a169b6ae61e5b90c0d3a8ca0913a2dba1" kind="function"><name>GetWiersz</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a8ea1957bb6d5d09f32f784c7b72ac308" kind="function"><name>TworzSiatke</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a50f8be44dbf6fbca5fb86d1b2150c252" kind="function"><name>WypelnijPolami</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a88f0951552b5552e2038d8f6d9880db3" kind="function"><name>KolorZHex</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1ad044d39b20e9a47789c09422443af136" kind="function"><name>AnimacjaKoloru</name></member>
+    <member refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a47d318060ec077031c7cfbf7b0678abf" kind="function"><name>G_PlanszaBitwy</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a2f2d89b651f5d2e355b6efa6450bfeb5" kind="variable"><name>_polaPlanszy</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a7b1ed50b38ba9c41f6a7aae95f8b1833" kind="variable"><name>_statki</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a0789680c67739ea11460fbea45103cf9" kind="function"><name>L_BudowniczyStatkow</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a6c4af1b428aa5bbb6c6cc1fcc9f1d573" kind="function"><name>BudujStatkiLosowo</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1ad8d08dfd4eef824a3cd0387b47503e11" kind="function"><name>OddajPlansze</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a2676a7a80ddce941142fe24ee7fd3ac4" kind="function"><name>OddajStatki</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a76a87a81e611d4ddf66b13f255b415a5" kind="function"><name>MoznaBudowac</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1accc169b171dce554edf8efce03f72843" kind="function"><name>BudujStatek</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy" kind="class"><name>GraWStatkiTesty::PlanszaBitwy::L_BudowniczyStatkowTesty</name>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1a271c9d7b0e9a0dbba2dbc8151acb138a" kind="function"><name>BudujStatkiLosowo_Zbudowano10Statkow</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1a41a6584b3f50546d6e26f34beb844dc2" kind="function"><name>OddajPlansze_ZwroconoTablice2DTypuL_Pole</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1ac3e30647c14415b5eea35ab152acef24" kind="function"><name>OddajStatki_ZwroconoListeTypuL_Statek</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec_1ada02f3c2afc6d98ce7cd7d0957a820bb" kind="function"><name>L_Czteromasztowiec</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___dwumasztowiec" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Statki::L_Dwumasztowiec</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___dwumasztowiec_1a6691672acce9a345cb332f215b37167e" kind="function"><name>L_Dwumasztowiec</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra" kind="class"><name>GraWStatkiLogika::KontrolaGry::L_Gra</name>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a5957b2101b4b8d1092689b1765235246" kind="variable"><name>zwyciezca</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a78a448f6bbf3deadd17c2aa84a084d07" kind="variable"><name>_gracz</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a605ffecb17cdf55069bd373acdeac589" kind="variable"><name>_komputer</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1aee2f62d93340caba2de59b6d39dc3d0f" kind="variable"><name>_planszaGracza</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a98b33da0bd3197683eb16062687ee9a2" kind="variable"><name>_planszaKomputera</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1ad6601ba29717295135934298b654e871" kind="property"><name>PlanszaGracza</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a9729900b6d20848c45f8ec6f9be40511" kind="property"><name>PlanszaKomputera</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1acccd135c75c6b3b9c4da66ffa072031a" kind="property"><name>Gracz</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a822f5fdd530126c1104cce3f44309769" kind="property"><name>Komputer</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1ac4caa00461bed8086711faa48c61f6d9" kind="function"><name>L_Gra</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___jednomasztowiec" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Statki::L_Jednomasztowiec</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___jednomasztowiec_1a409cc2e8a7eabc76ef9b6f4529f5c87e" kind="function"><name>L_Jednomasztowiec</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer" kind="class"><name>GraWStatkiLogika::Komputer::L_Komputer</name>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1addda8654f0ed6ec04599311561342b5a" kind="enum"><name>Komendy</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1addda8654f0ed6ec04599311561342b5aae0cd33515079fd629d8c5107549183af" kind="enumvalue"><name>StrzelajWTymKierunku</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1addda8654f0ed6ec04599311561342b5aa6584a638d478346c2b926de69db331be" kind="enumvalue"><name>Losuj</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1addda8654f0ed6ec04599311561342b5aadc97958d91b81d85585366956e0120ca" kind="enumvalue"><name>SzukajDookola</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a38b375c43cc6de59c89b4b89faa7f7fc" kind="variable"><name>_poziomTrudnosci</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a13c7afe6817d8bb3567f37d6cf23e148" kind="variable"><name>_planszaGracza</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1abcaf4d9df0f711174e0febe97cdeefd9" kind="variable"><name>_wlasnieTrafilem</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a6cf5f59f9567570c9ee77030873116ba" kind="variable"><name>_wlasnieZatopilem</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a6f92efcb837584cc8dbb20a54c6cab1c" kind="variable"><name>_wylosowanePole</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a8a2a5f6513e26efa9a366a325a7a2755" kind="variable"><name>_w</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a81e6fecb5b85a4c64502dc3b3167b50f" kind="variable"><name>_k</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a29913539413a312afc427509973e97a3" kind="variable"><name>_trafionePierwszePole</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a7e0512b74bf56d8b34f6af974b492848" kind="variable"><name>_w_1</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1aeb4301498035d0213b2c9d2937a92f4f" kind="variable"><name>_k_1</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1ade8ba232b488faef11a3bdf2af479dfd" kind="variable"><name>_obranyKierunek</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a7a449271a12ee925c6a962c63ea0888f" kind="variable"><name>_ktoryStrzal</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1aff7031ce67444860a28cc14d8fadb12c" kind="variable"><name>_komenda</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a8ab2d48e12c2aa54c63fd7a5e48595d8" kind="function"><name>L_Komputer</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a95691e2848b105fef43efea6e4874929" kind="function"><name>LosujPole</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a0bd6b76faeebf4d0505f29ae108ae35d" kind="function"><name>SprawdzRuch</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a89d97fdaa65ad50fcbb0965e86e5561b" kind="function"><name>CzyZatopilemStatek</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry" kind="class"><name>GraWStatkiLogika::KontrolaGry::L_KontrolerGry</name>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1ac197c6a3e5bc2d49bd49c62d43634ec0" kind="variable"><name>_obecnaGra</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1aad6cf9e86ffa8c33cdd82b960b51f300" kind="variable"><name>_sedzia</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a304ea77a2fec901b3f12bf5da2880b2e" kind="variable"><name>_graSkonczona</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a1afd1e83a83593f2783d41b6e0040cd8" kind="variable"><name>_czyTuraGracza</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a4e212fa3351b2644fa081ed04deb298f" kind="variable"><name>_licznikTur</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a9af653877bbc83eb54fd2faff9d98e7f" kind="property"><name>ObecnaGra</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a8dc4e8e0b123b768037844d700f8ffae" kind="property"><name>CzyTuraGracza</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a392850513495cd87b195e2e6a1b40fe4" kind="property"><name>GraSkonczona</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a333b84912ca71874fc3edacc7dd27894" kind="property"><name>LicznikTur</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1ae073087da8f6e9f518893e539732c7df" kind="function"><name>L_KontrolerGry</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a96296c23fc98dcac20c1cb6f2318a9f6" kind="function"><name>NowaGra</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a665baf37bbe58286a746e21296b6efe9" kind="function"><name>ZmienTure</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1a147639a4b6f52077bbd93c427cf1a0e6" kind="function"><name>ZakonczGre</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry_1ae4b982b2ff62f58accf1458c09104207" kind="function"><name>SprawdzRuch</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy" kind="class"><name>GraWStatkiTesty::KontrolaGry::L_KontrolerGryTesty</name>
+    <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a0bac4ea8bd0a277d58983f289b3a9ece" kind="function"><name>ZmienTure_TuraZostalaZmienionaILicznikTurZostalPowiekszony</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1aeb04acf75763418e301e70abb159d450" kind="function"><name>SprawdzRuch_NieTrafionoStatku_TuraZostalaZmienionaILicznikTurZostalPowiekszony</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a816b2e191367791cd3417280ea3ea6b1" kind="function"><name>SprawdzRuch_TrafionoStatek_TuraNieZostalaZmienionaILicznikTurNieZostalPowiekszony</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a0a9dca55f36746355689d8ed9353807d" kind="function"><name>ZakonczGre_TuraGracza_ZwyciezcaToGracz</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a5919e0e3d2c6e2d2533e2fb3c1f0e511" kind="function"><name>ZakonczGre_TuraKomputera_ZwyciezcaToKomputer</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a319c46226d4144d6500cb723b8ede2af" kind="variable"><name>_pola</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ac7cf4f9c7c5f61e151c8b741709c0c68" kind="variable"><name>_statki</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a73ff553f92ae589bd1c53e9812e1e28f" kind="variable"><name>budowniczy</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a17e7c3539b55d7b60d78157b55383710" kind="property"><name>Pola</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ae8263d2cfdf77b4d3f430269a76ecffb" kind="property"><name>Statki</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ab7ef26c499c454299a3ee68799b435de" kind="function"><name>L_PlanszaBitwy</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a9bb5c1705db38b9065a55451a2aa2587" kind="function"><name>DodajStatek</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ac08b59fa42d00df9e197bf019a32ba55" kind="function"><name>WypelnijPustePola</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___plansza_bitwy_testy" kind="class"><name>GraWStatkiTesty::PlanszaBitwy::L_PlanszaBitwyTesty</name>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___plansza_bitwy_testy_1aeeb285046c6bdac48d3b5227ba691164" kind="function"><name>WypelnijPustePola_NieMaPolOwartosciNull</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___plansza_bitwy_testy_1a9b253fd874382efbf7f16994e1fde353" kind="function"><name>DodajStatek_DodanoJedenStatek</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Pola::L_Pole</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a4c54b6fb0aef162091a20552da5b8add" kind="variable"><name>_zajete</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a64650ebd8f812277d837c09f17ddb725" kind="variable"><name>_trafione</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1ac8658afc384c981b87b9931db90da923" kind="variable"><name>_IDStatku</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a0d125bde1a8840074862490c55516658" kind="property"><name>Zajete</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a8cc90c2be291ba1879d2fc03de54acfb" kind="property"><name>Trafione</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a139307a955c8f6cff70339e8152a0f13" kind="property"><name>IDStatku</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_puste" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_puste_1a005ec9f37fcc0a38108fa488c39782e1" kind="function"><name>L_PolePuste</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_zajete" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_zajete_1abbca942cf1bd9704fa0da23b81736a55" kind="function"><name>L_PoleZajete</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia" kind="class"><name>GraWStatkiLogika::KontrolaGry::L_Sedzia</name>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ab50e1f585a2321e4ed8fdfba707b2ad3" kind="variable"><name>_planszaGracza</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ae87892309514fb2a529e73ade61cc9d5" kind="variable"><name>_planszaKomputera</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1a72a701d7fde01f52125ee79cd2256a84" kind="variable"><name>_gra</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ad0851b9e1244d4b8cfe7223c8e052753" kind="function"><name>L_Sedzia</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1a916f5bffcc06ffac8851bfd227ccc9d0" kind="function"><name>SprawdzCzyKoniec</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___sedzia_testy" kind="class"><name>GraWStatkiTesty::KontrolaGry::L_SedziaTesty</name>
+    <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___sedzia_testy_1a3115c6f96a77568db25f1d92a5772e17" kind="function"><name>SprawdzCzyKoniec_TuraGraczaIPolaKomputeraNieSaTrafione_ZwracaFalse</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___sedzia_testy_1a52bfd4b2580a98ab1210d814263e4311" kind="function"><name>SprawdzCzyKoniec_TuraKomputeraIPolaGraczaNieSaTrafione_ZwracaFalse</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Statki::L_Statek</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1ac85c22ba343614bb995346e370b3f0b5" kind="variable"><name>_ID</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a28b0af0c27612717820d0cbfcd54eb72" kind="variable"><name>_iloscPol</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a6ccf4e41c02f71360afaf0f12c11b3e7" kind="variable"><name>_zatopiony</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a6ae88e1ddc0fdd45e3169ac090d936fe" kind="variable"><name>_pola</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a5e5fe07b6c8e84fc9a910676b7e642a2" kind="property"><name>ID</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1aaaec7901163632fe5a49e03039030ca5" kind="property"><name>IloscPol</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a932fbde2d5e761eb8947ac7370aa1f14" kind="property"><name>Zatopiony</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1acd60d6b1c7faf6b3b206de5f4de22d23" kind="property"><name>Pola</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a7529457b34623fd1f7e4d403fb33d7b2" kind="function"><name>DodajPole</name></member>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a6f787114e30320fae2dd3af6e70c0ec5" kind="function"><name>SprawdzStan</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy" kind="class"><name>GraWStatkiTesty::PlanszaBitwy::L_StatekTesty</name>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a38a31ff544b20733e6b6198eec350d89" kind="function"><name>DodajPole_JednomasztowiecBezPol_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a15bc3a705a1d1421ddb809ae012da2f2" kind="function"><name>DodajPole_JednomasztowiecZJednymPolem_PoleNieZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1ad1e08ff0861e4a73834130f3d087d9e5" kind="function"><name>DodajPole_DwumasztowiecBezPol_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a55c3ea4ad0e26c8d895c9378c6f7d8fd" kind="function"><name>DodajPole_DwumasztowiecZJednymPolem_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1ae0df8c021e4fec8354d7b26dad09b33a" kind="function"><name>DodajPole_DwumasztowiecZDwomaPolami_PoleNieZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1aee74543b9ea3e73cc2d5d718edf7342b" kind="function"><name>DodajPole_TrojmasztowiecBezPol_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a30ee6c546a404396d7a0ed0eb154e937" kind="function"><name>DodajPole_TrojmasztowiecZJednymPolem_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1adf72b6b73216e959e026b04767478631" kind="function"><name>DodajPole_TrojmasztowiecZDwomaPolami_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a04c0a754113ad5ce70ad11314b876e6d" kind="function"><name>DodajPole_TrojmasztowiecZTrzemaPolami_PoleNieZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a6de73529faf370f1950af93590488bc1" kind="function"><name>DodajPole_CzteromasztowiecBezPol_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1aff170a503ab2e68a4d9dac90845def7e" kind="function"><name>DodajPole_CzteromasztowiecZJednymPolem_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1ac88b1d307bedd5d34d77a90bc669251b" kind="function"><name>DodajPole_CzteromasztowiecZDwomaPolami_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1aedf473567da256edaf56a6f2ec4b10e5" kind="function"><name>DodajPole_CzteromasztowiecZTrzemaPolami_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1ac05428bca91236f936468276b316ea2e" kind="function"><name>DodajPole_CzteromasztowiecZCzteremaPolami_PoleNieZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1ad693e677939f5a8f2b78f342f164a884" kind="function"><name>DodajPole_PolePuste_PoleNieZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a19cacd4499c7bbdfc3299ffbbab96dd4" kind="function"><name>DodajPole_PoleZajete_PoleZostanieDodane</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a8f823fd92b41840588ace740fb7ce9cd" kind="function"><name>SprawdzStan_JednomasztowiecIPolaNieTrafione_StatekNieJestZatopiony</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a19168c71b9be5288f5685073c2bc879e" kind="function"><name>SprawdzStan_JednomasztowiecIPolaTrafione_StatekJestZatopiony</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1aff68b9c30ee2427863e19d55feb69ade" kind="function"><name>SprawdzStan_DwuMasztowiecIPolaNieTrafione_StatekNieJestZatopiony</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a2680e4b86b4a06e711754bdb3db4dd29" kind="function"><name>SprawdzStan_DwuMasztowiecIJednoPoleTrafione_StatekNieJestZatopiony</name></member>
+    <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy_1a281fd3b6519521c431ec35b1284b7153" kind="function"><name>SprawdzStan_DwumasztowiecIPolaTrafione_StatekJestZatopiony</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___trojmasztowiec" kind="class"><name>GraWStatkiLogika::PlanszaBitwy::Statki::L_Trojmasztowiec</name>
+    <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___trojmasztowiec_1a0a35750b0e79b19f288d6d2d54423c24" kind="function"><name>L_Trojmasztowiec</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_1_1_main_window" kind="class"><name>GraWStatki::MainWindow</name>
+    <member refid="class_gra_w_statki_1_1_main_window_1a5ad7917f5cdb20e9fdbe9bf4374ce494" kind="variable"><name>WindowBorder</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1a1f92af836faeadcac753bff1b0bafa22" kind="variable"><name>PopupTrudnosci</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1a475b97b7a1dbd776941096cbd98b2f0e" kind="variable"><name>PoziomLatwy</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1ad653e93c10be5db26ac64800cf1615c0" kind="variable"><name>PoziomZaawansowany</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1a186e53d2d54bbd458d5d445f92316027" kind="variable"><name>PoziomTrudny</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1afab46fe08a9570b2932f412abda5c37b" kind="variable"><name>NowaGra</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1af55067fefad1017f309375a3d6b2b626" kind="variable"><name>Komunikat</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aa571dc70398334666d9de4b047c29aec" kind="variable"><name>KontenerGry</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1ae4e786843cbcd1c47f8a95346b84a0f2" kind="variable"><name>PlanszaGracza</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1a448fa47e907b739cd6efaaebc50f6fb6" kind="variable"><name>PlanszaKomputera</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1af7e0c62c8c3dbedc6a00113e449a1e21" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1a064717c44fae84fbf370084ccd258308" kind="function"><name>MainWindow</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aee2806a8a58672c73b5e5829fd36f443" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" kind="function"><name>Connect</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" kind="function"><name>Connect</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" kind="function"><name>Connect</name></member>
+    <member refid="class_gra_w_statki_1_1_main_window_1aa8503ed8cd732748cce25b863d9d39eb" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_1_1_properties_1_1_resources" kind="class"><name>GraWStatki::Properties::Resources</name>
+    <member refid="class_gra_w_statki_1_1_properties_1_1_resources_1aaeb12473ae6c45d7ddd28271a1c2e274" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_gra_w_statki_1_1_properties_1_1_resources_1a873ba683e7054f63c2a2a7b6ad94251e" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_gra_w_statki_1_1_properties_1_1_resources_1a737a4de6a56d2477adc641b2bdffbb92" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_gra_w_statki_1_1_properties_1_1_resources_1af15b01fab51a260d1d274f0be6c3faba" kind="property"><name>Culture</name></member>
+    <member refid="class_gra_w_statki_1_1_properties_1_1_resources_1a9cd1585b57b3df8b0eedd095681ba3fb" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_gra_w_statki_1_1_properties_1_1_settings" kind="class"><name>GraWStatki::Properties::Settings</name>
+    <member refid="class_gra_w_statki_1_1_properties_1_1_settings_1adfb407649bb33685908a4cb99cc50f68" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_gra_w_statki_1_1_properties_1_1_settings_1aae6f56efdc8d1a6a49815b6d3c098309" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="namespace_gra_w_statki" kind="namespace"><name>GraWStatki</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_1_1_properties" kind="namespace"><name>GraWStatki::Properties</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_front" kind="namespace"><name>GraWStatkiFront</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_front_1_1_komputer" kind="namespace"><name>GraWStatkiFront::Komputer</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_front_1_1_kontrola_gry" kind="namespace"><name>GraWStatkiFront::KontrolaGry</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_front_1_1_plansza_bitwy" kind="namespace"><name>GraWStatkiFront::PlanszaBitwy</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_logika" kind="namespace"><name>GraWStatkiLogika</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_logika_1_1_komputer" kind="namespace"><name>GraWStatkiLogika::Komputer</name>
+    <member refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615d" kind="enum"><name>PoziomTrudnosci</name></member>
+    <member refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615da248e5d9255df88ebf35ba7076483b4e6" kind="enumvalue"><name>Latwy</name></member>
+    <member refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615dac17d0fce2da21afaad7cfa22c7d71ad9" kind="enumvalue"><name>Zaawansowany</name></member>
+    <member refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615da69ce72228c744f4d70f648258cbb3c1a" kind="enumvalue"><name>Trudny</name></member>
+  </compound>
+  <compound refid="namespace_gra_w_statki_logika_1_1_kontrola_gry" kind="namespace"><name>GraWStatkiLogika::KontrolaGry</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy" kind="namespace"><name>GraWStatkiLogika::PlanszaBitwy</name>
+    <member refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689" kind="enum"><name>Kierunki</name></member>
+    <member refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689a64ecdad74ccdd8651f4d2a1c4bf3bbf5" kind="enumvalue"><name>Lewo</name></member>
+    <member refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689a858d01562d1a6d69cc0f8daaf8f27a96" kind="enumvalue"><name>Gora</name></member>
+    <member refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689ab859ba25e212a0026ddfbf752fa584dc" kind="enumvalue"><name>Prawo</name></member>
+    <member refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689a2d8497207dc18954d6cbce8903741f95" kind="enumvalue"><name>Dol</name></member>
+  </compound>
+  <compound refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow" kind="namespace"><name>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola" kind="namespace"><name>GraWStatkiLogika::PlanszaBitwy::Pola</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki" kind="namespace"><name>GraWStatkiLogika::PlanszaBitwy::Statki</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_testy" kind="namespace"><name>GraWStatkiTesty</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_testy_1_1_kontrola_gry" kind="namespace"><name>GraWStatkiTesty::KontrolaGry</name>
+  </compound>
+  <compound refid="namespace_gra_w_statki_testy_1_1_plansza_bitwy" kind="namespace"><name>GraWStatkiTesty::PlanszaBitwy</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation_1_1_peers" kind="namespace"><name>System::Windows::Automation::Peers</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_debug_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_release_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_debug_2_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_release_2_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2_gra_w_statki_8csproj_8_file_list_absolute_8txt" kind="file"><name>GraWStatki.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_release_2_gra_w_statki_8csproj_8_file_list_absolute_8txt" kind="file"><name>GraWStatki.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_debug_2_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_release_2_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_debug_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_release_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="ogika_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="esty_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_g___komputer_8cs" kind="file"><name>G_Komputer.cs</name>
+  </compound>
+  <compound refid="_kontrola_gry_8cs" kind="file"><name>KontrolaGry.cs</name>
+  </compound>
+  <compound refid="_debug_2netstandard2_80_2_gra_w_statki_front_8_assembly_info_8cs" kind="file"><name>GraWStatkiFront.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2netstandard2_80_2_gra_w_statki_front_8_assembly_info_8cs" kind="file"><name>GraWStatkiFront.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2netstandard2_80_2_gra_w_statki_front_8csproj_8_file_list_absolute_8txt" kind="file"><name>GraWStatkiFront.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_release_2netstandard2_80_2_gra_w_statki_front_8csproj_8_file_list_absolute_8txt" kind="file"><name>GraWStatkiFront.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_plansza_bitwy_8cs" kind="file"><name>PlanszaBitwy.cs</name>
+  </compound>
+  <compound refid="_l___komputer_8cs" kind="file"><name>L_Komputer.cs</name>
+  </compound>
+  <compound refid="_l___gra_8cs" kind="file"><name>L_Gra.cs</name>
+  </compound>
+  <compound refid="_l___kontroler_gry_8cs" kind="file"><name>L_KontrolerGry.cs</name>
+  </compound>
+  <compound refid="_l___sedzia_8cs" kind="file"><name>L_Sedzia.cs</name>
+  </compound>
+  <compound refid="_debug_2_gra_w_statki_logika_8csproj_8_file_list_absolute_8txt" kind="file"><name>GraWStatkiLogika.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_release_2_gra_w_statki_logika_8csproj_8_file_list_absolute_8txt" kind="file"><name>GraWStatkiLogika.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_l___budowniczy_statkow_8cs" kind="file"><name>L_BudowniczyStatkow.cs</name>
+  </compound>
+  <compound refid="_l___plansza_bitwy_8cs" kind="file"><name>L_PlanszaBitwy.cs</name>
+  </compound>
+  <compound refid="_l___pole_8cs" kind="file"><name>L_Pole.cs</name>
+  </compound>
+  <compound refid="_l___pole_puste_8cs" kind="file"><name>L_PolePuste.cs</name>
+  </compound>
+  <compound refid="_l___pole_zajete_8cs" kind="file"><name>L_PoleZajete.cs</name>
+  </compound>
+  <compound refid="_l___czteromasztowiec_8cs" kind="file"><name>L_Czteromasztowiec.cs</name>
+  </compound>
+  <compound refid="_l___dwumasztowiec_8cs" kind="file"><name>L_Dwumasztowiec.cs</name>
+  </compound>
+  <compound refid="_l___jednomasztowiec_8cs" kind="file"><name>L_Jednomasztowiec.cs</name>
+  </compound>
+  <compound refid="_l___statek_8cs" kind="file"><name>L_Statek.cs</name>
+  </compound>
+  <compound refid="_l___trojmasztowiec_8cs" kind="file"><name>L_Trojmasztowiec.cs</name>
+  </compound>
+  <compound refid="_l___kontroler_gry_testy_8cs" kind="file"><name>L_KontrolerGryTesty.cs</name>
+  </compound>
+  <compound refid="_l___sedzia_testy_8cs" kind="file"><name>L_SedziaTesty.cs</name>
+  </compound>
+  <compound refid="_gra_w_statki_testy_8csproj_8_file_list_absolute_8txt" kind="file"><name>GraWStatkiTesty.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_l___budowniczy_statkow_testy_8cs" kind="file"><name>L_BudowniczyStatkowTesty.cs</name>
+  </compound>
+  <compound refid="_l___plansza_bitwy_testy_8cs" kind="file"><name>L_PlanszaBitwyTesty.cs</name>
+  </compound>
+  <compound refid="_l___statek_testy_8cs" kind="file"><name>L_StatekTesty.cs</name>
+  </compound>
+  <compound refid="dir_aa0b6ec120a8d8e3ba89a0608eb20f09" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow</name>
+  </compound>
+  <compound refid="dir_88de7757b03bd19f7cef98e45fe8fb05" kind="dir"><name>D:/STUDIA/c# molenda</name>
+  </compound>
+  <compound refid="dir_5ca916eba7ae3ce43ab6b14fc3f33930" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/obj/Debug</name>
+  </compound>
+  <compound refid="dir_90370155d617b6aa298c725a7e5f1d97" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/obj/Debug</name>
+  </compound>
+  <compound refid="dir_ccf51c244aea193d100a2dfff9d71fa7" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/obj/Debug</name>
+  </compound>
+  <compound refid="dir_261d126c1cccc8bc22cec26b12c6b315" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug</name>
+  </compound>
+  <compound refid="dir_bcf65397e685c2ab4d7b51ea486868f0" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki</name>
+  </compound>
+  <compound refid="dir_5bbb314e5a508f7c6bababe5355b0b25" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki</name>
+  </compound>
+  <compound refid="dir_f4307605e37f6770070a6097a54d12da" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront</name>
+  </compound>
+  <compound refid="dir_4af3bf949a68cae582333d38383fa758" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika</name>
+  </compound>
+  <compound refid="dir_bf04228cc5efe792f7d595e3e240c6e0" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty</name>
+  </compound>
+  <compound refid="dir_837277062239116cc444e7661e5b7152" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/Komputer</name>
+  </compound>
+  <compound refid="dir_0f4153be3925a35aed87d204be8a61fe" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer</name>
+  </compound>
+  <compound refid="dir_c6940a26dd1c1e9d4d1a0d3ad609a6be" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry</name>
+  </compound>
+  <compound refid="dir_4f202150f0880c9e3a24abb49a9d20f5" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry</name>
+  </compound>
+  <compound refid="dir_f7eb2bc6467eae7ac26b5046d39972ee" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry</name>
+  </compound>
+  <compound refid="dir_63c524db2d109d3cd3eb95b7335767aa" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_b63410e81283efa58e0bb042dc75bb60" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/obj/Release/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_5144ea4f6c6b22b601cf214d35e8c628" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/obj</name>
+  </compound>
+  <compound refid="dir_dc199b8517a6c47b1eeda7917cd7704c" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/obj</name>
+  </compound>
+  <compound refid="dir_ceab4950dcb35a2a642fb54c836075e9" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/obj</name>
+  </compound>
+  <compound refid="dir_3161bd75144ea73c665f930460625300" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj</name>
+  </compound>
+  <compound refid="dir_5000dd340d8d18cd286873c7e87c5e6e" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy</name>
+  </compound>
+  <compound refid="dir_091d8c0614adeab9d6d45fdddad18126" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/PlanszaBitwy</name>
+  </compound>
+  <compound refid="dir_9e967bf44b07e177cfe895827f68c5ab" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy</name>
+  </compound>
+  <compound refid="dir_a7ed5ae9502cc1f7691e6dece9e5fa3a" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola</name>
+  </compound>
+  <compound refid="dir_1bc8974fe644ea129c71c2852c725158" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/Properties</name>
+  </compound>
+  <compound refid="dir_3ab756fe4e3d156065124cb1b23d3201" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/Properties</name>
+  </compound>
+  <compound refid="dir_a0af6a433f5f1c5b2bb181e51172ba52" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/Properties</name>
+  </compound>
+  <compound refid="dir_923efe07a00861304c22192ab9c91be9" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/obj/Release</name>
+  </compound>
+  <compound refid="dir_2189411ca43502d8d8efb7879e83580e" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release</name>
+  </compound>
+  <compound refid="dir_cd0734271afc18985a23becea95ab06c" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/obj/Release</name>
+  </compound>
+  <compound refid="dir_aa2ca9b1347d89364e0a375efdf1e140" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki</name>
+  </compound>
+  <compound refid="dir_6fdbb86f9e5eba7111a65d533b094152" kind="dir"><name>D:/STUDIA/c# molenda/statki</name>
+  </compound>
+  <compound refid="dir_8b2d8585f52d640c35650a6e6537c16a" kind="dir"><name>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki</name>
+  </compound>
+</doxygenindex>

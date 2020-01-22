@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_a7ed5ae9502cc1f7691e6dece9e5fa3a" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola</compoundname>
+    <innerfile refid="_l___pole_8cs">L_Pole.cs</innerfile>
+    <innerfile refid="_l___pole_puste_8cs">L_PolePuste.cs</innerfile>
+    <innerfile refid="_l___pole_zajete_8cs">L_PoleZajete.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</compoundname>
+    <basecompoundref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" prot="public" virt="non-virtual">GraWStatkiLogika.PlanszaBitwy.Statki.L_Statek</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec_1ada02f3c2afc6d98ce7cd7d0957a820bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiLogika.PlanszaBitwy.Statki.L_Czteromasztowiec.L_Czteromasztowiec</definition>
+        <argsstring>(int ID)</argsstring>
+        <name>L_Czteromasztowiec</name>
+        <param>
+          <type>int</type>
+          <declname>ID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki/L_Czteromasztowiec.cs" line="11" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki/L_Czteromasztowiec.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>L_Statek</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.Statki.L_Czteromasztowiec</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>L_Statek</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.Statki.L_Czteromasztowiec</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki/L_Czteromasztowiec.cs" line="10" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki/L_Czteromasztowiec.cs" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1ac85c22ba343614bb995346e370b3f0b5" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>_ID</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a28b0af0c27612717820d0cbfcd54eb72" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>_iloscPol</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a6ae88e1ddc0fdd45e3169ac090d936fe" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>_pola</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a6ccf4e41c02f71360afaf0f12c11b3e7" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>_zatopiony</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a7529457b34623fd1f7e4d403fb33d7b2" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>DodajPole</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a5e5fe07b6c8e84fc9a910676b7e642a2" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>ID</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1aaaec7901163632fe5a49e03039030ca5" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>IloscPol</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec_1ada02f3c2afc6d98ce7cd7d0957a820bb" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>L_Czteromasztowiec</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1acd60d6b1c7faf6b3b206de5f4de22d23" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>Pola</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a6f787114e30320fae2dd3af6e70c0ec5" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>SprawdzStan</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a932fbde2d5e761eb8947ac7370aa1f14" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</scope><name>Zatopiony</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

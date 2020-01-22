@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_gra_w_statki_logika_1_1_plansza_bitwy" kind="namespace" language="C#">
+    <compoundname>GraWStatkiLogika::PlanszaBitwy</compoundname>
+    <innerclass refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" prot="public">GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</innerclass>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow">GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow</innernamespace>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola">GraWStatkiLogika::PlanszaBitwy::Pola</innernamespace>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki">GraWStatkiLogika::PlanszaBitwy::Statki</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Kierunki</name>
+        <enumvalue id="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689a64ecdad74ccdd8651f4d2a1c4bf3bbf5" prot="public">
+          <name>Lewo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689a858d01562d1a6d69cc0f8daaf8f27a96" prot="public">
+          <name>Gora</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689ab859ba25e212a0026ddfbf752fa584dc" prot="public">
+          <name>Prawo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689a2d8497207dc18954d6cbce8903741f95" prot="public">
+          <name>Dol</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="12" column="25" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

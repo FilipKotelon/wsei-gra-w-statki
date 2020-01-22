@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_gra_w_statki_testy_1_1_plansza_bitwy" kind="namespace" language="C#">
+    <compoundname>GraWStatkiTesty::PlanszaBitwy</compoundname>
+    <innerclass refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy" prot="public">GraWStatkiTesty::PlanszaBitwy::L_BudowniczyStatkowTesty</innerclass>
+    <innerclass refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___plansza_bitwy_testy" prot="public">GraWStatkiTesty::PlanszaBitwy::L_PlanszaBitwyTesty</innerclass>
+    <innerclass refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___statek_testy" prot="public">GraWStatkiTesty::PlanszaBitwy::L_StatekTesty</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

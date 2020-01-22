@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki" kind="namespace" language="C#">
+    <compoundname>GraWStatkiLogika::PlanszaBitwy::Statki</compoundname>
+    <innerclass refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___czteromasztowiec" prot="public">GraWStatkiLogika::PlanszaBitwy::Statki::L_Czteromasztowiec</innerclass>
+    <innerclass refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___dwumasztowiec" prot="public">GraWStatkiLogika::PlanszaBitwy::Statki::L_Dwumasztowiec</innerclass>
+    <innerclass refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___jednomasztowiec" prot="public">GraWStatkiLogika::PlanszaBitwy::Statki::L_Jednomasztowiec</innerclass>
+    <innerclass refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" prot="public">GraWStatkiLogika::PlanszaBitwy::Statki::L_Statek</innerclass>
+    <innerclass refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___trojmasztowiec" prot="public">GraWStatkiLogika::PlanszaBitwy::Statki::L_Trojmasztowiec</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki/L_Czteromasztowiec.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

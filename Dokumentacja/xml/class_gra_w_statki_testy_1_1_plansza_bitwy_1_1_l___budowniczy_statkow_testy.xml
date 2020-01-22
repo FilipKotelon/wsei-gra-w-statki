@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiTesty::PlanszaBitwy::L_BudowniczyStatkowTesty</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1a271c9d7b0e9a0dbba2dbc8151acb138a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.PlanszaBitwy.L_BudowniczyStatkowTesty.BudujStatkiLosowo_Zbudowano10Statkow</definition>
+        <argsstring>()</argsstring>
+        <name>BudujStatkiLosowo_Zbudowano10Statkow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" line="19" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" bodystart="19" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1a41a6584b3f50546d6e26f34beb844dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.PlanszaBitwy.L_BudowniczyStatkowTesty.OddajPlansze_ZwroconoTablice2DTypuL_Pole</definition>
+        <argsstring>()</argsstring>
+        <name>OddajPlansze_ZwroconoTablice2DTypuL_Pole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" line="33" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" bodystart="33" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1ac3e30647c14415b5eea35ab152acef24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.PlanszaBitwy.L_BudowniczyStatkowTesty.OddajStatki_ZwroconoListeTypuL_Statek</definition>
+        <argsstring>()</argsstring>
+        <name>OddajStatki_ZwroconoListeTypuL_Statek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" line="47" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" bodystart="47" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Testy klasy L_Budowniczy </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" line="17" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/L_BudowniczyStatkowTesty.cs" bodystart="16" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1a271c9d7b0e9a0dbba2dbc8151acb138a" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::PlanszaBitwy::L_BudowniczyStatkowTesty</scope><name>BudujStatkiLosowo_Zbudowano10Statkow</name></member>
+      <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1a41a6584b3f50546d6e26f34beb844dc2" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::PlanszaBitwy::L_BudowniczyStatkowTesty</scope><name>OddajPlansze_ZwroconoTablice2DTypuL_Pole</name></member>
+      <member refid="class_gra_w_statki_testy_1_1_plansza_bitwy_1_1_l___budowniczy_statkow_testy_1ac3e30647c14415b5eea35ab152acef24" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::PlanszaBitwy::L_BudowniczyStatkowTesty</scope><name>OddajStatki_ZwroconoListeTypuL_Statek</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

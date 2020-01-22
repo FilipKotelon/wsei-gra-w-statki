@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_puste" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</compoundname>
+    <basecompoundref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" prot="public" virt="non-virtual">GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_puste_1a005ec9f37fcc0a38108fa488c39782e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiLogika.PlanszaBitwy.Pola.L_PolePuste.L_PolePuste</definition>
+        <argsstring>()</argsstring>
+        <name>L_PolePuste</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PolePuste.cs" line="11" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PolePuste.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_PolePuste</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_puste"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_PolePuste</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_puste"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PolePuste.cs" line="10" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PolePuste.cs" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1ac8658afc384c981b87b9931db90da923" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</scope><name>_IDStatku</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a64650ebd8f812277d837c09f17ddb725" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</scope><name>_trafione</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a4c54b6fb0aef162091a20552da5b8add" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</scope><name>_zajete</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a139307a955c8f6cff70339e8152a0f13" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</scope><name>IDStatku</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_puste_1a005ec9f37fcc0a38108fa488c39782e1" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</scope><name>L_PolePuste</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a8cc90c2be291ba1879d2fc03de54acfb" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</scope><name>Trafione</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a0d125bde1a8840074862490c55516658" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PolePuste</scope><name>Zajete</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

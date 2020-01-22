@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiTesty::KontrolaGry::L_KontrolerGryTesty</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a0bac4ea8bd0a277d58983f289b3a9ece" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.KontrolaGry.L_KontrolerGryTesty.ZmienTure_TuraZostalaZmienionaILicznikTurZostalPowiekszony</definition>
+        <argsstring>()</argsstring>
+        <name>ZmienTure_TuraZostalaZmienionaILicznikTurZostalPowiekszony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" line="14" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" bodystart="14" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1aeb04acf75763418e301e70abb159d450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.KontrolaGry.L_KontrolerGryTesty.SprawdzRuch_NieTrafionoStatku_TuraZostalaZmienionaILicznikTurZostalPowiekszony</definition>
+        <argsstring>()</argsstring>
+        <name>SprawdzRuch_NieTrafionoStatku_TuraZostalaZmienionaILicznikTurZostalPowiekszony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" line="31" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" bodystart="31" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a816b2e191367791cd3417280ea3ea6b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.KontrolaGry.L_KontrolerGryTesty.SprawdzRuch_TrafionoStatek_TuraNieZostalaZmienionaILicznikTurNieZostalPowiekszony</definition>
+        <argsstring>()</argsstring>
+        <name>SprawdzRuch_TrafionoStatek_TuraNieZostalaZmienionaILicznikTurNieZostalPowiekszony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" line="47" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" bodystart="47" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a0a9dca55f36746355689d8ed9353807d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.KontrolaGry.L_KontrolerGryTesty.ZakonczGre_TuraGracza_ZwyciezcaToGracz</definition>
+        <argsstring>()</argsstring>
+        <name>ZakonczGre_TuraGracza_ZwyciezcaToGracz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" line="65" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" bodystart="65" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a5919e0e3d2c6e2d2533e2fb3c1f0e511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiTesty.KontrolaGry.L_KontrolerGryTesty.ZakonczGre_TuraKomputera_ZwyciezcaToKomputer</definition>
+        <argsstring>()</argsstring>
+        <name>ZakonczGre_TuraKomputera_ZwyciezcaToKomputer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" line="80" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" bodystart="80" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" line="11" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/L_KontrolerGryTesty.cs" bodystart="10" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1aeb04acf75763418e301e70abb159d450" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::KontrolaGry::L_KontrolerGryTesty</scope><name>SprawdzRuch_NieTrafionoStatku_TuraZostalaZmienionaILicznikTurZostalPowiekszony</name></member>
+      <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a816b2e191367791cd3417280ea3ea6b1" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::KontrolaGry::L_KontrolerGryTesty</scope><name>SprawdzRuch_TrafionoStatek_TuraNieZostalaZmienionaILicznikTurNieZostalPowiekszony</name></member>
+      <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a0a9dca55f36746355689d8ed9353807d" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::KontrolaGry::L_KontrolerGryTesty</scope><name>ZakonczGre_TuraGracza_ZwyciezcaToGracz</name></member>
+      <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a5919e0e3d2c6e2d2533e2fb3c1f0e511" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::KontrolaGry::L_KontrolerGryTesty</scope><name>ZakonczGre_TuraKomputera_ZwyciezcaToKomputer</name></member>
+      <member refid="class_gra_w_statki_testy_1_1_kontrola_gry_1_1_l___kontroler_gry_testy_1a0bac4ea8bd0a277d58983f289b3a9ece" prot="public" virt="non-virtual"><scope>GraWStatkiTesty::KontrolaGry::L_KontrolerGryTesty</scope><name>ZmienTure_TuraZostalaZmienionaILicznikTurZostalPowiekszony</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_debug_2_gra_w_statki_logika_8csproj_8_file_list_absolute_8txt" kind="file" language="C++">
+    <compoundname>GraWStatkiLogika.csproj.FileListAbsolute.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.dll</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.pdb</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.csprojAssemblyReference.cache</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.dll</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">D:\1_GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.pdb</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.dll</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\bin\Debug\GraWStatkiLogika.pdb</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.csprojAssemblyReference.cache</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.dll</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">D:\GraWStatki\wsei-gra-w-statki\GraWStatki\GraWStatkiLogika\obj\Debug\GraWStatkiLogika.pdb</highlight></codeline>
+    </programlisting>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/obj/Debug/GraWStatkiLogika.csproj.FileListAbsolute.txt"/>
+  </compounddef>
+</doxygen>

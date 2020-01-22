@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_f7eb2bc6467eae7ac26b5046d39972ee" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry</compoundname>
+    <innerfile refid="_l___gra_8cs">L_Gra.cs</innerfile>
+    <innerfile refid="_l___kontroler_gry_8cs">L_KontrolerGry.cs</innerfile>
+    <innerfile refid="_l___sedzia_8cs">L_Sedzia.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/"/>
+  </compounddef>
+</doxygen>

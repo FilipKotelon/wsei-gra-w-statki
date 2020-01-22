@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiFront::Komputer::G_Komputer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a601af0af31b7668ba0489e32601176ff" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer" kindref="compound">L_Komputer</ref></type>
+        <definition>L_Komputer GraWStatkiFront.Komputer.G_Komputer._lKomputer</definition>
+        <argsstring></argsstring>
+        <name>_lKomputer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" line="19" column="28" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1aa1bff8f976bf81411e80c783ad5cb13b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy" kindref="compound">G_PlanszaBitwy</ref></type>
+        <definition>G_PlanszaBitwy GraWStatkiFront.Komputer.G_Komputer._gPlanszaGracza</definition>
+        <argsstring></argsstring>
+        <name>_gPlanszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" line="20" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a389bd65d9453b933eb6e0e682244f435" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry" kindref="compound">G_KontrolaGry</ref></type>
+        <definition>G_KontrolaGry GraWStatkiFront.Komputer.G_Komputer._kontroler</definition>
+        <argsstring></argsstring>
+        <name>_kontroler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" line="21" column="31" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a300d4755a74653cb3c7fd9df6575266b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiFront.Komputer.G_Komputer.G_Komputer</definition>
+        <argsstring>(G_KontrolaGry kontroler, L_PlanszaBitwy lPlanszaGracza, G_PlanszaBitwy gPlanszaGracza, PoziomTrudnosci poziomTrudnosci)</argsstring>
+        <name>G_Komputer</name>
+        <param>
+          <type><ref refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry" kindref="compound">G_KontrolaGry</ref></type>
+          <declname>kontroler</declname>
+        </param>
+        <param>
+          <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+          <declname>lPlanszaGracza</declname>
+        </param>
+        <param>
+          <type><ref refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy" kindref="compound">G_PlanszaBitwy</ref></type>
+          <declname>gPlanszaGracza</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615d" kindref="member">PoziomTrudnosci</ref></type>
+          <declname>poziomTrudnosci</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" line="23" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1af92f2996426f1b99351432501cab8b5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void GraWStatkiFront.Komputer.G_Komputer.WykonajRuch</definition>
+        <argsstring>()</argsstring>
+        <name>WykonajRuch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" line="36" column="27" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" bodystart="36" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1acf4e970f8723d772ebd2f8315d4e52b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.Komputer.G_Komputer.KliknijPole</definition>
+        <argsstring>(Button pole)</argsstring>
+        <name>KliknijPole</name>
+        <param>
+          <type>Button</type>
+          <declname>pole</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" line="30" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>GraWStatkiFront.PlanszaBitwy.G_PlanszaBitwy</label>
+        <link refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_planszaLogiczna</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_polaPlanszy</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>budowniczy</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_pola</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiFront.Komputer.G_Komputer</label>
+        <link refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_kontroler</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_gPlanszaGracza</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>_lKomputer</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraWStatkiLogika.KontrolaGry.L_Sedzia</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+          <edgelabel>_planszaKomputera</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_gra</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GraWStatkiLogika.Komputer.L_Komputer</label>
+        <link refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_wylosowanePole</edgelabel>
+          <edgelabel>_trafionePierwszePole</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraWStatkiLogika.KontrolaGry.L_KontrolerGry</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_obecnaGra</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>_sedzia</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraWStatkiLogika.KontrolaGry.L_Gra</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+          <edgelabel>_planszaKomputera</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraWStatkiFront.KontrolaGry.G_KontrolaGry</label>
+        <link refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>lPlanszaGracza</edgelabel>
+          <edgelabel>lPlanszaKomputera</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>gPlanszaKomputera</edgelabel>
+          <edgelabel>gPlanszaGracza</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_komputer</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_kontroler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" line="18" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs" bodystart="17" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1aa1bff8f976bf81411e80c783ad5cb13b" prot="private" virt="non-virtual"><scope>GraWStatkiFront::Komputer::G_Komputer</scope><name>_gPlanszaGracza</name></member>
+      <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a389bd65d9453b933eb6e0e682244f435" prot="private" virt="non-virtual"><scope>GraWStatkiFront::Komputer::G_Komputer</scope><name>_kontroler</name></member>
+      <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a601af0af31b7668ba0489e32601176ff" prot="private" virt="non-virtual"><scope>GraWStatkiFront::Komputer::G_Komputer</scope><name>_lKomputer</name></member>
+      <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a300d4755a74653cb3c7fd9df6575266b" prot="public" virt="non-virtual"><scope>GraWStatkiFront::Komputer::G_Komputer</scope><name>G_Komputer</name></member>
+      <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1acf4e970f8723d772ebd2f8315d4e52b5" prot="private" virt="non-virtual"><scope>GraWStatkiFront::Komputer::G_Komputer</scope><name>KliknijPole</name></member>
+      <member refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1af92f2996426f1b99351432501cab8b5f" prot="public" virt="non-virtual"><scope>GraWStatkiFront::Komputer::G_Komputer</scope><name>WykonajRuch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

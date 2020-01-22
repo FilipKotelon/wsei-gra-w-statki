@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_gra_w_statki_logika" kind="namespace" language="C#">
+    <compoundname>GraWStatkiLogika</compoundname>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_komputer">GraWStatkiLogika::Komputer</innernamespace>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_kontrola_gry">GraWStatkiLogika::KontrolaGry</innernamespace>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy">GraWStatkiLogika::PlanszaBitwy</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/Komputer/L_Komputer.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

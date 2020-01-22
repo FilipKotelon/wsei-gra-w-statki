@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiFront::KontrolaGry::G_KontrolaGry</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0ec40e25cfcb2a74b9af47947a10400d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry" kindref="compound">L_KontrolerGry</ref></type>
+        <definition>L_KontrolerGry GraWStatkiFront.KontrolaGry.G_KontrolaGry._kontroler</definition>
+        <argsstring></argsstring>
+        <name>_kontroler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="28" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a72d4ae863b49a77954969b2b31af9387" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiFront.KontrolaGry.G_KontrolaGry.lPlanszaGracza</definition>
+        <argsstring></argsstring>
+        <name>lPlanszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="31" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a95e4040f0d692818cc8609e5a31cca3e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiFront.KontrolaGry.G_KontrolaGry.lPlanszaKomputera</definition>
+        <argsstring></argsstring>
+        <name>lPlanszaKomputera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="32" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a69dca3deb84aa12dfe46debe118bbcee" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy" kindref="compound">G_PlanszaBitwy</ref></type>
+        <definition>G_PlanszaBitwy GraWStatkiFront.KontrolaGry.G_KontrolaGry.gPlanszaGracza</definition>
+        <argsstring></argsstring>
+        <name>gPlanszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="35" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ad521d16de880ff524b8297c5b9a4c678" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy" kindref="compound">G_PlanszaBitwy</ref></type>
+        <definition>G_PlanszaBitwy GraWStatkiFront.KontrolaGry.G_KontrolaGry.gPlanszaKomputera</definition>
+        <argsstring></argsstring>
+        <name>gPlanszaKomputera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="36" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a8b8bbfc066b9e0453c8a4dd33cd376bc" prot="private" static="no" mutable="no">
+        <type>Grid</type>
+        <definition>Grid GraWStatkiFront.KontrolaGry.G_KontrolaGry.xPlanszaGracza</definition>
+        <argsstring></argsstring>
+        <name>xPlanszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="39" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a2b8b0af8cd8d539f5968d02b383928ef" prot="private" static="no" mutable="no">
+        <type>Grid</type>
+        <definition>Grid GraWStatkiFront.KontrolaGry.G_KontrolaGry.xPlanszaKomputera</definition>
+        <argsstring></argsstring>
+        <name>xPlanszaKomputera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="40" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a632c2b23b304c837def7a3bfe261f2bb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer" kindref="compound">G_Komputer</ref></type>
+        <definition>G_Komputer GraWStatkiFront.KontrolaGry.G_KontrolaGry._komputer</definition>
+        <argsstring></argsstring>
+        <name>_komputer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="43" column="28" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ae8c919bee7c29569d388d338a61b7fbf" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button GraWStatkiFront.KontrolaGry.G_KontrolaGry._przyciskNowejGry</definition>
+        <argsstring></argsstring>
+        <name>_przyciskNowejGry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="46" column="24" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a58bf33727f370c33a40511e8130fb098" prot="private" static="no" mutable="no">
+        <type>TextBlock</type>
+        <definition>TextBlock GraWStatkiFront.KontrolaGry.G_KontrolaGry._komunikat</definition>
+        <argsstring></argsstring>
+        <name>_komunikat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="49" column="27" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a90f55e05a719ab6ebf1875cb09b86ab5" prot="private" static="no" mutable="no">
+        <type>Popup</type>
+        <definition>Popup GraWStatkiFront.KontrolaGry.G_KontrolaGry._popupTrudnosci</definition>
+        <argsstring></argsstring>
+        <name>_popupTrudnosci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="52" column="23" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0815a5b547c44e174d7b46f41e64f2bd" prot="private" static="no" mutable="no">
+        <type>List&lt; Button &gt;</type>
+        <definition>List&lt;Button&gt; GraWStatkiFront.KontrolaGry.G_KontrolaGry._przyciskiPoziomowTrudnosci</definition>
+        <argsstring></argsstring>
+        <name>_przyciskiPoziomowTrudnosci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="55" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ad86fbaad32ed7cee2ad7e5c4aac37a53" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraWStatkiFront.KontrolaGry.G_KontrolaGry._pierwszaGra</definition>
+        <argsstring></argsstring>
+        <name>_pierwszaGra</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="57" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a101cbb8aa5bbe707b938b43dceb6d239" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraWStatkiFront.KontrolaGry.G_KontrolaGry._pierwszyRuch</definition>
+        <argsstring></argsstring>
+        <name>_pierwszyRuch</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="58" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a4f6aac1821a54002d5d7712d82dba44f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiFront.KontrolaGry.G_KontrolaGry.G_KontrolaGry</definition>
+        <argsstring>(Grid xPlanszaGracza, Grid xPlanszaKomputera, Button przyciskNowejGry, TextBlock komunikat, Popup popupTrudnosci, List&lt; Button &gt; przyciskiPoziomowTrudnosci)</argsstring>
+        <name>G_KontrolaGry</name>
+        <param>
+          <type>Grid</type>
+          <declname>xPlanszaGracza</declname>
+        </param>
+        <param>
+          <type>Grid</type>
+          <declname>xPlanszaKomputera</declname>
+        </param>
+        <param>
+          <type>Button</type>
+          <declname>przyciskNowejGry</declname>
+        </param>
+        <param>
+          <type>TextBlock</type>
+          <declname>komunikat</declname>
+        </param>
+        <param>
+          <type>Popup</type>
+          <declname>popupTrudnosci</declname>
+        </param>
+        <param>
+          <type>List&lt; Button &gt;</type>
+          <declname>przyciskiPoziomowTrudnosci</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="60" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="60" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a32e2d348879586248352cc3069e73d63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void GraWStatkiFront.KontrolaGry.G_KontrolaGry.KliknieciePrzycisku</definition>
+        <argsstring>(Button button)</argsstring>
+        <name>KliknieciePrzycisku</name>
+        <param>
+          <type>Button</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="216" column="27" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="216" bodyend="310"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a8b02fd400928318a2877dd37cb9b295d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.KlikniecieNowejGry</definition>
+        <argsstring>(Object sender, RoutedEventArgs e)</argsstring>
+        <name>KlikniecieNowejGry</name>
+        <param>
+          <type>Object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Rozpoczęcie nowej gry </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="82" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a94da5261084737695f17ef053fc77308" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.NowaGra</definition>
+        <argsstring>(Grid xPlanszaGracza, Grid xPlanszaKomputera, bool czyPierwszaGra, PoziomTrudnosci poziomTrudnosci)</argsstring>
+        <name>NowaGra</name>
+        <param>
+          <type>Grid</type>
+          <declname>xPlanszaGracza</declname>
+        </param>
+        <param>
+          <type>Grid</type>
+          <declname>xPlanszaKomputera</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>czyPierwszaGra</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615d" kindref="member">PoziomTrudnosci</ref></type>
+          <declname>poziomTrudnosci</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="89" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="89" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a3a9b87cb1d85cc9fb7c409878ff225e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.WybierzPoziomTrudnosci</definition>
+        <argsstring>(Object sender, RoutedEventArgs e, PoziomTrudnosci poziomTrudnosci)</argsstring>
+        <name>WybierzPoziomTrudnosci</name>
+        <param>
+          <type>Object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615d" kindref="member">PoziomTrudnosci</ref></type>
+          <declname>poziomTrudnosci</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="118" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="118" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0584e7202d0a235087e1d72a398b6060" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.PodepnijWyborTrudnosci</definition>
+        <argsstring>()</argsstring>
+        <name>PodepnijWyborTrudnosci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="124" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="124" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a251ca64ec2702723d69a9311d416b127" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.NasluchujKlikniec</definition>
+        <argsstring>()</argsstring>
+        <name>NasluchujKlikniec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="145" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="145" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a905ce3f32fd30b81cb809759773d7749" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.WyczyscPlansze</definition>
+        <argsstring>()</argsstring>
+        <name>WyczyscPlansze</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="159" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="159" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1afae5b470d21a934086af412db0170daa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.ZmienKomunikat</definition>
+        <argsstring>(bool czyTrafiono, bool zatopionoStatek)</argsstring>
+        <name>ZmienKomunikat</name>
+        <param>
+          <type>bool</type>
+          <declname>czyTrafiono</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>zatopionoStatek</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="174" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="174" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1aae883897989dd0c64ada12f8d03ee1e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void GraWStatkiFront.KontrolaGry.G_KontrolaGry.ZmienAktywnaPlansze</definition>
+        <argsstring>(bool czyTuraGracza)</argsstring>
+        <name>ZmienAktywnaPlansze</name>
+        <param>
+          <type>bool</type>
+          <declname>czyTuraGracza</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="190" column="28" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="190" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a178e241f37e42b98b0708493c420e68b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiFront.KontrolaGry.G_KontrolaGry.KlikniecieGracza</definition>
+        <argsstring>(Object sender, RoutedEventArgs e)</argsstring>
+        <name>KlikniecieGracza</name>
+        <param>
+          <type>Object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="209" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="209" bodyend="214"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test, test, test </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>GraWStatkiFront.PlanszaBitwy.G_PlanszaBitwy</label>
+        <link refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_planszaLogiczna</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_polaPlanszy</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>budowniczy</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_pola</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="6">
+        <label>GraWStatkiFront.Komputer.G_Komputer</label>
+        <link refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>_kontroler</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_gPlanszaGracza</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_lKomputer</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GraWStatkiLogika.KontrolaGry.L_Sedzia</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+          <edgelabel>_planszaKomputera</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>_gra</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraWStatkiLogika.Komputer.L_Komputer</label>
+        <link refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_wylosowanePole</edgelabel>
+          <edgelabel>_trafionePierwszePole</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraWStatkiLogika.KontrolaGry.L_KontrolerGry</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>_obecnaGra</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>_sedzia</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraWStatkiLogika.KontrolaGry.L_Gra</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+          <edgelabel>_planszaKomputera</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GraWStatkiFront.KontrolaGry.G_KontrolaGry</label>
+        <link refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>lPlanszaGracza</edgelabel>
+          <edgelabel>lPlanszaKomputera</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>gPlanszaKomputera</edgelabel>
+          <edgelabel>gPlanszaGracza</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_komputer</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_kontroler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" line="27" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry/KontrolaGry.cs" bodystart="26" bodyend="311"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a632c2b23b304c837def7a3bfe261f2bb" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_komputer</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a58bf33727f370c33a40511e8130fb098" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_komunikat</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0ec40e25cfcb2a74b9af47947a10400d" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_kontroler</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ad86fbaad32ed7cee2ad7e5c4aac37a53" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_pierwszaGra</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a101cbb8aa5bbe707b938b43dceb6d239" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_pierwszyRuch</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a90f55e05a719ab6ebf1875cb09b86ab5" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_popupTrudnosci</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0815a5b547c44e174d7b46f41e64f2bd" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_przyciskiPoziomowTrudnosci</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ae8c919bee7c29569d388d338a61b7fbf" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>_przyciskNowejGry</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a4f6aac1821a54002d5d7712d82dba44f" prot="public" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>G_KontrolaGry</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a69dca3deb84aa12dfe46debe118bbcee" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>gPlanszaGracza</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1ad521d16de880ff524b8297c5b9a4c678" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>gPlanszaKomputera</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a178e241f37e42b98b0708493c420e68b" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>KlikniecieGracza</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a8b02fd400928318a2877dd37cb9b295d" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>KlikniecieNowejGry</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a32e2d348879586248352cc3069e73d63" prot="public" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>KliknieciePrzycisku</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a72d4ae863b49a77954969b2b31af9387" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>lPlanszaGracza</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a95e4040f0d692818cc8609e5a31cca3e" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>lPlanszaKomputera</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a251ca64ec2702723d69a9311d416b127" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>NasluchujKlikniec</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a94da5261084737695f17ef053fc77308" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>NowaGra</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a0584e7202d0a235087e1d72a398b6060" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>PodepnijWyborTrudnosci</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a3a9b87cb1d85cc9fb7c409878ff225e8" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>WybierzPoziomTrudnosci</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a905ce3f32fd30b81cb809759773d7749" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>WyczyscPlansze</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a8b8bbfc066b9e0453c8a4dd33cd376bc" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>xPlanszaGracza</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a2b8b0af8cd8d539f5968d02b383928ef" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>xPlanszaKomputera</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1aae883897989dd0c64ada12f8d03ee1e5" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>ZmienAktywnaPlansze</name></member>
+      <member refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1afae5b470d21a934086af412db0170daa" prot="private" virt="non-virtual"><scope>GraWStatkiFront::KontrolaGry::G_KontrolaGry</scope><name>ZmienKomunikat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

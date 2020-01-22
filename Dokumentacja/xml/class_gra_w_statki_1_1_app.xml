@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatki::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.cs" line="48" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.i.cs" line="48" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.i.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.cs" line="48" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatki.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.i.cs" line="48" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.i.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraWStatki.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.cs" line="63" column="28" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraWStatki.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.i.cs" line="63" column="28" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Debug/App.g.i.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraWStatki.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.cs" line="63" column="28" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraWStatki.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.i.cs" line="63" column="28" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/App.g.i.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_gra_w_statki_1_1_app" kindref="compound">App</ref></para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Application</label>
+      </node>
+      <node id="1">
+        <label>GraWStatki.App</label>
+        <link refid="class_gra_w_statki_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Application</label>
+      </node>
+      <node id="1">
+        <label>GraWStatki.App</label>
+        <link refid="class_gra_w_statki_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/App.xaml.cs" line="15" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/App.xaml.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_app_1a0571158af919407d5928b118c5a4bcb4" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>Main</name></member>
+      <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>Main</name></member>
+      <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>Main</name></member>
+      <member refid="class_gra_w_statki_1_1_app_1a50493b26e4a89fa55a14c756983ae394" prot="public" virt="non-virtual"><scope>GraWStatki::App</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

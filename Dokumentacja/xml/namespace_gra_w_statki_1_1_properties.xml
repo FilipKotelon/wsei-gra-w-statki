@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_gra_w_statki_1_1_properties" kind="namespace" language="C#">
+    <compoundname>GraWStatki::Properties</compoundname>
+    <innerclass refid="class_gra_w_statki_1_1_properties_1_1_resources" prot="package">GraWStatki::Properties::Resources</innerclass>
+    <innerclass refid="class_gra_w_statki_1_1_properties_1_1_settings" prot="package">GraWStatki::Properties::Settings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/Properties/Resources.Designer.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

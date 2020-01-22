@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_2189411ca43502d8d8efb7879e83580e" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release</compoundname>
+    <innerfile refid="_release_2_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="_release_2_app_8g_8i_8cs">App.g.i.cs</innerfile>
+    <innerfile refid="_release_2_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="_release_2_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatki/obj/Release/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiLogika::KontrolaGry::L_Gra</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a5957b2101b4b8d1092689b1765235246" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraWStatkiLogika.KontrolaGry.L_Gra.zwyciezca</definition>
+        <argsstring></argsstring>
+        <name>zwyciezca</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="12" column="23" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a78a448f6bbf3deadd17c2aa84a084d07" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraWStatkiLogika.KontrolaGry.L_Gra._gracz</definition>
+        <argsstring></argsstring>
+        <name>_gracz</name>
+        <initializer>= &quot;Gracz&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="13" column="24" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a605ffecb17cdf55069bd373acdeac589" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraWStatkiLogika.KontrolaGry.L_Gra._komputer</definition>
+        <argsstring></argsstring>
+        <name>_komputer</name>
+        <initializer>= &quot;Komputer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="14" column="24" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1aee2f62d93340caba2de59b6d39dc3d0f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiLogika.KontrolaGry.L_Gra._planszaGracza</definition>
+        <argsstring></argsstring>
+        <name>_planszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="16" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a98b33da0bd3197683eb16062687ee9a2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiLogika.KontrolaGry.L_Gra._planszaKomputera</definition>
+        <argsstring></argsstring>
+        <name>_planszaKomputera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="17" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1ad6601ba29717295135934298b654e871" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiLogika.KontrolaGry.L_Gra.PlanszaGracza</definition>
+        <argsstring></argsstring>
+        <name>PlanszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="19" column="31" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a9729900b6d20848c45f8ec6f9be40511" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiLogika.KontrolaGry.L_Gra.PlanszaKomputera</definition>
+        <argsstring></argsstring>
+        <name>PlanszaKomputera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="27" column="31" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1acccd135c75c6b3b9c4da66ffa072031a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GraWStatkiLogika.KontrolaGry.L_Gra.Gracz</definition>
+        <argsstring></argsstring>
+        <name>Gracz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="35" column="23" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a822f5fdd530126c1104cce3f44309769" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GraWStatkiLogika.KontrolaGry.L_Gra.Komputer</definition>
+        <argsstring></argsstring>
+        <name>Komputer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="43" column="23" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="44" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1ac4caa00461bed8086711faa48c61f6d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiLogika.KontrolaGry.L_Gra.L_Gra</definition>
+        <argsstring>()</argsstring>
+        <name>L_Gra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="51" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="51" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_polaPlanszy</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>budowniczy</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_pola</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.KontrolaGry.L_Gra</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+          <edgelabel>_planszaKomputera</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="11" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" bodystart="10" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a78a448f6bbf3deadd17c2aa84a084d07" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>_gracz</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a605ffecb17cdf55069bd373acdeac589" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>_komputer</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1aee2f62d93340caba2de59b6d39dc3d0f" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>_planszaGracza</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a98b33da0bd3197683eb16062687ee9a2" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>_planszaKomputera</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1acccd135c75c6b3b9c4da66ffa072031a" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>Gracz</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a822f5fdd530126c1104cce3f44309769" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>Komputer</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1ac4caa00461bed8086711faa48c61f6d9" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>L_Gra</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1ad6601ba29717295135934298b654e871" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>PlanszaGracza</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a9729900b6d20848c45f8ec6f9be40511" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>PlanszaKomputera</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra_1a5957b2101b4b8d1092689b1765235246" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Gra</scope><name>zwyciezca</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

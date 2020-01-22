@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_g___komputer_8cs" kind="file" language="C#">
+    <compoundname>G_Komputer.cs</compoundname>
+    <innerclass refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer" prot="public">GraWStatkiFront::Komputer::G_Komputer</innerclass>
+    <innernamespace refid="namespace_gra_w_statki_front">GraWStatkiFront</innernamespace>
+    <innernamespace refid="namespace_gra_w_statki_front_1_1_komputer">GraWStatkiFront::Komputer</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading">System::Threading</innernamespace>
+    <innernamespace refid="namespace_system_1_1_windows_1_1_automation_1_1_peers">System::Windows::Automation::Peers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_gra_w_statki_front" kindref="compound">GraWStatkiFront</ref>.<ref refid="namespace_gra_w_statki_front_1_1_kontrola_gry" kindref="compound">KontrolaGry</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_gra_w_statki_front" kindref="compound">GraWStatkiFront</ref>.<ref refid="namespace_gra_w_statki_front_1_1_plansza_bitwy" kindref="compound">PlanszaBitwy</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_gra_w_statki_logika" kindref="compound">GraWStatkiLogika</ref>.<ref refid="namespace_gra_w_statki_logika_1_1_komputer" kindref="compound">Komputer</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_gra_w_statki_logika" kindref="compound">GraWStatkiLogika</ref>.<ref refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy" kindref="compound">PlanszaBitwy</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows.Automation.Peers;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows.Controls;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows.Controls.Primitives;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespace_gra_w_statki_front_1_1_komputer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_gra_w_statki_front_1_1_komputer" kindref="compound">GraWStatkiFront.Komputer</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer" kindref="compound">G_Komputer</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer" kindref="compound">L_Komputer</ref><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a601af0af31b7668ba0489e32601176ff" kindref="member">_lKomputer</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy" kindref="compound">G_PlanszaBitwy</ref><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1aa1bff8f976bf81411e80c783ad5cb13b" kindref="member">_gPlanszaGracza</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry" kindref="compound">G_KontrolaGry</ref><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a389bd65d9453b933eb6e0e682244f435" kindref="member">_kontroler</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a300d4755a74653cb3c7fd9df6575266b" kindref="member">G_Komputer</ref>(<ref refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry" kindref="compound">G_KontrolaGry</ref><sp/>kontroler,<sp/><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref><sp/>lPlanszaGracza,<sp/><ref refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy" kindref="compound">G_PlanszaBitwy</ref><sp/>gPlanszaGracza,<sp/><ref refid="namespace_gra_w_statki_logika_1_1_komputer_1a1ee3f17fc29bdfd2c0e7cce865aa615d" kindref="member">PoziomTrudnosci</ref><sp/>poziomTrudnosci)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1aa1bff8f976bf81411e80c783ad5cb13b" kindref="member">_gPlanszaGracza</ref><sp/>=<sp/>gPlanszaGracza;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a601af0af31b7668ba0489e32601176ff" kindref="member">_lKomputer</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer" kindref="compound">L_Komputer</ref>(lPlanszaGracza,<sp/>poziomTrudnosci);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a389bd65d9453b933eb6e0e682244f435" kindref="member">_kontroler</ref><sp/>=<sp/>kontroler;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1acf4e970f8723d772ebd2f8315d4e52b5" kindref="member">KliknijPole</ref>(Button<sp/>pole)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//pole.RaiseEvent(new<sp/>RoutedEventArgs(ButtonBase.ClickEvent));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a389bd65d9453b933eb6e0e682244f435" kindref="member">_kontroler</ref>.<ref refid="class_gra_w_statki_front_1_1_kontrola_gry_1_1_g___kontrola_gry_1a32e2d348879586248352cc3069e73d63" kindref="member">KliknieciePrzycisku</ref>(pole);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1af92f2996426f1b99351432501cab8b5f" kindref="member">WykonajRuch</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">[]<sp/>indeksy<sp/>=<sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a601af0af31b7668ba0489e32601176ff" kindref="member">_lKomputer</ref>.<ref refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a95691e2848b105fef43efea6e4874929" kindref="member">LosujPole</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Button<sp/>pole<sp/>=<sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1aa1bff8f976bf81411e80c783ad5cb13b" kindref="member">_gPlanszaGracza</ref>.<ref refid="class_gra_w_statki_front_1_1_plansza_bitwy_1_1_g___plansza_bitwy_1a1a2f403643e0b372513c88dbba976a68" kindref="member">PlanszaZPrzyciskami</ref>[indeksy[0],<sp/>indeksy[1]];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Odczekaj<sp/>przed<sp/>ruchem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>await<sp/>Task.Delay(1000);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1acf4e970f8723d772ebd2f8315d4e52b5" kindref="member">KliknijPole</ref>(pole);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_front_1_1_komputer_1_1_g___komputer_1a601af0af31b7668ba0489e32601176ff" kindref="member">_lKomputer</ref>.<ref refid="class_gra_w_statki_logika_1_1_komputer_1_1_l___komputer_1a0bd6b76faeebf4d0505f29ae108ae35d" kindref="member">SprawdzRuch</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer/G_Komputer.cs"/>
+  </compounddef>
+</doxygen>

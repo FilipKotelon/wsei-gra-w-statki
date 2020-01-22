@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_5000dd340d8d18cd286873c7e87c5e6e" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy</compoundname>
+    <innerdir refid="dir_aa0b6ec120a8d8e3ba89a0608eb20f09">D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow</innerdir>
+    <innerdir refid="dir_a7ed5ae9502cc1f7691e6dece9e5fa3a">D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola</innerdir>
+    <innerdir refid="dir_aa2ca9b1347d89364e0a375efdf1e140">D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki</innerdir>
+    <innerfile refid="_l___plansza_bitwy_8cs">L_PlanszaBitwy.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/"/>
+  </compounddef>
+</doxygen>

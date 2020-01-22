@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_c6940a26dd1c1e9d4d1a0d3ad609a6be" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry</compoundname>
+    <innerfile refid="_l___kontroler_gry_testy_8cs">L_KontrolerGryTesty.cs</innerfile>
+    <innerfile refid="_l___sedzia_testy_8cs">L_SedziaTesty.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/KontrolaGry/"/>
+  </compounddef>
+</doxygen>

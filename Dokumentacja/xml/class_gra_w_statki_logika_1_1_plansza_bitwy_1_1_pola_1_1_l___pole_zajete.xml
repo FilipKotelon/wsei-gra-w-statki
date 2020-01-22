@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_zajete" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</compoundname>
+    <basecompoundref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" prot="public" virt="non-virtual">GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_zajete_1abbca942cf1bd9704fa0da23b81736a55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiLogika.PlanszaBitwy.Pola.L_PoleZajete.L_PoleZajete</definition>
+        <argsstring>(int IDStatku)</argsstring>
+        <name>L_PoleZajete</name>
+        <param>
+          <type>int</type>
+          <declname>IDStatku</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PoleZajete.cs" line="11" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PoleZajete.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_PoleZajete</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_zajete"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_PoleZajete</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_zajete"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PoleZajete.cs" line="10" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Pola/L_PoleZajete.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1ac8658afc384c981b87b9931db90da923" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</scope><name>_IDStatku</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a64650ebd8f812277d837c09f17ddb725" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</scope><name>_trafione</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a4c54b6fb0aef162091a20552da5b8add" prot="protected" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</scope><name>_zajete</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a139307a955c8f6cff70339e8152a0f13" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</scope><name>IDStatku</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_zajete_1abbca942cf1bd9704fa0da23b81736a55" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</scope><name>L_PoleZajete</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a8cc90c2be291ba1879d2fc03de54acfb" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</scope><name>Trafione</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole_1a0d125bde1a8840074862490c55516658" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::Pola::L_PoleZajete</scope><name>Zajete</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

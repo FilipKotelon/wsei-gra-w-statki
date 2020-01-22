@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_aa2ca9b1347d89364e0a375efdf1e140" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki</compoundname>
+    <innerfile refid="_l___czteromasztowiec_8cs">L_Czteromasztowiec.cs</innerfile>
+    <innerfile refid="_l___dwumasztowiec_8cs">L_Dwumasztowiec.cs</innerfile>
+    <innerfile refid="_l___jednomasztowiec_8cs">L_Jednomasztowiec.cs</innerfile>
+    <innerfile refid="_l___statek_8cs">L_Statek.cs</innerfile>
+    <innerfile refid="_l___trojmasztowiec_8cs">L_Trojmasztowiec.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_gra_w_statki_logika_1_1_kontrola_gry" kind="namespace" language="C#">
+    <compoundname>GraWStatkiLogika::KontrolaGry</compoundname>
+    <innerclass refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra" prot="public">GraWStatkiLogika::KontrolaGry::L_Gra</innerclass>
+    <innerclass refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___kontroler_gry" prot="public">GraWStatkiLogika::KontrolaGry::L_KontrolerGry</innerclass>
+    <innerclass refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia" prot="public">GraWStatkiLogika::KontrolaGry::L_Sedzia</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Gra.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

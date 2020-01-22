@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a319c46226d4144d6500cb723b8ede2af" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" kindref="compound">L_Pole</ref>[,]</type>
+        <definition>L_Pole [,] GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy._pola</definition>
+        <argsstring></argsstring>
+        <name>_pola</name>
+        <initializer>= new <ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" kindref="compound">L_Pole</ref>[10, 10]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="16" column="24" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ac7cf4f9c7c5f61e151c8b741709c0c68" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref> &gt;</type>
+        <definition>List&lt;L_Statek&gt; GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy._statki</definition>
+        <argsstring></argsstring>
+        <name>_statki</name>
+        <initializer>= new List&lt;<ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="17" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a73ff553f92ae589bd1c53e9812e1e28f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow" kindref="compound">L_BudowniczyStatkow</ref></type>
+        <definition>L_BudowniczyStatkow GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy.budowniczy</definition>
+        <argsstring></argsstring>
+        <name>budowniczy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="18" column="37" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a17e7c3539b55d7b60d78157b55383710" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" kindref="compound">L_Pole</ref>[,]</type>
+        <definition>L_Pole [,] GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy.Pola</definition>
+        <argsstring></argsstring>
+        <name>Pola</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="20" column="23" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ae8263d2cfdf77b4d3f430269a76ecffb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref> &gt;</type>
+        <definition>List&lt;L_Statek&gt; GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy.Statki</definition>
+        <argsstring></argsstring>
+        <name>Statki</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="28" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ab7ef26c499c454299a3ee68799b435de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy.L_PlanszaBitwy</definition>
+        <argsstring>()</argsstring>
+        <name>L_PlanszaBitwy</name>
+        <briefdescription>
+<para>Konstruktor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="39" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="39" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a9bb5c1705db38b9065a55451a2aa2587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy.DodajStatek</definition>
+        <argsstring>(L_Statek statek)</argsstring>
+        <name>DodajStatek</name>
+        <param>
+          <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref></type>
+          <declname>statek</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="64" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ac08b59fa42d00df9e197bf019a32ba55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy.WypelnijPustePola</definition>
+        <argsstring>()</argsstring>
+        <name>WypelnijPustePola</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="50" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_polaPlanszy</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>budowniczy</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_pola</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" line="15" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/L_PlanszaBitwy.cs" bodystart="14" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a319c46226d4144d6500cb723b8ede2af" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>_pola</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ac7cf4f9c7c5f61e151c8b741709c0c68" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>_statki</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a73ff553f92ae589bd1c53e9812e1e28f" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>budowniczy</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a9bb5c1705db38b9065a55451a2aa2587" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>DodajStatek</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ab7ef26c499c454299a3ee68799b435de" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>L_PlanszaBitwy</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1a17e7c3539b55d7b60d78157b55383710" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>Pola</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ae8263d2cfdf77b4d3f430269a76ecffb" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>Statki</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy_1ac08b59fa42d00df9e197bf019a32ba55" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::L_PlanszaBitwy</scope><name>WypelnijPustePola</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

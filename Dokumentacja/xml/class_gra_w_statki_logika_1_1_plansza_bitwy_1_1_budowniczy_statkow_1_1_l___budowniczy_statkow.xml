@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a2f2d89b651f5d2e355b6efa6450bfeb5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" kindref="compound">L_Pole</ref>[,]</type>
+        <definition>L_Pole [,] GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow._polaPlanszy</definition>
+        <argsstring></argsstring>
+        <name>_polaPlanszy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="13" column="24" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a7b1ed50b38ba9c41f6a7aae95f8b1833" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref> &gt;</type>
+        <definition>List&lt;L_Statek&gt; GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow._statki</definition>
+        <argsstring></argsstring>
+        <name>_statki</name>
+        <initializer>= new List&lt;<ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="14" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a0789680c67739ea11460fbea45103cf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow.L_BudowniczyStatkow</definition>
+        <argsstring>(L_Pole[,] polaPlanszy)</argsstring>
+        <name>L_BudowniczyStatkow</name>
+        <param>
+          <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" kindref="compound">L_Pole</ref></type>
+          <declname>polaPlanszy</declname>
+          <array>[,]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="16" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a6c4af1b428aa5bbb6c6cc1fcc9f1d573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow.BudujStatkiLosowo</definition>
+        <argsstring>()</argsstring>
+        <name>BudujStatkiLosowo</name>
+        <briefdescription>
+<para>Funkcja budująca statki w losowych miejscach planszy </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rząd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Kolumna</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>kierunek</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Kierunek budowania statku</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statek</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Statek</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="396" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="396" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1ad8d08dfd4eef824a3cd0387b47503e11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole" kindref="compound">L_Pole</ref>[,]</type>
+        <definition>L_Pole [,] GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow.OddajPlansze</definition>
+        <argsstring>()</argsstring>
+        <name>OddajPlansze</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="434" column="23" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="434" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a2676a7a80ddce941142fe24ee7fd3ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref> &gt;</type>
+        <definition>List&lt;L_Statek&gt; GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow.OddajStatki</definition>
+        <argsstring>()</argsstring>
+        <name>OddajStatki</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="439" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="439" bodyend="442"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a76a87a81e611d4ddf66b13f255b415a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow.MoznaBudowac</definition>
+        <argsstring>(int r, int k, Kierunki kierunek, L_Statek statek)</argsstring>
+        <name>MoznaBudowac</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689" kindref="member">Kierunki</ref></type>
+          <declname>kierunek</declname>
+        </param>
+        <param>
+          <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref></type>
+          <declname>statek</declname>
+        </param>
+        <briefdescription>
+<para>Funkcja sprawdzająca, czy można budować statek w danym położeniu </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rząd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Kolumna</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>kierunek</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Kierunek budowania statku</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statek</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Statek</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="29" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="29" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1accc169b171dce554edf8efce03f72843" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow.BudujStatek</definition>
+        <argsstring>(int r, int k, Kierunki kierunek, L_Statek statek)</argsstring>
+        <name>BudujStatek</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1aa5623e56327ecf190e03a035455ce689" kindref="member">Kierunki</ref></type>
+          <declname>kierunek</declname>
+        </param>
+        <param>
+          <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref></type>
+          <declname>statek</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="347" column="22" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="347" bodyend="385"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_polaPlanszy</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" line="12" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/BudowniczyStatkow/L_BudowniczyStatkow.cs" bodystart="11" bodyend="443"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a2f2d89b651f5d2e355b6efa6450bfeb5" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>_polaPlanszy</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a7b1ed50b38ba9c41f6a7aae95f8b1833" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>_statki</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1accc169b171dce554edf8efce03f72843" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>BudujStatek</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a6c4af1b428aa5bbb6c6cc1fcc9f1d573" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>BudujStatkiLosowo</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a0789680c67739ea11460fbea45103cf9" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>L_BudowniczyStatkow</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a76a87a81e611d4ddf66b13f255b415a5" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>MoznaBudowac</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1ad8d08dfd4eef824a3cd0387b47503e11" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>OddajPlansze</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow_1a2676a7a80ddce941142fe24ee7fd3ac4" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::PlanszaBitwy::BudowniczyStatkow::L_BudowniczyStatkow</scope><name>OddajStatki</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

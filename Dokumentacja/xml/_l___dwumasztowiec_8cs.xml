@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_l___dwumasztowiec_8cs" kind="file" language="C#">
+    <compoundname>L_Dwumasztowiec.cs</compoundname>
+    <innerclass refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___dwumasztowiec" prot="public">GraWStatkiLogika::PlanszaBitwy::Statki::L_Dwumasztowiec</innerclass>
+    <innernamespace refid="namespace_gra_w_statki_logika">GraWStatkiLogika</innernamespace>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy">GraWStatkiLogika::PlanszaBitwy</innernamespace>
+    <innernamespace refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki">GraWStatkiLogika::PlanszaBitwy::Statki</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki" kindref="compound">GraWStatkiLogika.PlanszaBitwy.Statki</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___dwumasztowiec" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___dwumasztowiec" kindref="compound">L_Dwumasztowiec</ref><sp/>:<sp/><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek" kindref="compound">L_Statek</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___dwumasztowiec_1a6691672acce9a345cb332f215b37167e" kindref="member">L_Dwumasztowiec</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a5e5fe07b6c8e84fc9a910676b7e642a2" kindref="member">ID</ref>)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1ac85c22ba343614bb995346e370b3f0b5" kindref="member">_ID</ref><sp/>=<sp/><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a5e5fe07b6c8e84fc9a910676b7e642a2" kindref="member">ID</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_statki_1_1_l___statek_1a28b0af0c27612717820d0cbfcd54eb72" kindref="member">_iloscPol</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/PlanszaBitwy/Statki/L_Dwumasztowiec.cs"/>
+  </compounddef>
+</doxygen>

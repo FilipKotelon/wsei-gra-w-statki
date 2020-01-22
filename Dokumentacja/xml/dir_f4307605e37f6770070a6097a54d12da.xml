@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_f4307605e37f6770070a6097a54d12da" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront</compoundname>
+    <innerdir refid="dir_0f4153be3925a35aed87d204be8a61fe">D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/Komputer</innerdir>
+    <innerdir refid="dir_4f202150f0880c9e3a24abb49a9d20f5">D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/KontrolaGry</innerdir>
+    <innerdir refid="dir_dc199b8517a6c47b1eeda7917cd7704c">D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/obj</innerdir>
+    <innerdir refid="dir_091d8c0614adeab9d6d45fdddad18126">D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/PlanszaBitwy</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiFront/"/>
+  </compounddef>
+</doxygen>

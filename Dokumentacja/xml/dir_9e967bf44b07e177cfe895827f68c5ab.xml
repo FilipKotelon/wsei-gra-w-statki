@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_9e967bf44b07e177cfe895827f68c5ab" kind="dir">
+    <compoundname>D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy</compoundname>
+    <innerfile refid="_l___budowniczy_statkow_testy_8cs">L_BudowniczyStatkowTesty.cs</innerfile>
+    <innerfile refid="_l___plansza_bitwy_testy_8cs">L_PlanszaBitwyTesty.cs</innerfile>
+    <innerfile refid="_l___statek_testy_8cs">L_StatekTesty.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiTesty/PlanszaBitwy/"/>
+  </compounddef>
+</doxygen>

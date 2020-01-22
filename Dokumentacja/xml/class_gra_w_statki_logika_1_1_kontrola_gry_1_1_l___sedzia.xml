@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia" kind="class" language="C#" prot="public">
+    <compoundname>GraWStatkiLogika::KontrolaGry::L_Sedzia</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ab50e1f585a2321e4ed8fdfba707b2ad3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiLogika.KontrolaGry.L_Sedzia._planszaGracza</definition>
+        <argsstring></argsstring>
+        <name>_planszaGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" line="13" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ae87892309514fb2a529e73ade61cc9d5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy" kindref="compound">L_PlanszaBitwy</ref></type>
+        <definition>L_PlanszaBitwy GraWStatkiLogika.KontrolaGry.L_Sedzia._planszaKomputera</definition>
+        <argsstring></argsstring>
+        <name>_planszaKomputera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" line="14" column="32" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1a72a701d7fde01f52125ee79cd2256a84" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra" kindref="compound">L_Gra</ref></type>
+        <definition>L_Gra GraWStatkiLogika.KontrolaGry.L_Sedzia._gra</definition>
+        <argsstring></argsstring>
+        <name>_gra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" line="15" column="23" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ad0851b9e1244d4b8cfe7223c8e052753" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraWStatkiLogika.KontrolaGry.L_Sedzia.L_Sedzia</definition>
+        <argsstring>(L_Gra gra)</argsstring>
+        <name>L_Sedzia</name>
+        <param>
+          <type><ref refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra" kindref="compound">L_Gra</ref></type>
+          <declname>gra</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" line="17" column="16" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1a916f5bffcc06ffac8851bfd227ccc9d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraWStatkiLogika.KontrolaGry.L_Sedzia.SprawdzCzyKoniec</definition>
+        <argsstring>(bool czyTuraGracza)</argsstring>
+        <name>SprawdzCzyKoniec</name>
+        <param>
+          <type>bool</type>
+          <declname>czyTuraGracza</declname>
+        </param>
+        <briefdescription>
+<para>Funkcja sprawdzająca, czy gra zakończyła się po danym ruchu </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>prawda/fałsz - czy gra została zakończona</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" line="28" column="21" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" bodystart="28" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>GraWStatkiLogika.PlanszaBitwy.BudowniczyStatkow.L_BudowniczyStatkow</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_budowniczy_statkow_1_1_l___budowniczy_statkow"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_polaPlanszy</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraWStatkiLogika.PlanszaBitwy.L_PlanszaBitwy</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_l___plansza_bitwy"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>budowniczy</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_pola</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraWStatkiLogika.PlanszaBitwy.Pola.L_Pole</label>
+        <link refid="class_gra_w_statki_logika_1_1_plansza_bitwy_1_1_pola_1_1_l___pole"/>
+      </node>
+      <node id="1">
+        <label>GraWStatkiLogika.KontrolaGry.L_Sedzia</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+          <edgelabel>_planszaKomputera</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_gra</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraWStatkiLogika.KontrolaGry.L_Gra</label>
+        <link refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___gra"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_planszaGracza</edgelabel>
+          <edgelabel>_planszaKomputera</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" line="12" column="1" bodyfile="D:/STUDIA/c# molenda/statki/wsei-gra-w-statki/GraWStatki/GraWStatkiLogika/KontrolaGry/L_Sedzia.cs" bodystart="11" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1a72a701d7fde01f52125ee79cd2256a84" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Sedzia</scope><name>_gra</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ab50e1f585a2321e4ed8fdfba707b2ad3" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Sedzia</scope><name>_planszaGracza</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ae87892309514fb2a529e73ade61cc9d5" prot="private" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Sedzia</scope><name>_planszaKomputera</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1ad0851b9e1244d4b8cfe7223c8e052753" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Sedzia</scope><name>L_Sedzia</name></member>
+      <member refid="class_gra_w_statki_logika_1_1_kontrola_gry_1_1_l___sedzia_1a916f5bffcc06ffac8851bfd227ccc9d0" prot="public" virt="non-virtual"><scope>GraWStatkiLogika::KontrolaGry::L_Sedzia</scope><name>SprawdzCzyKoniec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
