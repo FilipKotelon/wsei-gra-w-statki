@@ -21,6 +21,7 @@ namespace GraWStatkiTesty.Komputer
         public void LosujPole_KomputerStrzelaLosowo_KolejneLosowanieZwracaInneMiejsceNaPlanszyPoTrafieniu()
         {
             //Przygotowanie
+
             L_PlanszaBitwy plansza = new L_PlanszaBitwy();
             //Na poziomie łatwym komputer będzie cały czas strzelał losowo
             PoziomTrudnosci poziomTrudnosci = PoziomTrudnosci.Latwy;
